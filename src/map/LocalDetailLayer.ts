@@ -57,11 +57,19 @@ export class LocalDetailLayer {
   };
   private frame?: number;
   private weight = 0;
+  private viewportPadding = [55, 22, 42, 22];
   private disposed = false;
   private readonly veil = new VectorLayer<VectorSource<MapFeature>>({
+    // Its world-sized polygon is clipped to the renderer's current extent.
+    // Reusing an earlier frame's extent exposes a rectangular mask edge while
+    // flying toward a detail, so rebuild the fill during camera movement.
+    updateWhileAnimating: true,
+    updateWhileInteracting: true,
     style: new Style({ fill: new Fill({ color: "rgba(246,247,237,.58)" }) }),
   });
   private readonly ground = new VectorLayer<VectorSource<MapFeature>>({
+    updateWhileAnimating: true,
+    updateWhileInteracting: true,
     style: new Style({ fill: new Fill({ color: "#edf0d7" }) }),
   });
   private readonly texture: StaticTextureLayer;
@@ -141,6 +149,27 @@ export class LocalDetailLayer {
 
   getState(): DetailLoadState {
     return { ...this.state };
+  }
+
+  /** Decode and cache a destination without selecting it or mounting a layer. */
+  preload(id: string): Promise<void> {
+    const definition = this.getDefinition(id);
+    return definition
+      ? this.load(definition).then(() => undefined)
+      : Promise.resolve();
+  }
+
+  /** Match the application's usable focus area; embedded maps keep the
+   * original fitExtent padding when no override is supplied.
+   */
+  setViewportPadding(padding?: readonly number[]) {
+    this.viewportPadding =
+      padding?.length === 4
+        ? padding.map((value) =>
+            Number.isFinite(value) ? Math.max(0, value) : 0,
+          )
+        : [55, 22, 42, 22];
+    this.updatePresentation();
   }
 
   setFocusedChild(adcode?: number) {
@@ -402,8 +431,14 @@ export class LocalDetailLayer {
     const fitZoom =
       view.getZoomForResolution(
         view.getResolutionForExtent(bounds, [
-          Math.max(1, size[0] - 44),
-          Math.max(1, size[1] - 97),
+          Math.max(
+            1,
+            size[0] - this.viewportPadding[1] - this.viewportPadding[3],
+          ),
+          Math.max(
+            1,
+            size[1] - this.viewportPadding[0] - this.viewportPadding[2],
+          ),
         ]),
       ) ?? 4;
     const zoomMix = smooth(((view.getZoom() ?? 4) - fitZoom + 1.6) / 1.2);

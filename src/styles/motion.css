@@ -1,0 +1,114 @@
+/* Scene choreography only. Terrain, vector styles and flow drawing are unchanged. */
+.demo-shell[data-scene-phase]
+  :is(.d-left, .d-right, .d-center-bottom, .mp-kpis, .demo-flow-legend) {
+  transition:
+    opacity 210ms ease,
+    translate 380ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  opacity: 1;
+  translate: 0 0;
+}
+.demo-shell[data-scene-phase="leaving"]
+  :is(.d-left, .d-right, .d-center-bottom, .mp-kpis, .demo-flow-legend) {
+  opacity: 0;
+  pointer-events: none;
+}
+.demo-shell[data-scene-phase="leaving"] .d-left {
+  translate: -18px 0;
+}
+.demo-shell[data-scene-phase="leaving"] .d-right {
+  translate: 18px 0;
+}
+.demo-shell[data-scene-phase="leaving"]
+  :is(.d-center-bottom, .mp-kpis, .demo-flow-legend) {
+  translate: 0 12px;
+}
+.demo-shell[data-scene-phase="entering"] .d-left {
+  animation: scene-left-in 380ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.demo-shell[data-scene-phase="entering"] .d-right {
+  animation: scene-right-in 380ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.demo-shell[data-scene-phase="entering"]
+  :is(.d-center-bottom, .mp-kpis, .demo-flow-legend) {
+  animation: scene-bottom-in 380ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.demo-shell[data-scene-phase] :is(.np-map-legend, .np-portrait-legend) {
+  transition: opacity 210ms ease;
+}
+.demo-shell[data-scene-phase="leaving"] :is(.np-map-legend, .np-portrait-legend) {
+  opacity: 0;
+  pointer-events: none;
+}
+.demo-shell[data-scene-phase="entering"] :is(.np-map-legend, .np-portrait-legend) {
+  animation: scene-fade-in 380ms ease both;
+}
+@keyframes scene-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scene-left-in {
+  from {
+    opacity: 0;
+    translate: -18px 0;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@keyframes scene-right-in {
+  from {
+    opacity: 0;
+    translate: 18px 0;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@keyframes scene-bottom-in {
+  from {
+    opacity: 0;
+    translate: 0 12px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+#geographic-map {
+  transition: background-color 640ms ease;
+}
+#geographic-map .ol-layer {
+  transition: filter 640ms ease;
+}
+#geographic-map .flow-canvas {
+  opacity: var(--flow-scene-opacity, 0);
+  transition: opacity 640ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.demo-map-tools {
+  transition: bottom 380ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .demo-shell[data-scene-phase]
+    :is(
+      .d-left,
+      .d-right,
+      .d-center-bottom,
+      .mp-kpis,
+      .demo-flow-legend,
+      .np-map-legend,
+      .np-portrait-legend
+    ),
+  #geographic-map,
+  #geographic-map .ol-layer,
+  #geographic-map .flow-canvas,
+  .demo-map-tools {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>云梦招商策略 · UI 设计稿</title>
+  <style>
+    :root { color: #24342d; background: #f3f5f1; font: 14px/1.6 "Microsoft YaHei", "PingFang SC", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    button { font: inherit; cursor: pointer; }
+    a { color: #285846; text-underline-offset: 4px; }
+    button:focus-visible, a:focus-visible { outline: 3px solid #80a894; outline-offset: 4px; }
+    .shell { min-height: 100vh; display: grid; grid-template-columns: 246px minmax(0, 1fr); }
+    aside { padding: 27px 18px; border-right: 1px solid #dce3db; background: #fcfcf9; }
+    .eyebrow { color: #778278; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; }
+    h1 { margin: 6px 10px 0; font-size: 21px; letter-spacing: -.5px; }
+    aside > .eyebrow, .intro { margin-left: 10px; margin-right: 10px; }
+    .intro { color: #778278; font-size: 12px; margin-top: 7px; margin-bottom: 27px; }
+    nav { display: grid; gap: 8px; }
+    .screen-tab { display: flex; gap: 13px; width: 100%; padding: 12px 11px; text-align: left; border: 1px solid transparent; border-radius: 8px; background: transparent; color: #45564c; }
+    .screen-tab:hover { background: #f0f4ed; }
+    .screen-tab[aria-current="page"] { color: #204c3c; background: #e6efe8; border-color: #cdded2; }
+    .number { font: 12px/23px ui-monospace, monospace; opacity: .65; }
+    .tab-title { font-size: 14px; font-weight: 600; line-height: 1.7; }
+    .tab-kind { display: block; color: #778278; font-size: 11px; font-weight: 400; }
+    .aside-note { margin: 28px 10px 0; padding-top: 20px; border-top: 1px solid #e4e8e1; color: #778278; font-size: 12px; }
+    .aside-note p { margin: 0 0 12px; }
+    .workspace { min-width: 0; padding: 24px 28px 20px; }
+    header { display: flex; align-items: center; gap: 16px; justify-content: space-between; margin-bottom: 18px; }
+    h2 { font-size: 20px; margin: 1px 0 0; font-weight: 600; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .action { background: #fcfcf9; color: #385444; border: 1px solid #d4ddd3; border-radius: 6px; padding: 7px 12px; text-decoration: none; font-size: 12px; white-space: nowrap; }
+    .action:hover { background: #e8f0e7; }
+    .action[aria-pressed="true"] { background: #285846; color: white; border-color: #285846; }
+    .stage { height: max(330px, calc(100vh - 242px)); display: flex; align-items: center; justify-content: center; overflow: auto; padding: 16px; background: #e8ede6; border: 1px solid #dce3db; border-radius: 10px; }
+    .stage img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 8px 25px #24342d15; }
+    .stage.original { display: block; }
+    .stage.original img { max-width: none; max-height: none; margin: 0 auto; }
+    .details { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; padding: 17px 2px 0; align-items: start; }
+    .description { margin: 0; font-size: 13px; }
+    .handoff { margin: 5px 0 0; color: #778278; font-size: 12px; }
+    .pager { display: flex; align-items: center; gap: 10px; }
+    .pager button { height: 32px; width: 34px; border: 1px solid #d4ddd3; border-radius: 6px; background: #fcfcf9; color: #285846; font-size: 17px; }
+    .pager button:disabled { opacity: .3; cursor: default; }
+    #counter { min-width: 39px; font: 12px/1 ui-monospace, monospace; text-align: center; color: #778278; }
+    footer { margin-top: 16px; font-size: 11px; color: #859084; display: flex; justify-content: space-between; gap: 16px; }
+    .load-error { padding: 20px; border: 1px solid #dbaa82; border-radius: 6px; color: #8a4d25; background: #fff6ec; }
+    [hidden] { display: none !important; }
+    @media (min-width: 1850px) { .workspace { padding: 28px 36px; } }
+    @media (max-width: 1000px) { .shell { grid-template-columns: 204px minmax(0, 1fr); } aside { padding: 20px 10px; } .workspace { padding: 20px 18px; } header { align-items: flex-start; flex-direction: column; gap: 10px; } .stage { height: max(340px, calc(100vh - 305px)); padding: 10px; } h2 { font-size: 18px; } }
+    @media (max-width: 680px) { .shell { display: block; } aside { border-right: 0; border-bottom: 1px solid #dce3db; padding: 16px; } h1, aside > .eyebrow { margin-left: 0; } .intro, .aside-note { display: none; } nav { display: flex; overflow-x: auto; gap: 5px; margin-top: 14px; } .screen-tab { flex: 0 0 auto; width: auto; gap: 8px; padding: 8px 10px; } .tab-title { font-size: 12px; } .tab-kind { display: none; } .workspace { padding: 18px 14px; } .stage { height: auto; min-height: 210px; aspect-ratio: 16 / 9; padding: 5px; } .stage.original { height: 55vh; } .details { grid-template-columns: 1fr; gap: 12px; } .pager { justify-content: flex-end; } footer { flex-direction: column; gap: 5px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="eyebrow">Yunmeng · UI concept v1</div>
+      <h1>云梦招商策略</h1>
+      <p class="intro">一套底图 · 三个场景 · 两个弹出层</p>
+      <nav aria-label="选择设计页面" id="navigation"></nav>
+      <div class="aside-note">
+        <p>地图贯穿整个演示流程。这里每一张都是独立的完整界面效果图。</p>
+        <p>全国 → 云梦画像 → 缺口匹配 → 企业 → 策略卡</p>
+        <a href="README.md" target="_blank" rel="noopener">设计说明与数据来源 ↗</a>
+      </div>
+    </aside>
+    <main class="workspace">
+      <header>
+        <div><div class="eyebrow" id="page-kind">场景 01</div><h2 id="page-title">全国产业全景 · 按地区</h2></div>
+        <div class="actions">
+          <button type="button" class="action" id="zoom" aria-pressed="false">原始尺寸</button>
+          <a class="action" id="full-image" href="01-national-region-v2.png" target="_blank" rel="noopener">单独打开 ↗</a>
+          <a class="action" id="download-image" href="01-national-region-v2.png" download>下载 PNG</a>
+          <a class="action" id="prompt-link" href="prompts/01-national-region.txt" target="_blank" rel="noopener">生成提示词 ↗</a>
+        </div>
+      </header>
+      <div class="stage" id="stage" tabindex="0" aria-label="设计稿预览，可切换原始尺寸查看细节">
+        <img id="screen-image" src="01-national-region-v2.png" alt="全国产业全景按地区界面效果图" />
+        <div class="load-error" id="load-error" hidden>图片尚未载入。请稍后刷新，或使用“单独打开”查看原图。</div>
+      </div>
+      <div class="details">
+        <div aria-live="polite"><p class="description" id="description"></p><p class="handoff" id="handoff"></p></div>
+        <div class="pager"><button type="button" id="previous" aria-label="上一张">←</button><span id="counter">01 / 06</span><button type="button" id="next" aria-label="下一张">→</button></div>
+      </div>
+      <footer><span>内置 imagegen 生成 · 设计提案 · 地图与点位以项目现有 GIS 数据为准</span><span>支持键盘 ← → 切换；原图保留生成尺寸</span></footer>
+    </main>
+  </div>
+  <script>
+    const pages = [
+      { id: 'national-region', title: '全国产业全景 · 按地区', short: '全国 · 按地区', kind: '场景 01', file: '01-national-region-v2.png', prompt: '01-national-region.txt', description: '选择地区，查看经济指标、产业结构和支柱产业，聚焦云梦进入县域画像。', handoff: '当前选择为湖北省；指标为示意。资料未接入的部分保留空状态。' },
+      { id: 'national-industry', title: '全国产业全景 · 按产业', short: '全国 · 按产业', kind: '场景 01 · 另一状态', file: '02-national-industry-v2.png', prompt: '02-national-industry.txt', description: '从产业链和具体环节出发，查看全国城市分布与企业线索。', handoff: '同一场景的第二种查看方式；已投项目和潜在配套企业分别呈现。' },
+      { id: 'yunmeng-profile', title: '云梦产业画像', short: '云梦产业画像', kind: '场景 02', file: '03-yunmeng-profile-v2.png', prompt: '03-yunmeng-profile.txt', description: '县域地形和乡镇图层承载企业与园区信息，产业链图谱连接到招商匹配。', handoff: '铜箔与电解液作为并列材料环节；电解液配套为演示所选缺口，企业点位为布局示意。' },
+      { id: 'flow-matching', title: '流空间招商匹配', short: '流空间招商匹配', kind: '场景 03 · 视觉基准', file: '04-flow-matching.png', prompt: '04-flow-matching.txt', description: '保留彩色流线、主通道箭头、城市节点和云梦靶点，统一筛选、模型、排名和企业入口。', handoff: '沿用人口蓝、资本金、技术紫；权重、城市排名和匹配得分为模型示意。' },
+      { id: 'company-detail', title: '企业详情', short: '企业详情', kind: '弹出层 A', file: '05-company-detail.png', prompt: '05-company-detail.txt', description: '在原地图上查看企业公开概况、潜在配套关系和推荐依据，继续生成策略卡。', handoff: '示例企业为新宙邦；工商与股东数据留待接入，配套关系不代表已发生交易。' },
+      { id: 'strategy-card', title: '招商策略卡', short: '招商策略卡', kind: '弹出层 B', file: '06-strategy-card.png', prompt: '06-strategy-card-final.txt', description: '回答去哪里找、为什么值得谈、可以谈什么，并给出对接路径和保存导出入口。', handoff: '土地、用电、算力与政策为待核实的洽谈方向，卡片用于完成一条示例演示。' }
+    ];
+    const byId = id => document.getElementById(id);
+    let current = Math.max(0, pages.findIndex(page => page.id === location.hash.slice(1)));
+    let originalSize = false;
+    const nav = byId('navigation');
+    pages.forEach((page, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'screen-tab';
+      button.innerHTML = `<span class="number">${String(index + 1).padStart(2, '0')}</span><span class="tab-title">${page.short}<span class="tab-kind">${page.kind}</span></span>`;
+      button.addEventListener('click', () => show(index));
+      nav.append(button);
+    });
+    byId('screen-image').addEventListener('error', () => { byId('screen-image').hidden = true; byId('load-error').hidden = false; });
+    byId('screen-image').addEventListener('load', () => { byId('screen-image').hidden = false; byId('load-error').hidden = true; });
+    function show(index, updateHash = true) {
+      current = Math.max(0, Math.min(pages.length - 1, index));
+      const page = pages[current];
+      byId('page-title').textContent = page.title;
+      byId('page-kind').textContent = page.kind;
+      byId('screen-image').hidden = false;
+      byId('load-error').hidden = true;
+      byId('screen-image').src = page.file;
+      byId('screen-image').alt = `${page.title}完整界面效果图`;
+      byId('full-image').href = page.file;
+      byId('download-image').href = page.file;
+      byId('prompt-link').href = `prompts/${page.prompt}`;
+      byId('description').textContent = page.description;
+      byId('handoff').textContent = page.handoff;
+      byId('counter').textContent = `${String(current + 1).padStart(2, '0')} / 06`;
+      byId('previous').disabled = current === 0;
+      byId('next').disabled = current === pages.length - 1;
+      [...nav.children].forEach((button, i) => i === current ? button.setAttribute('aria-current', 'page') : button.removeAttribute('aria-current'));
+      byId('stage').scrollTop = 0;
+      byId('stage').scrollLeft = 0;
+      document.title = `${page.title} · 云梦 UI 设计稿`;
+      if (updateHash) history.replaceState(null, '', `#${page.id}`);
+    }
+    byId('previous').addEventListener('click', () => show(current - 1));
+    byId('next').addEventListener('click', () => show(current + 1));
+    byId('zoom').addEventListener('click', () => {
+      originalSize = !originalSize;
+      byId('stage').classList.toggle('original', originalSize);
+      byId('zoom').setAttribute('aria-pressed', String(originalSize));
+      byId('zoom').textContent = originalSize ? '适应窗口' : '原始尺寸';
+    });
+    window.addEventListener('hashchange', () => { const found = pages.findIndex(page => page.id === location.hash.slice(1)); if (found >= 0) show(found, false); });
+    document.addEventListener('keydown', event => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      if (event.key === 'ArrowLeft') { event.preventDefault(); show(current - 1); }
+      if (event.key === 'ArrowRight') { event.preventDefault(); show(current + 1); }
+    });
+    show(current);
+  </script>
+</body>
+</html>

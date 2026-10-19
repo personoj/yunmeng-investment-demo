@@ -1,0 +1,974 @@
+/* 流空间：面板、看板、提示框。颜色全部走变量。
+   默认是“规划图”风格（白底细框、黑色粗标题、红色强调），body[data-flow-theme="night"] 为夜色大屏风格。 */
+:root {
+  --c-people: #2f74d0;
+  --c-capital: #e39a12;
+  --c-tech: #9a5bd6;
+  --c-yunmeng: #d7263d;
+  --fp-bg: rgba(255, 255, 255, 0.97);
+  --fp-border: #bdbdbd;
+  --fp-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  --fp-text: #333333;
+  --fp-strong: #111111;
+  --fp-muted: #666666;
+  --fp-faint: #999999;
+  --fp-soft: #f2f2f2;
+  --fp-card: #ffffff;
+  --fp-card-border: #dddddd;
+  --fp-line: #eeeeee;
+  --fp-chip: #ffffff;
+  --fp-accent: #b0141f;
+  --fp-glow: none;
+  --fp-radius: 2px;
+  --fp-title-font:
+    "SimHei", "Heiti SC", "Microsoft YaHei", "PingFang SC", "Noto Sans SC",
+    sans-serif;
+}
+body[data-flow-theme="night"] {
+  --c-people: #56aaff;
+  --c-capital: #ffb84d;
+  --c-tech: #c47cff;
+  --c-yunmeng: #ff5c4e;
+  --fp-bg: rgba(8, 21, 24, 0.8);
+  --fp-border: rgba(126, 232, 214, 0.18);
+  --fp-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --fp-text: #cfe0da;
+  --fp-strong: #f1fbf8;
+  --fp-muted: #8aa59d;
+  --fp-faint: #5f7b74;
+  --fp-soft: rgba(255, 255, 255, 0.05);
+  --fp-card: rgba(255, 255, 255, 0.035);
+  --fp-card-border: rgba(126, 232, 214, 0.1);
+  --fp-line: rgba(255, 255, 255, 0.06);
+  --fp-chip: rgba(126, 232, 214, 0.14);
+  --fp-accent: #7ee8d6;
+  --fp-glow: 0 0 12px currentColor;
+  --fp-radius: 12px;
+  background: #071214;
+}
+
+/* 规划图底图：去饱和、提亮，接近国土空间规划图的浅灰底。流线画布不是 .ol-layer，不受影响。 */
+#geographic-map[data-flow-theme="plan"] {
+  background: #f4f4f2;
+}
+#geographic-map[data-flow-theme="plan"] .ol-layer {
+  filter: saturate(0.3) brightness(1.1) contrast(0.82);
+}
+
+/* 夜色底图：把暖白底图反相成墨色，边界和地名变成浅色细线，流线画在最上层发光。 */
+#geographic-map[data-flow-theme="night"] {
+  background: #071214;
+}
+#geographic-map[data-flow-theme="night"] .ol-layer {
+  filter: invert(1) hue-rotate(180deg) saturate(0.55) brightness(0.82)
+    contrast(1.08);
+}
+
+/* ------------------------------------------------------------ 面板 */
+.flow-panel {
+  position: fixed;
+  left: 22px;
+  top: 22px;
+  width: 336px;
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+  padding: 16px 16px 12px;
+  background: var(--fp-bg);
+  border: 1px solid var(--fp-border);
+  border-radius: var(--fp-radius);
+  box-shadow: var(--fp-shadow);
+  backdrop-filter: blur(10px);
+  color: var(--fp-text);
+  z-index: 2;
+  scrollbar-width: thin;
+  scrollbar-color: var(--fp-border) transparent;
+}
+body[data-flow-theme="night"] .flow-panel::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--fp-accent),
+    var(--c-yunmeng),
+    transparent
+  );
+  opacity: 0.8;
+}
+.flow-panel header h2 {
+  margin: 2px 0 4px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: var(--fp-strong);
+}
+body:not([data-flow-theme="night"]) .flow-panel header h2 {
+  padding-left: 9px;
+  border-left: 4px solid var(--fp-accent);
+  font-family: var(--fp-title-font);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.flow-panel header p {
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--fp-muted);
+}
+.flow-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--c-yunmeng);
+}
+.flow-seg {
+  display: flex;
+  padding: 3px;
+  margin-bottom: 10px;
+  background: var(--fp-soft);
+  border-radius: calc(var(--fp-radius) * 0.7);
+}
+.flow-seg button {
+  flex: 1;
+  border: 0;
+  background: none;
+  padding: 6px 4px;
+  font-size: 12.5px;
+  color: var(--fp-muted);
+  border-radius: calc(var(--fp-radius) * 0.5);
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.flow-seg button small {
+  margin-left: 3px;
+  font-size: 10.5px;
+  opacity: 0.75;
+}
+.flow-seg button[aria-checked="true"] {
+  background: var(--fp-chip);
+  color: var(--fp-accent);
+  font-weight: 700;
+  box-shadow: inset 0 0 0 1px var(--fp-accent);
+}
+body[data-flow-theme="night"] .flow-seg button[aria-checked="true"] {
+  box-shadow: inset 0 0 0 1px rgba(126, 232, 214, 0.35);
+  color: var(--fp-accent);
+}
+.flow-types {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.flow-types button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 4px;
+  font-size: 12.5px;
+  border: 1px solid var(--fp-card-border);
+  background: var(--fp-card);
+  border-radius: calc(var(--fp-radius) * 0.7);
+  color: var(--fp-faint);
+  transition: all 0.2s;
+}
+.flow-types button small {
+  font-size: 10.5px;
+  color: var(--fp-faint);
+  font-variant-numeric: tabular-nums;
+}
+.flow-types button[aria-pressed="true"] {
+  border-color: var(--flow);
+  color: var(--fp-strong);
+  background: color-mix(in srgb, var(--flow) 10%, transparent);
+}
+body[data-flow-theme="night"] .flow-types button[aria-pressed="true"] {
+  box-shadow: 0 0 14px color-mix(in srgb, var(--flow) 25%, transparent);
+}
+.flow-types button[aria-pressed="false"] .flow-dot {
+  background: var(--fp-faint);
+  box-shadow: none;
+}
+.flow-dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--flow);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--flow) 20%, transparent);
+}
+body[data-flow-theme="night"] .flow-dot {
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--flow) 20%, transparent),
+    0 0 10px var(--flow);
+}
+.flow-field .flow-seg {
+  margin-bottom: 8px;
+}
+.flow-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--fp-text);
+  margin: 2px 2px 5px;
+}
+.flow-label span {
+  color: var(--fp-faint);
+}
+.flow-stat {
+  font-size: 11.5px;
+  color: var(--fp-muted);
+  margin: 2px 2px 10px;
+}
+.flow-card {
+  padding: 11px 12px 9px;
+  background: var(--fp-card);
+  border: 1px solid var(--fp-card-border);
+  border-radius: calc(var(--fp-radius) * 0.85);
+}
+.flow-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.flow-card h3 {
+  margin: 0;
+  font-size: 13px;
+  color: var(--fp-strong);
+}
+.flow-tabs {
+  display: flex;
+  gap: 2px;
+}
+.flow-tabs button {
+  border: 0;
+  background: none;
+  font-size: 11.5px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  color: var(--fp-muted);
+}
+.flow-tabs button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--flow) 16%, transparent);
+  color: var(--flow);
+  font-weight: 600;
+}
+.flow-bars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.flow-bars li {
+  display: grid;
+  grid-template-columns: 18px 64px 1fr auto;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  height: 22px;
+}
+.flow-rank-no {
+  color: var(--fp-faint);
+  font-size: 11px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.flow-bars li:nth-child(-n + 3) .flow-rank-no {
+  color: var(--c-yunmeng);
+  font-weight: 600;
+}
+.flow-rank-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--fp-text);
+}
+.flow-rank-bar {
+  height: 6px;
+  background: var(--fp-line);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.flow-rank-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  opacity: 0.85;
+  transition: width 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: flow-bar-in 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+body[data-flow-theme="night"] .flow-rank-bar i {
+  box-shadow: 0 0 8px currentColor;
+  opacity: 1;
+}
+@keyframes flow-bar-in {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+.flow-rank-value {
+  font-size: 11.5px;
+  color: var(--fp-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.flow-xiaogan {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--fp-card-border);
+  font-size: 12px;
+  color: var(--fp-text);
+}
+.flow-xiaogan b {
+  color: var(--c-yunmeng);
+  font-size: 15px;
+  margin: 0 1px;
+}
+.flow-xiaogan span {
+  color: var(--fp-faint);
+}
+.flow-unit {
+  margin-top: 6px;
+  font-size: 10.5px;
+  color: var(--fp-faint);
+  text-align: right;
+}
+.flow-records {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.flow-records li {
+  display: grid;
+  grid-template-columns: 10px 1fr auto;
+  gap: 8px;
+  align-items: start;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--fp-line);
+  font-size: 12px;
+}
+.flow-records li:last-child {
+  border-bottom: 0;
+}
+.flow-records .flow-dot {
+  margin-top: 5px;
+}
+.flow-record-route {
+  color: var(--fp-strong);
+}
+.flow-record-route em,
+.flow-tooltip-route em {
+  font-style: normal;
+  color: var(--fp-faint);
+  margin: 0 2px;
+}
+.flow-record-note {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--fp-muted);
+  line-height: 1.5;
+}
+.flow-panel footer {
+  margin-top: 10px;
+  font-size: 10.5px;
+  line-height: 1.6;
+  color: var(--fp-faint);
+}
+
+/* ------------------------------------------------------------ 提示框 */
+.flow-tooltip {
+  position: fixed;
+  z-index: 3;
+  pointer-events: none;
+  min-width: 180px;
+  padding: 9px 12px 8px;
+  background: var(--fp-bg);
+  border: 1px solid var(--fp-border);
+  border-left: 3px solid var(--flow);
+  border-radius: calc(var(--fp-radius) * 0.7);
+  box-shadow: var(--fp-shadow);
+  backdrop-filter: blur(10px);
+  font-size: 12px;
+  color: var(--fp-text);
+}
+body[data-flow-theme="night"] .flow-tooltip {
+  box-shadow:
+    var(--fp-shadow),
+    0 0 24px color-mix(in srgb, var(--flow) 30%, transparent);
+}
+.flow-tooltip-type {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--flow);
+  font-weight: 600;
+}
+.flow-tooltip-route {
+  margin: 4px 0 2px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--fp-strong);
+}
+.flow-tooltip-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--flow);
+  font-variant-numeric: tabular-nums;
+}
+body[data-flow-theme="night"] .flow-tooltip-value {
+  text-shadow: 0 0 12px color-mix(in srgb, var(--flow) 60%, transparent);
+}
+.flow-tooltip-value small {
+  margin-left: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--fp-muted);
+  text-shadow: none;
+}
+.flow-tooltip-rank {
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--fp-muted);
+}
+
+/* ------------------------------------------------------------ HUD */
+.hud-frame {
+  position: fixed;
+  background: var(--fp-bg);
+  border: 1px solid var(--fp-border);
+  border-radius: min(4px, var(--fp-radius));
+  box-shadow: var(--fp-shadow);
+  backdrop-filter: blur(10px);
+  color: var(--fp-text);
+  z-index: 2;
+}
+/* 四角取景框（仅夜色） */
+body[data-flow-theme="night"] .hud-frame::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  --k: var(--fp-accent);
+  background:
+    linear-gradient(var(--k), var(--k)) left top / 10px 1.5px no-repeat,
+    linear-gradient(var(--k), var(--k)) left top / 1.5px 10px no-repeat,
+    linear-gradient(var(--k), var(--k)) right top / 10px 1.5px no-repeat,
+    linear-gradient(var(--k), var(--k)) right top / 1.5px 10px no-repeat,
+    linear-gradient(var(--k), var(--k)) left bottom / 10px 1.5px no-repeat,
+    linear-gradient(var(--k), var(--k)) left bottom / 1.5px 10px no-repeat,
+    linear-gradient(var(--k), var(--k)) right bottom / 10px 1.5px no-repeat,
+    linear-gradient(var(--k), var(--k)) right bottom / 1.5px 10px no-repeat;
+}
+.flow-hud-title {
+  top: 22px;
+  left: calc(50% + 180px);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 9px 16px 7px;
+  white-space: nowrap;
+}
+.flow-hud-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flow-hud-name strong {
+  font-family: var(--fp-title-font);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--fp-strong);
+}
+.flow-hud-logo {
+  display: none;
+  width: 26px;
+  height: 26px;
+  fill: none;
+  stroke: var(--c-yunmeng);
+  stroke-width: 1.3;
+}
+body[data-flow-theme="night"] .flow-hud-logo {
+  display: block;
+}
+body[data-flow-theme="night"] .flow-hud-name strong {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.flow-hud-logo path {
+  transform-origin: 16px 16px;
+  animation: flow-spin 2.6s linear infinite;
+}
+.flow-hud-logo .dot {
+  fill: var(--c-yunmeng);
+  stroke: none;
+}
+@keyframes flow-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flow-hud-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding-top: 5px;
+  border-top: 1px solid var(--fp-card-border);
+}
+.flow-hud-subtitle {
+  font-family: var(--fp-title-font);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--fp-strong);
+}
+body[data-flow-theme="night"] .flow-hud-subtitle {
+  color: var(--fp-accent);
+  font-weight: 600;
+  font-size: 13px;
+}
+.flow-hud-actions {
+  display: flex;
+  gap: 4px;
+  margin-left: -4px;
+}
+.flow-hud-actions button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 26px;
+  min-width: 26px;
+  justify-content: center;
+  padding: 0 6px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: none;
+  font-size: 12px;
+  color: var(--fp-text);
+}
+.flow-hud-actions button:first-child {
+  border-color: color-mix(in srgb, var(--c-yunmeng) 55%, transparent);
+  color: var(--c-yunmeng);
+  padding: 0 10px 0 7px;
+}
+.flow-hud-actions button:first-child.is-on {
+  background: var(--c-yunmeng);
+  color: #fff;
+}
+.flow-hud-actions button:hover {
+  background: var(--fp-soft);
+}
+.flow-hud-actions svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.flow-hud-actions button:first-child svg {
+  fill: currentColor;
+  stroke: none;
+}
+
+.flow-kpis {
+  bottom: 26px;
+  left: calc(50% + 180px);
+  transform: translateX(-50%);
+  display: flex;
+  padding: 10px 6px;
+}
+.flow-kpi {
+  position: relative;
+  padding: 0 22px;
+  min-width: 128px;
+}
+.flow-kpi + .flow-kpi {
+  border-left: 1px solid var(--fp-card-border);
+}
+.flow-kpi-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--fp-muted);
+  white-space: nowrap;
+}
+.flow-kpi-label::before {
+  content: "";
+  width: 3px;
+  height: 10px;
+  background: var(--kpi);
+}
+body[data-flow-theme="night"] .flow-kpi-label::before {
+  box-shadow: 0 0 6px var(--kpi);
+}
+.flow-kpi-value {
+  margin-top: 3px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--fp-strong);
+  font-variant-numeric: tabular-nums;
+  font-family:
+    "DIN Alternate", "Bahnschrift", "Roboto Mono", "Microsoft YaHei", sans-serif;
+  white-space: nowrap;
+}
+body[data-flow-theme="night"] .flow-kpi-value {
+  text-shadow: 0 0 16px color-mix(in srgb, var(--kpi) 45%, transparent);
+}
+.flow-kpi-value small {
+  margin-left: 4px;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--fp-muted);
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+/* ------------------------------------------------------------ 指北针、图例 */
+.flow-north {
+  position: fixed;
+  top: 16px;
+  right: 88px;
+  width: 50px;
+  height: 64px;
+  z-index: 2;
+  pointer-events: none;
+  overflow: visible;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.9));
+}
+.flow-north text {
+  font:
+    700 12px "Times New Roman",
+    serif;
+  fill: var(--fp-strong);
+}
+.flow-north .dark {
+  fill: var(--fp-strong);
+}
+.flow-north .light {
+  fill: #ffffff;
+  stroke: var(--fp-strong);
+  stroke-width: 0.8;
+}
+.flow-north .ring {
+  fill: none;
+  stroke: var(--fp-strong);
+  stroke-width: 0.8;
+}
+body[data-flow-theme="night"] .flow-north {
+  filter: none;
+  opacity: 0.85;
+}
+body[data-flow-theme="night"] .flow-north .light {
+  fill: rgba(8, 21, 24, 0.8);
+}
+
+.flow-legend {
+  right: 22px;
+  bottom: 26px;
+  width: 192px;
+  padding: 8px 12px 10px;
+}
+.flow-legend-title {
+  margin: 0 -12px 7px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--fp-card-border);
+  text-align: center;
+  font-family: var(--fp-title-font);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fp-strong);
+}
+.flow-legend ul {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flow-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--fp-text);
+  transition: opacity 0.2s;
+}
+.flow-legend li.is-off {
+  opacity: 0.3;
+}
+body[data-flow-theme="night"] .flow-legend li.plan-only {
+  display: none;
+}
+.flow-legend-sym {
+  flex: none;
+  width: 44px;
+  height: 16px;
+  overflow: visible;
+}
+.flow-legend-sym .band {
+  stroke: #ffffff;
+  stroke-width: 0.8;
+  opacity: 0.88;
+}
+.flow-legend-sym .dash {
+  stroke: #ffffff;
+  stroke-width: 1.5;
+}
+.flow-legend-sym .halo {
+  fill: rgba(240, 110, 40, 0.16);
+  stroke: rgba(232, 89, 12, 0.6);
+  stroke-width: 0.8;
+}
+.flow-legend-sym .ring {
+  fill: #ffffff;
+  stroke: var(--c-yunmeng);
+  stroke-width: 1.6;
+}
+.flow-legend-sym .core,
+.flow-legend-sym .dot {
+  fill: var(--c-yunmeng);
+}
+.flow-legend-sym .dot {
+  stroke: #ffffff;
+  stroke-width: 0.8;
+}
+.flow-legend-sym .target-halo {
+  fill: rgba(240, 110, 40, 0.16);
+  stroke: rgba(232, 89, 12, 0.85);
+  stroke-width: 1;
+  stroke-dasharray: 2.2 1.6;
+}
+.flow-legend-sym .ring.target {
+  stroke: #b0141f;
+  stroke-width: 2;
+}
+.flow-legend-sym .core.target {
+  fill: #b0141f;
+}
+.flow-legend-sym .county {
+  fill: rgba(255, 160, 80, 0.14);
+  stroke: #8e1f3a;
+  stroke-width: 1.4;
+  filter: drop-shadow(0 0 1.6px rgba(214, 96, 140, 0.9));
+}
+body[data-flow-theme="night"] .flow-legend-sym .county {
+  fill: rgba(255, 92, 78, 0.12);
+  stroke: rgba(255, 92, 78, 0.85);
+  filter: none;
+}
+body[data-flow-theme="night"] .flow-legend-sym .band {
+  stroke: none;
+}
+
+/* 规划图式比例尺 */
+body:not([data-flow-theme="night"]) .ol-scale-line {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #bdbdbd;
+  border-radius: 0;
+}
+body:not([data-flow-theme="night"]) .ol-scale-line-inner {
+  color: #222222;
+  border-color: #222222;
+  border-width: 0 2px 2px;
+}
+body:not([data-flow-theme="night"]) .map-tools {
+  border-color: #bdbdbd;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.flow-caption {
+  top: 214px;
+  right: 23px;
+  width: 330px;
+  padding: 12px 16px 0;
+  overflow: hidden;
+  animation: flow-caption-in 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes flow-caption-in {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.flow-caption-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flow-caption-step {
+  font-family: "DIN Alternate", "Bahnschrift", "Roboto Mono", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--c-yunmeng);
+}
+.flow-caption-step em {
+  font-style: normal;
+  font-size: 12px;
+  color: var(--fp-faint);
+}
+.flow-caption-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--fp-accent);
+}
+.flow-caption-head button {
+  margin-left: auto;
+  border: 1px solid var(--fp-card-border);
+  background: none;
+  font-size: 11.5px;
+  padding: 2px 9px;
+  border-radius: 3px;
+  color: var(--fp-muted);
+}
+.flow-caption p {
+  margin: 7px 0 11px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--fp-strong);
+}
+.flow-caption-progress {
+  height: 2px;
+  margin: 0 -16px;
+  background: var(--fp-line);
+}
+.flow-caption-progress i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--fp-accent), var(--c-yunmeng));
+  transform-origin: left;
+  animation: flow-progress linear both;
+}
+@keyframes flow-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ------------------------------------------------------------ 夜色下的地图控件 */
+body[data-flow-theme="night"] .map-tools {
+  background: var(--fp-bg);
+  border-color: var(--fp-border);
+  box-shadow: var(--fp-shadow);
+  color: var(--fp-text);
+  backdrop-filter: blur(10px);
+}
+body[data-flow-theme="night"] .map-tools button:hover,
+body[data-flow-theme="night"] .map-tools button[aria-pressed="true"] {
+  background: var(--fp-chip);
+  color: var(--fp-accent);
+}
+body[data-flow-theme="night"] .tool-divider {
+  background: var(--fp-card-border);
+}
+body[data-flow-theme="night"] .ol-scale-line {
+  background: rgba(8, 21, 24, 0.6);
+}
+body[data-flow-theme="night"] .ol-scale-line-inner {
+  color: var(--fp-muted);
+  border-color: var(--fp-faint);
+}
+body[data-flow-theme="night"] .atlas-map-attribution.ol-attribution {
+  color: var(--fp-muted);
+}
+body[data-flow-theme="night"] .atlas-map-attribution.ol-attribution button {
+  background: rgba(8, 21, 24, 0.75);
+  color: var(--fp-muted);
+}
+body[data-flow-theme="night"] .atlas-map-attribution.ol-attribution ul {
+  background: rgba(8, 21, 24, 0.95);
+  border-color: var(--fp-border);
+}
+body[data-flow-theme="night"] #load-status {
+  background: var(--fp-bg);
+  color: var(--fp-text);
+}
+
+@media (max-width: 1280px) {
+  .flow-hud-name strong {
+    font-size: 18px;
+  }
+  .flow-legend {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .flow-hud-title {
+    left: 22px;
+    right: 80px;
+    transform: none;
+  }
+  .flow-hud-name strong {
+    font-size: 16px;
+  }
+  .flow-hud-sub {
+    gap: 8px;
+  }
+  .flow-hud-subtitle {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .flow-panel {
+    top: 120px;
+    max-height: calc(100vh - 246px);
+  }
+  .flow-kpis {
+    left: 190px;
+    right: 22px;
+    transform: none;
+  }
+  .flow-kpi {
+    flex: 1;
+    min-width: 0;
+    padding: 0 12px;
+  }
+  .flow-north {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .flow-kpis,
+  .flow-hud-title,
+  .flow-north,
+  .flow-caption {
+    display: none;
+  }
+  .flow-panel {
+    top: 22px;
+    max-height: calc(100vh - 120px);
+  }
+}
+@media (max-width: 600px) {
+  .flow-panel {
+    left: 14px;
+    right: 70px;
+    top: 14px;
+    width: auto;
+    max-height: 46vh;
+  }
+}

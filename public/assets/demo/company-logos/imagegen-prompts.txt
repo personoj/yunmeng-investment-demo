@@ -1,0 +1,12 @@
+Company: capchem
+Reference: D:/1a_work/flowmap/work/ui-implementation/logo-references/capchem-report-0.jpeg
+Use case: precise-object-edit. Input is an official corporate brand reference extracted from the cover of Capchem's 2025 annual report. Create a clean high resolution transparent PNG of ONLY the blue-and-green rounded interlocking emblem at the left. Faithfully retain the exact distinctive blue and green shapes, their relative geometry, gaps, curves, orientation and official colors. Remove all Chinese and English wordmark text, remove the white rectangular backdrop. Do not invent or redesign the mark, add decorative elements, add shadows, or add gradients. Center the emblem on a square canvas with 12 percent transparent padding. Flat crisp anti-aliased edges, transparent background, suitable as a small corporate avatar in a light dashboard. Return one image.
+
+Company: zhongyi
+Reference: D:/1a_work/flowmap/work/ui-implementation/logo-references/zhongyi.png
+Use case: precise-object-edit. Input is the official website header logo of 湖北中一科技. Isolate ONLY the golden circular circuit-style emblem at the far left. Faithfully preserve its original lines, concentric circular structure, internal circuit pattern, cuts and warm golden-orange brand color. Remove ALL accompanying Chinese/English wordmark, dividing line and stock-code text, and remove the backdrop. Do not redesign the corporate emblem, add letters, add decorative elements, shadows or gradients. Produce a crisp flat high resolution transparent PNG, the emblem centered on a square canvas with 12 percent transparent padding. Suitable for a 50px corporate avatar. Return one image.
+
+Company: huasheng
+Reference: D:/1a_work/flowmap/work/ui-implementation/logo-references/huasheng.png
+Use case: precise-object-edit. Input is the official HSC 华盛锂电 corporate geometric mark from the company's website. Faithfully reproduce the entire existing symbol with all of its navy blue fields, red upper-right region, diagonal/curved division, horizontal navy base strips and white negative-space gaps unchanged. Remove the backdrop to true transparency. Do not invent letters or a wordmark. Do not redesign, add shadows, gradients or 3D. Keep the original wide symbol aspect ratio, centered horizontally and vertically on a square transparent canvas with 10 percent horizontal padding; do not stretch the emblem into a square. Crisp anti-aliased flat edges for small corporate avatar use. Return one clean image.
+

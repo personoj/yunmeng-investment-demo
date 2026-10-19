@@ -7,6 +7,8 @@ interface Props {
   townshipsAvailable: boolean;
   townshipsVisible: boolean;
   onToggleTownships: () => void;
+  flowsVisible: boolean;
+  onToggleFlows: () => void;
 }
 
 export function MapToolbar({
@@ -18,6 +20,8 @@ export function MapToolbar({
   townshipsAvailable,
   townshipsVisible,
   onToggleTownships,
+  flowsVisible,
+  onToggleFlows,
 }: Props) {
   return (
     <div className="map-tools" aria-label="地图工具">
@@ -40,6 +44,20 @@ export function MapToolbar({
         −
       </button>
       <span className="tool-divider" />
+      <button
+        id="toggle-flows"
+        title={flowsVisible ? "隐藏流空间" : "显示流空间"}
+        aria-label="流空间"
+        aria-pressed={flowsVisible}
+        disabled={disabled}
+        onClick={onToggleFlows}
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 18C6 9 15 6 20 6M4 18c5-4 10-5 16-3" />
+          <circle cx="4" cy="18" r="1.6" />
+          <circle cx="20" cy="6" r="1.6" />
+        </svg>
+      </button>
       {townshipsAvailable && (
         <button
           id="toggle-townships"

@@ -1,0 +1,36 @@
+{
+  "title": "云梦招商策略 UI 设计方案 v1",
+  "mode": "built-in imagegen",
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "final_images": [
+    "01-national-region-v2.png",
+    "02-national-industry-v2.png",
+    "03-yunmeng-profile-v2.png",
+    "04-flow-matching.png",
+    "05-company-detail.png",
+    "06-strategy-card.png"
+  ],
+  "viewer": "index.html",
+  "notes": "README.md",
+  "prompts": [
+    "prompts/01-national-region-v2.txt",
+    "prompts/01-national-region.txt",
+    "prompts/02-national-industry-v2.txt",
+    "prompts/02-national-industry.txt",
+    "prompts/03-yunmeng-profile-v2.txt",
+    "prompts/03-yunmeng-profile.txt",
+    "prompts/04-flow-matching.txt",
+    "prompts/05-company-detail.txt",
+    "prompts/06-strategy-card-final.txt",
+    "prompts/06-strategy-card.txt"
+  ],
+  "references": [
+    "用户提供的当前流空间截图 codex-clipboard-b8165630-42ab-408a-b76e-1233ae2345dd.png",
+    "项目云梦乡镇预览 work/yunmeng-townships-preview.png",
+    "04-flow-matching.png 为其余页面的统一样式参考",
+    "05-company-detail.png 为策略卡弹出层的补充样式参考"
+  ]
+}

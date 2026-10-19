@@ -100,6 +100,7 @@ export class GeographicPlanningMap extends EventTarget {
   private showBoundaries = true;
   private showTownships = true;
   private showPlanning = true;
+  private administrativeNavigation = true;
   private original = false;
   private reduced: boolean;
   private readonly attribution = createMapAttribution();
@@ -147,6 +148,7 @@ export class GeographicPlanningMap extends EventTarget {
   private refreshTimer?: ReturnType<typeof setTimeout>;
   private fadeFrame?: number;
   private detailsReady = false;
+  private readonly locationPreloads = new Map<string, Promise<void>>();
   private originalLayer!: ImageLayer<ImageStaticSource>;
   private provinceLayer!: VectorLayer<VectorSource<MapFeature>>;
   private cityBoundaryLayer!: VectorLayer<VectorSource<MapFeature>>;
@@ -1225,6 +1227,10 @@ export class GeographicPlanningMap extends EventTarget {
   }
 
   handleClick(e: { pixel: Pixel; coordinate: Coordinate }) {
+    if (!this.administrativeNavigation) {
+      this.emit("mapclick", { coordinate: toLonLat(e.coordinate) });
+      return;
+    }
     // Keep camera gestures separate from explicit selection. Only configured
     // child regions drill down; clicking another area can return to its parent.
     if (this.countyDetails?.contains(e.coordinate)) {
@@ -1448,6 +1454,111 @@ export class GeographicPlanningMap extends EventTarget {
       this.fitCity(id, animate) ||
       this.fitRegion(id, animate)
     );
+  }
+  /** Warm parent resources and cache destination geometry/artwork without
+   * changing selection, mounting a detail layer, or moving the camera.
+   */
+  preloadLocation(id: string): Promise<void> {
+    if (id === "national") return Promise.resolve();
+    const pending = this.locationPreloads.get(id);
+    if (pending) return pending;
+    const county = this.countyDetails?.getDefinition(id);
+    const city = this.cityDetails?.getDefinition(county?.parentId || id);
+    const region = this.regionsById.get(
+      county?.provinceId || city?.provinceId || id,
+    );
+    if (!region) return Promise.resolve();
+    const request = Promise.all([
+      preloadMapImage(
+        this.assetBase + region.image,
+        this.abortController.signal,
+      ),
+      readMapJSON(this.assetBase + region.cities, this.abortController.signal),
+      region.counties
+        ? readMapJSON(
+            this.assetBase + region.counties,
+            this.abortController.signal,
+          )
+        : undefined,
+      city ? this.cityDetails?.preload(city.id) : undefined,
+      county ? this.countyDetails?.preload(county.id) : undefined,
+    ])
+      .then(() => undefined)
+      .catch((error) => {
+        this.locationPreloads.delete(id);
+        throw error;
+      });
+    this.locationPreloads.set(id, request);
+    return request;
+  }
+  /** Select and start normal resource loading, leaving the current pose intact.
+   * Applications can then animate once to their own panel-aware framing.
+   */
+  selectLocation(id: string): boolean {
+    if (id === "national") {
+      this.setActiveRegion(null);
+      this.emit("locationchange", {
+        id,
+        name: "全国",
+        adcode: 100000,
+        level: "national",
+      });
+    } else {
+      const county = this.countyDetails?.getDefinition(id);
+      const city = this.cityDetails?.getDefinition(county?.parentId || id);
+      if (county && city) {
+        if (
+          this.cityDetails?.getActive()?.id !== city.id &&
+          !this.activateCity(city)
+        )
+          return false;
+        if (this.countyDetails?.getActive()?.id !== county.id)
+          this.countyDetails!.select(county.id);
+        this.emit("locationchange", {
+          id: county.id,
+          name: county.name,
+          adcode: county.adcode,
+          level: "county",
+          regionName: this.activeRegion?.name,
+          regionAdcode: this.activeRegion?.adcode,
+        });
+      } else if (city) {
+        const parent = this.activateCity(city);
+        if (!parent) return false;
+        this.emit("locationchange", {
+          id: city.id,
+          name: city.name,
+          adcode: city.adcode,
+          level: "city",
+          regionName: parent.name,
+          regionAdcode: parent.adcode,
+        });
+      } else {
+        const region = this.regionsById.get(id);
+        if (!region || !this.provinceByCode.has(region.adcode)) return false;
+        this.setActiveRegion(region);
+        this.primeRegion(region);
+        this.emit("locationchange", {
+          id: region.id,
+          name: region.name,
+          adcode: region.adcode,
+          level: "province",
+        });
+      }
+    }
+    this.emit("navigationchange", this.getNavigationState());
+    return true;
+  }
+  /** Use the same panel-aware viewport for detail fades as for camera fitting.
+   * Omit padding to restore the original embedded-map framing semantics.
+   */
+  setDetailViewportPadding(padding?: readonly number[]) {
+    this.cityDetails?.setViewportPadding(padding);
+    this.countyDetails?.setViewportPadding(padding);
+  }
+  /** Let an application scene handle business markers without also drilling into a province. */
+  setAdministrativeNavigation(enabled: boolean) {
+    this.administrativeNavigation = enabled;
   }
   getNavigationState(): MapNavigation {
     const county = this.countyDetails?.getActive();

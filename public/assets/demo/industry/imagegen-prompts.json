@@ -1,0 +1,17 @@
+[
+  {
+    "key": "wafer-v2",
+    "prompt": "Use case: product-mockup. Asset type: premium Chinese industrial-investment dashboard, upstream semiconductor supply-chain thumbnail. Create one impeccably photorealistic silicon wafer, a thin circular disc with fine square semiconductor dies, leaning slightly backward at a three-quarter angle, plus a very small edge of a second wafer behind it. Brushed dark silver edge, subtle iridescent cyan-to-gold surface reflections, physically accurate precise microchip grid. Product fills roughly 84 percent of a square canvas, entire silhouette visible, centered compact composition readable as a 60px UI thumbnail. Soft studio light from upper left, very restrained contact shadow, luxury industrial catalog photography. Transparent background with real alpha, no floor backdrop. No text, no lettering, no labels, no logo, no border, no decorative diagrams, no laboratory flask. Output only this single isolated product asset.",
+    "transparent_background": true
+  },
+  {
+    "key": "chip-v2",
+    "prompt": "Use case: product-mockup. Asset type: premium Chinese industrial-investment dashboard, midstream integrated-circuit supply-chain thumbnail. Create one impeccably photorealistic advanced integrated circuit in a dark graphite square package, tilted at a three-quarter angle, with extremely precise rows of silver metal contacts along all four edges and a small exposed metallic silicon die in the center. Subtle jade-blue reflections and tiny restrained gold conductor details, realistic engineering proportions. Product fills roughly 84 percent of a square canvas, entire silhouette visible, centered compact composition readable as a 60px UI thumbnail. Soft studio light from upper left, very restrained contact shadow, luxury industrial catalog photography. Transparent background with real alpha, no floor backdrop. No text, no lettering, no labels, no company logo, no pedestal, no border, no decorative diagrams. Output only this single isolated product asset.",
+    "transparent_background": true
+  },
+  {
+    "key": "devices-v2",
+    "prompt": "Use case: product-mockup. Asset type: premium Chinese industrial-investment dashboard, downstream electronics supply-chain thumbnail. Create a photorealistic compact group of two unbranded consumer electronics products: an open thin silver laptop at a three-quarter front angle, with a slim graphite smartphone standing in front beside its right edge. Laptop and phone screens show an elegant quiet abstract dark teal-to-soft-blue gradient, no interface, no text. Realistic precise metal chassis, black glass screens, readable separate silhouettes. The whole grouped subject fills roughly 84 percent of a square canvas, centered compact composition readable at 60px UI size. Soft studio lighting from upper left, restrained contact shadow, luxury catalog photography, no extraneous objects. Transparent background with real alpha, no floor backdrop. No text, no lettering, no logos, no brand emblems, no border. Output only this single isolated grouped product asset.",
+    "transparent_background": true
+  }
+]

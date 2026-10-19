@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="企业标识占位">
+  <rect x="1" y="1" width="94" height="94" rx="18" fill="#f0f4ed" stroke="#dce3db"/>
+  <rect x="22" y="22" width="52" height="52" rx="8" fill="none" stroke="#a5b4a7" stroke-dasharray="4 4"/>
+  <text x="48" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#718175">LOGO</text>
+</svg>

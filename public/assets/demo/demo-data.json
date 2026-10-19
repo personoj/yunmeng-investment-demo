@@ -1,0 +1,8000 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "云梦招商策略",
+    "year": 2025,
+    "updatedAt": "2026-10-19T09:19:14+00:00",
+    "description": "全国指标、原文产业及云梦画像全面接入用户提供的《全国招商Demo数据(1).xlsx》：31省+100市、10产业链30个环节。数值保留原文来源、缺失为空；采集来源未作独立审计。8项原表补链仅据未找到/未核实资料，保留原标签并标待核实。城市匹配分数仍为模型示意，真实流线资源未变。新宙邦/天赐等独立公开企业线索保留官网来源，不声称由本表提供。"
+  },
+  "regions": [
+    {
+      "id": "beijing",
+      "name": "北京市",
+      "level": "省",
+      "mapId": "beijing",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "人工智能",
+        "机器人"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "digital",
+        "equipment",
+        "biomedicine"
+      ],
+      "source": "北京市-2025统计公报.pdf；北京市十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "tianjin",
+      "name": "天津市",
+      "level": "省",
+      "mapId": "tianjin",
+      "year": 2025,
+      "gdp": 18539.82,
+      "growth": 4.8,
+      "shares": [
+        1.6,
+        33.2,
+        65.2
+      ],
+      "pillars": [
+        "生物医药",
+        "石化",
+        "医药"
+      ],
+      "priorities": [
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源",
+        "人工智能",
+        "算力",
+        "生物医药",
+        "医药",
+        "集成电路"
+      ],
+      "chainIds": [
+        "biomedicine",
+        "chemicals",
+        "new-energy",
+        "automotive",
+        "digital",
+        "electronics"
+      ],
+      "source": "天津市-2025统计公报-官方网页打印件.pdf；天津市十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "hebei",
+      "name": "河北省",
+      "level": "省",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 49305.2,
+      "growth": 5.6,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "新能源汽车",
+        "新能源",
+        "装备制造"
+      ],
+      "priorities": [
+        "石化",
+        "生物医药",
+        "氢能",
+        "医药",
+        "机器人"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "chemicals",
+        "biomedicine"
+      ],
+      "source": "河北省-2025统计公报-河北日报第06版.pdf；河北省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "shanxi",
+      "name": "山西省",
+      "level": "省",
+      "mapId": "shanxi",
+      "year": 2025,
+      "gdp": 25495.68,
+      "growth": 4.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "未来产业",
+        "算力",
+        "化工"
+      ],
+      "priorities": [
+        "食品产业",
+        "工程机械",
+        "新能源",
+        "数字经济",
+        "低空经济",
+        "半导体",
+        "氢能",
+        "算力"
+      ],
+      "chainIds": [
+        "future",
+        "digital",
+        "chemicals",
+        "food",
+        "equipment",
+        "new-energy",
+        "electronics"
+      ],
+      "source": "山西省-2025统计公报-官方网页打印件.pdf；山西省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "inner-mongolia",
+      "name": "内蒙古自治区",
+      "level": "省",
+      "mapId": "inner-mongolia",
+      "year": 2025,
+      "gdp": 26710.3,
+      "growth": 4.7,
+      "shares": [
+        11.37,
+        42.28,
+        46.35
+      ],
+      "pillars": [
+        "化工",
+        "新能源"
+      ],
+      "priorities": [
+        "化工",
+        "人工智能",
+        "装备制造",
+        "算力"
+      ],
+      "chainIds": [
+        "chemicals",
+        "new-energy",
+        "digital",
+        "equipment"
+      ],
+      "source": "内蒙古自治区-2025统计公报-内蒙古日报版.pdf；占比按公报各产业增加值÷GDP计算；内蒙古自治区十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "liaoning",
+      "name": "辽宁省",
+      "level": "省",
+      "mapId": "liaoning",
+      "year": 2025,
+      "gdp": 33182.9,
+      "growth": 3.7,
+      "shares": [
+        8.33,
+        33.23,
+        58.44
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "辽宁省-2025统计公报.pdf；占比按公报各产业增加值÷GDP计算；辽宁省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "jilin",
+      "name": "吉林省",
+      "level": "省",
+      "mapId": "jilin",
+      "year": 2025,
+      "gdp": 14973.88,
+      "growth": null,
+      "shares": [
+        11.16,
+        31.5,
+        57.35
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "吉林省-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；吉林省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "heilongjiang",
+      "name": "黑龙江省",
+      "level": "省",
+      "mapId": "heilongjiang",
+      "year": 2025,
+      "gdp": 16878.0,
+      "growth": 4.2,
+      "shares": [
+        19.9,
+        23.8,
+        56.4
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "黑龙江省-2025统计公报-官方网页打印件.pdf；黑龙江省十五五规划纲要.doc",
+      "status": "verified"
+    },
+    {
+      "id": "shanghai",
+      "name": "上海市",
+      "level": "省",
+      "mapId": "shanghai",
+      "year": 2025,
+      "gdp": 56708.71,
+      "growth": 5.4,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "上海市-2025统计公报-官方网页打印件.pdf；上海市十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "jiangsu",
+      "name": "江苏省",
+      "level": "省",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 142351.5,
+      "growth": 5.3,
+      "shares": [
+        3.77,
+        42.18,
+        54.05
+      ],
+      "pillars": [
+        "数字经济",
+        "人工智能",
+        "新能源",
+        "纺织",
+        "储能"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药",
+        "新能源",
+        "纺织",
+        "化工"
+      ],
+      "chainIds": [
+        "digital",
+        "new-energy",
+        "textile",
+        "biomedicine",
+        "chemicals"
+      ],
+      "source": "江苏省-2025统计公报-江苏省人民政府公报版.pdf；占比按公报各产业增加值÷GDP计算；江苏省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "zhejiang",
+      "name": "浙江省",
+      "level": "省",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 94545.0,
+      "growth": 5.5,
+      "shares": [
+        2.8,
+        37.7,
+        59.5
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "浙江省-2025统计公报-浙江日报第05版.pdf；浙江省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "anhui",
+      "name": "安徽省",
+      "level": "省",
+      "mapId": "anhui",
+      "year": 2025,
+      "gdp": 52989.0,
+      "growth": 5.5,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "纺织"
+      ],
+      "priorities": [
+        "纺织"
+      ],
+      "chainIds": [
+        "textile"
+      ],
+      "source": "安徽省-2025统计公报-安徽日报第06版.pdf；安徽省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "fujian",
+      "name": "福建省",
+      "level": "省",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": 60199.45,
+      "growth": 5.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "电子信息",
+        "装备制造",
+        "化工",
+        "纺织",
+        "未来产业"
+      ],
+      "priorities": [
+        "化工新材料",
+        "化工",
+        "未来产业",
+        "新能源",
+        "锂电",
+        "储能",
+        "生物医药",
+        "医药",
+        "集成电路",
+        "人工智能"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "chemicals",
+        "textile",
+        "future",
+        "new-energy",
+        "biomedicine",
+        "digital"
+      ],
+      "source": "福建省-2025统计公报-官方网页打印件.pdf；福建省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "jiangxi",
+      "name": "江西省",
+      "level": "省",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": 36020.0,
+      "growth": 3.8,
+      "shares": [
+        7.4,
+        39.6,
+        53.0
+      ],
+      "pillars": [
+        "盐化工",
+        "化工",
+        "新能源",
+        "光伏"
+      ],
+      "priorities": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "低空经济",
+        "装备制造",
+        "生物医药",
+        "医药",
+        "电子信息",
+        "新能源"
+      ],
+      "chainIds": [
+        "chemicals",
+        "new-energy",
+        "textile",
+        "future",
+        "equipment",
+        "biomedicine",
+        "electronics"
+      ],
+      "source": "江西省-2025统计公报-江西日报版.pdf；江西省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "shandong",
+      "name": "山东省",
+      "level": "省",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 103197.5,
+      "growth": 5.5,
+      "shares": [
+        6.6,
+        39.3,
+        54.1
+      ],
+      "pillars": [
+        "人工智能",
+        "新能源",
+        "未来产业"
+      ],
+      "priorities": [
+        "低空经济",
+        "风电"
+      ],
+      "chainIds": [
+        "digital",
+        "new-energy",
+        "future"
+      ],
+      "source": "山东省-2025统计公报-大众日报第04版.pdf；山东省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "henan",
+      "name": "河南省",
+      "level": "省",
+      "mapId": "henan",
+      "year": 2025,
+      "gdp": 66632.79,
+      "growth": 5.6,
+      "shares": [
+        8.3,
+        37.4,
+        54.3
+      ],
+      "pillars": [],
+      "priorities": [
+        "未来产业"
+      ],
+      "chainIds": [
+        "future"
+      ],
+      "source": "河南省-2025统计公报-官方网页打印件.pdf；河南省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "hubei",
+      "name": "湖北省",
+      "level": "省",
+      "mapId": "hubei",
+      "year": 2025,
+      "gdp": 62660.9,
+      "growth": 5.5,
+      "shares": [
+        8.59,
+        34.9,
+        56.52
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "高端装备"
+      ],
+      "priorities": [
+        "新能源",
+        "半导体",
+        "软件和信息服务",
+        "未来产业"
+      ],
+      "chainIds": [
+        "textile",
+        "equipment",
+        "new-energy",
+        "electronics",
+        "digital",
+        "future"
+      ],
+      "source": "湖北省-2025统计公报-湖北日报第04版.pdf；占比按公报各产业增加值÷GDP计算；湖北省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "hunan",
+      "name": "湖南省",
+      "level": "省",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 55308.7,
+      "growth": 4.8,
+      "shares": [
+        9.0,
+        36.0,
+        55.0
+      ],
+      "pillars": [
+        "医药",
+        "生物医药",
+        "生物制造"
+      ],
+      "priorities": [
+        "人工智能"
+      ],
+      "chainIds": [
+        "biomedicine",
+        "digital"
+      ],
+      "source": "湖南省-2025统计公报.pdf；湖南省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "guangdong",
+      "name": "广东省",
+      "level": "省",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "广东省-2025统计公报.pdf；广东省十五五规划纲要.pdf",
+      "status": "missing"
+    },
+    {
+      "id": "guangxi",
+      "name": "广西壮族自治区",
+      "level": "省",
+      "mapId": "guangxi",
+      "year": 2025,
+      "gdp": 29727.45,
+      "growth": 5.1,
+      "shares": [
+        15.58,
+        32.22,
+        52.2
+      ],
+      "pillars": [],
+      "priorities": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "人工智能"
+      ],
+      "chainIds": [
+        "textile",
+        "digital"
+      ],
+      "source": "广西壮族自治区-2025统计公报-广西日报第04版.pdf；占比按公报各产业增加值÷GDP计算；广西壮族自治区十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "hainan",
+      "name": "海南省",
+      "level": "省",
+      "mapId": "hainan",
+      "year": 2025,
+      "gdp": 8108.85,
+      "growth": 4.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "海南省-2025统计公报-海南日报原始版面.pdf；海南省十五五规划纲要.doc",
+      "status": "verified"
+    },
+    {
+      "id": "chongqing",
+      "name": "重庆市",
+      "level": "省",
+      "mapId": "chongqing",
+      "year": 2025,
+      "gdp": 33757.93,
+      "growth": 5.3,
+      "shares": [
+        6.3,
+        34.9,
+        58.8
+      ],
+      "pillars": [
+        "化工",
+        "智联电动车",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "汽车产业"
+      ],
+      "priorities": [
+        "人工智能",
+        "生物制造"
+      ],
+      "chainIds": [
+        "chemicals",
+        "automotive",
+        "new-energy",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "重庆市-2025统计公报-官方网页打印件.pdf；重庆市十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "sichuan",
+      "name": "四川省",
+      "level": "省",
+      "mapId": "sichuan",
+      "year": 2025,
+      "gdp": 67665.3,
+      "growth": 5.5,
+      "shares": [
+        8.5,
+        34.4,
+        57.1
+      ],
+      "pillars": [
+        "化工",
+        "电子信息",
+        "装备制造",
+        "低空经济",
+        "锂电"
+      ],
+      "priorities": [
+        "软件和信息服务",
+        "生物医药",
+        "医药",
+        "集成电路",
+        "新型显示",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源",
+        "纺织",
+        "化工",
+        "锂电",
+        "未来产业"
+      ],
+      "chainIds": [
+        "chemicals",
+        "electronics",
+        "equipment",
+        "future",
+        "new-energy",
+        "digital",
+        "biomedicine",
+        "automotive",
+        "textile"
+      ],
+      "source": "四川省-2025统计公报-四川日报第07版.pdf；四川省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "guizhou",
+      "name": "贵州省",
+      "level": "省",
+      "mapId": "guizhou",
+      "year": 2025,
+      "gdp": 23562.17,
+      "growth": 4.9,
+      "shares": [
+        12.83,
+        30.97,
+        56.19
+      ],
+      "pillars": [
+        "纺织服装",
+        "医药",
+        "纺织",
+        "服装"
+      ],
+      "priorities": [
+        "新能源",
+        "高端装备",
+        "装备制造",
+        "数字经济"
+      ],
+      "chainIds": [
+        "textile",
+        "biomedicine",
+        "new-energy",
+        "equipment",
+        "digital"
+      ],
+      "source": "贵州省-2025统计公报-贵州日报版.pdf；占比按公报各产业增加值÷GDP计算；贵州省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "yunnan",
+      "name": "云南省",
+      "level": "省",
+      "mapId": "yunnan",
+      "year": 2025,
+      "gdp": 32765.78,
+      "growth": 4.1,
+      "shares": [
+        13.19,
+        32.05,
+        54.77
+      ],
+      "pillars": [
+        "装备制造",
+        "生物医药",
+        "数字经济",
+        "低空经济",
+        "未来产业"
+      ],
+      "priorities": [
+        "纺织",
+        "算力",
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "equipment",
+        "biomedicine",
+        "digital",
+        "future",
+        "textile"
+      ],
+      "source": "云南省-2025统计公报-云南日报第06版.pdf；占比按公报各产业增加值÷GDP计算；云南省十五五规划纲要.docx",
+      "status": "verified"
+    },
+    {
+      "id": "tibet",
+      "name": "西藏自治区",
+      "level": "省",
+      "mapId": "tibet",
+      "year": 2025,
+      "gdp": 3031.89,
+      "growth": 7.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "医药"
+      ],
+      "priorities": [],
+      "chainIds": [
+        "biomedicine"
+      ],
+      "source": "西藏自治区-2025统计公报-西藏日报第03版.pdf；西藏自治区十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "shaanxi",
+      "name": "陕西省",
+      "level": "省",
+      "mapId": "shaanxi",
+      "year": 2025,
+      "gdp": 36551.1,
+      "growth": 5.1,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "陕西省-2025统计公报-官方网页打印件.pdf；陕西省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "gansu",
+      "name": "甘肃省",
+      "level": "省",
+      "mapId": "gansu",
+      "year": 2025,
+      "gdp": 13697.5,
+      "growth": 5.8,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "化工"
+      ],
+      "priorities": [
+        "生物制造",
+        "化工"
+      ],
+      "chainIds": [
+        "chemicals",
+        "biomedicine"
+      ],
+      "source": "甘肃省-2025统计公报-甘肃日报第5至6版原页合并.pdf；甘肃省十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "qinghai",
+      "name": "青海省",
+      "level": "省",
+      "mapId": "qinghai",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "青海省-2025统计公报.doc；青海省十五五规划纲要-第01部分-第一篇 奋力开创中国式现代化青海实践新局面.pdf",
+      "status": "missing"
+    },
+    {
+      "id": "ningxia",
+      "name": "宁夏回族自治区",
+      "level": "省",
+      "mapId": "ningxia",
+      "year": 2025,
+      "gdp": 5696.49,
+      "growth": 5.3,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "新能源"
+      ],
+      "priorities": [],
+      "chainIds": [
+        "new-energy"
+      ],
+      "source": "宁夏回族自治区-2025统计公报-宁夏日报第05版.pdf；宁夏回族自治区十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "xinjiang",
+      "name": "新疆维吾尔自治区",
+      "level": "省",
+      "mapId": "xinjiang",
+      "year": 2025,
+      "gdp": 21462.14,
+      "growth": 5.2,
+      "shares": [
+        13.12,
+        38.16,
+        48.72
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "新疆维吾尔自治区-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；新疆维吾尔自治区十五五规划纲要.pdf",
+      "status": "verified"
+    },
+    {
+      "id": "shanghai-city",
+      "name": "上海市",
+      "level": "市",
+      "mapId": "shanghai",
+      "year": 2025,
+      "gdp": 56708.71,
+      "growth": 5.4,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "上海市-2025统计公报-官方网页打印件.pdf；上海市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shanghai"
+    },
+    {
+      "id": "beijing-city",
+      "name": "北京市",
+      "level": "市",
+      "mapId": "beijing",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "人工智能",
+        "机器人"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "digital",
+        "equipment",
+        "biomedicine"
+      ],
+      "source": "北京市-2025统计公报.pdf；北京市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "beijing"
+    },
+    {
+      "id": "shenzhen",
+      "name": "深圳市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 38731.8,
+      "growth": 5.5,
+      "shares": [
+        0.07,
+        37.39,
+        62.54
+      ],
+      "pillars": [
+        "新一代电子信息",
+        "新能源汽车",
+        "电子信息",
+        "新能源",
+        "人工智能"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药",
+        "人工智能"
+      ],
+      "chainIds": [
+        "electronics",
+        "new-energy",
+        "automotive",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "深圳市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；深圳市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "chongqing-city",
+      "name": "重庆市",
+      "level": "市",
+      "mapId": "chongqing",
+      "year": 2025,
+      "gdp": 33757.93,
+      "growth": 5.3,
+      "shares": [
+        6.3,
+        34.9,
+        58.8
+      ],
+      "pillars": [
+        "化工",
+        "智联电动车",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "汽车产业"
+      ],
+      "priorities": [
+        "人工智能",
+        "生物制造"
+      ],
+      "chainIds": [
+        "chemicals",
+        "automotive",
+        "new-energy",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "重庆市-2025统计公报-官方网页打印件.pdf；重庆市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "chongqing"
+    },
+    {
+      "id": "guangzhou",
+      "name": "广州市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 32039.46,
+      "growth": 4.0,
+      "shares": [
+        0.99,
+        24.06,
+        74.95
+      ],
+      "pillars": [
+        "集成电路",
+        "人工智能",
+        "新能源",
+        "半导体",
+        "石化"
+      ],
+      "priorities": [
+        "新型显示",
+        "新能源材料",
+        "新能源",
+        "石化",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "低空经济",
+        "高端装备",
+        "光伏",
+        "氢能",
+        "储能"
+      ],
+      "chainIds": [
+        "electronics",
+        "digital",
+        "new-energy",
+        "chemicals",
+        "textile",
+        "future",
+        "equipment"
+      ],
+      "source": "广州市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；广州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "suzhou",
+      "name": "苏州市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 27695.1,
+      "growth": 5.4,
+      "shares": [
+        0.7,
+        46.4,
+        52.9
+      ],
+      "pillars": [
+        "集成电路"
+      ],
+      "priorities": [
+        "人工智能",
+        "新能源",
+        "集成电路",
+        "生物医药",
+        "半导体",
+        "医药",
+        "生物制造",
+        "未来产业",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "机器人"
+      ],
+      "chainIds": [
+        "electronics",
+        "digital",
+        "new-energy",
+        "biomedicine",
+        "future",
+        "automotive",
+        "equipment"
+      ],
+      "source": "苏州市-2025统计公报-官方网页打印件.pdf；苏州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "chengdu",
+      "name": "成都市",
+      "level": "市",
+      "mapId": "sichuan",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "电子信息",
+        "装备制造",
+        "低空经济",
+        "新能源",
+        "医药"
+      ],
+      "priorities": [
+        "生物医药",
+        "新能源",
+        "医药"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "future",
+        "new-energy",
+        "biomedicine"
+      ],
+      "source": "成都市-2025统计公报.pdf；成都市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "sichuan"
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 23011.0,
+      "growth": 5.2,
+      "shares": [
+        1.7,
+        24.5,
+        73.8
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "杭州市-2025统计公报-官方网页打印件.pdf；杭州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "wuhan",
+      "name": "武汉市",
+      "level": "市",
+      "mapId": "hubei",
+      "year": 2025,
+      "gdp": 22147.35,
+      "growth": 5.6,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "光电子信息",
+        "电子信息",
+        "高端装备",
+        "半导体",
+        "人工智能"
+      ],
+      "priorities": [
+        "生物医药",
+        "人工智能",
+        "医药",
+        "机器人",
+        "半导体"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "武汉市-2025统计公报-官方网页打印件.pdf；武汉市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hubei"
+    },
+    {
+      "id": "nanjing",
+      "name": "南京市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 19428.78,
+      "growth": 5.2,
+      "shares": [
+        1.74,
+        30.23,
+        68.03
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "南京市-2025统计公报.docx；占比按公报各产业增加值÷GDP计算；南京市-十五五规划纲要.doc",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "ningbo",
+      "name": "宁波市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 18716.0,
+      "growth": 4.9,
+      "shares": [
+        2.5,
+        42.0,
+        55.5
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "人工智能"
+      ],
+      "priorities": [
+        "集成电路",
+        "半导体",
+        "数字产业",
+        "数字经济",
+        "高端装备",
+        "低空经济"
+      ],
+      "chainIds": [
+        "textile",
+        "digital",
+        "electronics",
+        "equipment",
+        "future"
+      ],
+      "source": "宁波市-2025统计公报-官方网页打印件.pdf；宁波市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "tianjin-city",
+      "name": "天津市",
+      "level": "市",
+      "mapId": "tianjin",
+      "year": 2025,
+      "gdp": 18539.82,
+      "growth": 4.8,
+      "shares": [
+        1.6,
+        33.2,
+        65.2
+      ],
+      "pillars": [
+        "生物医药",
+        "石化",
+        "医药"
+      ],
+      "priorities": [
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源",
+        "人工智能",
+        "算力",
+        "生物医药",
+        "医药",
+        "集成电路"
+      ],
+      "chainIds": [
+        "biomedicine",
+        "chemicals",
+        "new-energy",
+        "automotive",
+        "digital",
+        "electronics"
+      ],
+      "source": "天津市-2025统计公报-官方网页打印件.pdf；天津市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "tianjin"
+    },
+    {
+      "id": "qingdao",
+      "name": "青岛市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 17560.67,
+      "growth": 5.4,
+      "shares": [
+        2.9,
+        33.5,
+        63.6
+      ],
+      "pillars": [
+        "装备制造"
+      ],
+      "priorities": [
+        "石化",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源",
+        "化工",
+        "数字经济"
+      ],
+      "chainIds": [
+        "equipment",
+        "chemicals",
+        "new-energy",
+        "automotive",
+        "digital"
+      ],
+      "source": "青岛市-2025统计公报.docx；青岛市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "wuxi",
+      "name": "无锡市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 16773.94,
+      "growth": 5.1,
+      "shares": [
+        0.9,
+        46.9,
+        52.2
+      ],
+      "pillars": [
+        "集成电路",
+        "高端装备",
+        "纺织服装",
+        "人工智能",
+        "未来产业"
+      ],
+      "priorities": [
+        "新能源",
+        "集成电路",
+        "高端装备",
+        "纺织服装",
+        "人工智能",
+        "未来产业",
+        "石化",
+        "纺织",
+        "服装",
+        "化工",
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "textile",
+        "digital",
+        "future",
+        "new-energy",
+        "chemicals",
+        "biomedicine"
+      ],
+      "source": "无锡市-2025统计公报.docx；无锡市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "changsha",
+      "name": "长沙市",
+      "level": "市",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 15737.82,
+      "growth": 4.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "工程机械",
+        "电子信息",
+        "新能源",
+        "人工智能"
+      ],
+      "priorities": [
+        "数字产业",
+        "机器人",
+        "新能源",
+        "半导体",
+        "人工智能",
+        "工程机械"
+      ],
+      "chainIds": [
+        "equipment",
+        "electronics",
+        "new-energy",
+        "digital"
+      ],
+      "source": "长沙市-2025统计公报-官方网页打印件.pdf；长沙市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hunan"
+    },
+    {
+      "id": "zhengzhou",
+      "name": "郑州市",
+      "level": "市",
+      "mapId": "henan",
+      "year": 2025,
+      "gdp": 15244.6,
+      "growth": 5.4,
+      "shares": [
+        1.2,
+        36.6,
+        62.2
+      ],
+      "pillars": [],
+      "priorities": [
+        "未来产业",
+        "新能源",
+        "数字产业"
+      ],
+      "chainIds": [
+        "future",
+        "new-energy",
+        "digital"
+      ],
+      "source": "郑州市-2025统计公报-官方网页打印件.pdf；郑州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "henan"
+    },
+    {
+      "id": "fuzhou",
+      "name": "福州市",
+      "level": "市",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": 15112.32,
+      "growth": 5.6,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [
+        "数字经济",
+        "储能",
+        "生物制造",
+        "氢能",
+        "人工智能",
+        "低空经济"
+      ],
+      "chainIds": [
+        "digital",
+        "new-energy",
+        "biomedicine",
+        "future"
+      ],
+      "source": "福州市-2025统计公报-官方网页打印件.pdf；福州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "fujian"
+    },
+    {
+      "id": "hefei",
+      "name": "合肥市",
+      "level": "市",
+      "mapId": "anhui",
+      "year": 2025,
+      "gdp": 14210.0,
+      "growth": 6.1,
+      "shares": [
+        2.4,
+        36.7,
+        60.9
+      ],
+      "pillars": [
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "高端装备",
+        "装备制造",
+        "新能源"
+      ],
+      "priorities": [
+        "生物制造",
+        "人工智能",
+        "未来产业",
+        "新能源汽车",
+        "集成电路",
+        "新型显示",
+        "新能源",
+        "低空经济",
+        "生物医药",
+        "机器人",
+        "医药",
+        "高端装备"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "biomedicine",
+        "digital",
+        "future",
+        "electronics"
+      ],
+      "source": "合肥市-2025统计公报.pdf；合肥市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "anhui"
+    },
+    {
+      "id": "jinan",
+      "name": "济南市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 14210.0,
+      "growth": 3.6,
+      "shares": [
+        3.1,
+        32.4,
+        64.5
+      ],
+      "pillars": [
+        "化工",
+        "纺织",
+        "新能源汽车",
+        "新能源",
+        "医药"
+      ],
+      "priorities": [
+        "集成电路",
+        "新能源",
+        "医药",
+        "人工智能",
+        "高端装备",
+        "低空经济"
+      ],
+      "chainIds": [
+        "chemicals",
+        "textile",
+        "new-energy",
+        "automotive",
+        "biomedicine",
+        "electronics",
+        "digital",
+        "equipment",
+        "future"
+      ],
+      "source": "济南市-2025统计公报-官方网页打印件.pdf；济南市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "xian",
+      "name": "西安市",
+      "level": "市",
+      "mapId": "shaanxi",
+      "year": 2025,
+      "gdp": 13902.67,
+      "growth": 3.6,
+      "shares": [
+        2.39,
+        28.56,
+        69.05
+      ],
+      "pillars": [
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源",
+        "半导体",
+        "装备制造"
+      ],
+      "priorities": [
+        "数字经济",
+        "软件和信息服务",
+        "人工智能",
+        "生物制造",
+        "半导体",
+        "新能源",
+        "光伏",
+        "氢能"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "electronics",
+        "equipment",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "西安市-2025统计公报.pdf；占比按公报各产业增加值÷GDP计算；西安市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shaanxi"
+    },
+    {
+      "id": "quanzhou",
+      "name": "泉州市",
+      "level": "市",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": 13778.34,
+      "growth": 5.3,
+      "shares": [
+        2.0,
+        50.5,
+        47.5
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装"
+      ],
+      "priorities": [
+        "高端装备",
+        "集成电路",
+        "石化"
+      ],
+      "chainIds": [
+        "textile",
+        "equipment",
+        "electronics",
+        "chemicals"
+      ],
+      "source": "泉州市-2025统计公报-官方网页打印件.pdf；泉州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "fujian"
+    },
+    {
+      "id": "foshan",
+      "name": "佛山市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 13157.35,
+      "growth": 0.2,
+      "shares": [
+        1.9,
+        49.6,
+        48.5
+      ],
+      "pillars": [
+        "机器人",
+        "氢能",
+        "未来产业",
+        "装备制造",
+        "生物制造"
+      ],
+      "priorities": [
+        "半导体",
+        "装备制造",
+        "生物制造",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "高端装备",
+        "生物医药",
+        "人工智能",
+        "新能源",
+        "医药",
+        "数字经济"
+      ],
+      "chainIds": [
+        "equipment",
+        "new-energy",
+        "future",
+        "biomedicine",
+        "electronics",
+        "textile",
+        "digital"
+      ],
+      "source": "佛山市-2025统计公报.pdf；佛山市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "nantong",
+      "name": "南通市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 12801.5,
+      "growth": 5.3,
+      "shares": [
+        4.2,
+        46.1,
+        49.7
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "南通市-2025统计公报-官方网页打印件.pdf；南通市-十五五规划纲要.doc",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "dongguan",
+      "name": "东莞市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 12760.2,
+      "growth": 4.0,
+      "shares": [
+        0.3,
+        56.1,
+        43.6
+      ],
+      "pillars": [
+        "电子信息",
+        "装备制造"
+      ],
+      "priorities": [
+        "化工",
+        "算力",
+        "服装",
+        "未来产业",
+        "光伏",
+        "锂电",
+        "储能"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "chemicals",
+        "digital",
+        "textile",
+        "future",
+        "new-energy"
+      ],
+      "source": "东莞市-2025统计公报-官方网页打印件.pdf；东莞市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "yantai",
+      "name": "烟台市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 11350.98,
+      "growth": 6.1,
+      "shares": [
+        6.2,
+        42.4,
+        51.4
+      ],
+      "pillars": [
+        "生物医药",
+        "医药",
+        "未来产业"
+      ],
+      "priorities": [
+        "未来产业",
+        "医药",
+        "新能源"
+      ],
+      "chainIds": [
+        "biomedicine",
+        "future",
+        "new-energy"
+      ],
+      "source": "烟台市-2025统计公报-官方网页打印件.pdf；烟台市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "changzhou",
+      "name": "常州市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 11158.7,
+      "growth": 5.2,
+      "shares": [
+        1.6,
+        46.2,
+        52.2
+      ],
+      "pillars": [
+        "新能源汽车",
+        "新能源",
+        "机器人",
+        "光伏",
+        "高端装备"
+      ],
+      "priorities": [
+        "数字产业",
+        "人工智能",
+        "新能源",
+        "光伏",
+        "储能",
+        "高端装备",
+        "装备制造",
+        "工程机械",
+        "机器人",
+        "低空经济",
+        "未来产业",
+        "半导体"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "digital",
+        "future",
+        "electronics"
+      ],
+      "source": "常州市-2025统计公报-官方网页打印件.pdf；常州市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-8e4a89429a51",
+      "name": "唐山市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "机器人",
+        "新能源",
+        "氢能",
+        "装备制造",
+        "生物医药"
+      ],
+      "priorities": [
+        "化工新材料",
+        "化工",
+        "石化",
+        "未来产业",
+        "装备制造",
+        "新能源"
+      ],
+      "chainIds": [
+        "equipment",
+        "new-energy",
+        "biomedicine",
+        "chemicals",
+        "future"
+      ],
+      "source": "唐山市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "wenzhou",
+      "name": "温州市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 10213.9,
+      "growth": 6.1,
+      "shares": [
+        2.0,
+        36.3,
+        61.7
+      ],
+      "pillars": [
+        "汽车零部件",
+        "服装",
+        "电子信息",
+        "数字经济",
+        "新能源"
+      ],
+      "priorities": [
+        "石化",
+        "氢能",
+        "新能源",
+        "数字经济",
+        "数字产业",
+        "电子信息",
+        "人工智能",
+        "装备制造",
+        "低空经济"
+      ],
+      "chainIds": [
+        "automotive",
+        "textile",
+        "electronics",
+        "digital",
+        "new-energy",
+        "chemicals",
+        "equipment",
+        "future"
+      ],
+      "source": "温州市-2025统计公报-官方网页打印件.pdf；温州市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "dalian",
+      "name": "大连市",
+      "level": "市",
+      "mapId": "liaoning",
+      "year": 2025,
+      "gdp": 10002.1,
+      "growth": 5.7,
+      "shares": [
+        6.65,
+        35.32,
+        58.03
+      ],
+      "pillars": [
+        "低空经济",
+        "装备制造",
+        "石化",
+        "化工",
+        "生物医药"
+      ],
+      "priorities": [
+        "化工新材料",
+        "化工",
+        "新能源材料",
+        "新能源",
+        "汽车产业",
+        "集成电路",
+        "半导体",
+        "石化",
+        "装备制造",
+        "生物医药",
+        "医药",
+        "软件和信息服务"
+      ],
+      "chainIds": [
+        "future",
+        "equipment",
+        "chemicals",
+        "biomedicine",
+        "new-energy",
+        "automotive",
+        "electronics",
+        "digital"
+      ],
+      "source": "大连市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；大连市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "liaoning"
+    },
+    {
+      "id": "xuzhou",
+      "name": "徐州市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 9957.22,
+      "growth": 5.8,
+      "shares": [
+        8.0,
+        36.7,
+        55.3
+      ],
+      "pillars": [
+        "数字经济",
+        "纺织",
+        "医药",
+        "半导体",
+        "未来产业"
+      ],
+      "priorities": [
+        "医药",
+        "工程机械",
+        "数字经济",
+        "高端装备",
+        "新能源",
+        "纺织",
+        "装备制造",
+        "化工",
+        "生物医药",
+        "半导体",
+        "电子信息",
+        "人工智能"
+      ],
+      "chainIds": [
+        "digital",
+        "textile",
+        "biomedicine",
+        "electronics",
+        "future",
+        "equipment",
+        "new-energy",
+        "chemicals"
+      ],
+      "source": "徐州市-2025统计公报-官方网页打印件.pdf；徐州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "shenyang",
+      "name": "沈阳市",
+      "level": "市",
+      "mapId": "liaoning",
+      "year": 2025,
+      "gdp": 9100.3,
+      "growth": 2.0,
+      "shares": [
+        4.1,
+        32.8,
+        63.1
+      ],
+      "pillars": [
+        "集成电路",
+        "生物医药",
+        "机器人",
+        "医药"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药",
+        "新能源汽车",
+        "新能源",
+        "高端装备",
+        "人工智能",
+        "机器人",
+        "集成电路",
+        "汽车及零部件",
+        "装备制造",
+        "化工"
+      ],
+      "chainIds": [
+        "electronics",
+        "biomedicine",
+        "equipment",
+        "new-energy",
+        "automotive",
+        "digital",
+        "chemicals"
+      ],
+      "source": "沈阳市-2025统计公报.pdf；沈阳市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "liaoning"
+    },
+    {
+      "id": "xiamen",
+      "name": "厦门市",
+      "level": "市",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": 8980.37,
+      "growth": 5.7,
+      "shares": [
+        0.3,
+        37.8,
+        61.9
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "新能源"
+      ],
+      "priorities": [
+        "半导体",
+        "未来产业"
+      ],
+      "chainIds": [
+        "textile",
+        "new-energy",
+        "electronics",
+        "future"
+      ],
+      "source": "厦门市-2025统计公报-官方网页打印件.pdf；厦门市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "fujian"
+    },
+    {
+      "id": "shaoxing",
+      "name": "绍兴市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 8932.0,
+      "growth": 6.5,
+      "shares": [
+        3.0,
+        47.0,
+        50.0
+      ],
+      "pillars": [
+        "人工智能",
+        "算力"
+      ],
+      "priorities": [
+        "集成电路",
+        "高端装备",
+        "生物医药",
+        "低空经济",
+        "新能源",
+        "半导体",
+        "化工",
+        "医药",
+        "纺织",
+        "汽车零部件",
+        "新能源材料",
+        "新型显示"
+      ],
+      "chainIds": [
+        "digital",
+        "electronics",
+        "equipment",
+        "biomedicine",
+        "future",
+        "new-energy",
+        "chemicals",
+        "textile",
+        "automotive"
+      ],
+      "source": "绍兴市-2025统计公报-官方网页打印件.pdf；绍兴市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "shijiazhuang",
+      "name": "石家庄市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 8651.7,
+      "growth": 6.0,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "装备制造",
+        "集成电路",
+        "新型显示",
+        "纺织服装",
+        "纺织"
+      ],
+      "priorities": [
+        "服装",
+        "装备制造",
+        "新能源",
+        "半导体",
+        "新一代电子信息",
+        "电子信息",
+        "生物医药",
+        "化工",
+        "医药"
+      ],
+      "chainIds": [
+        "equipment",
+        "electronics",
+        "textile",
+        "new-energy",
+        "biomedicine",
+        "chemicals"
+      ],
+      "source": "石家庄市-2025统计公报-官方网页打印件.pdf；石家庄市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "kunming",
+      "name": "昆明市",
+      "level": "市",
+      "mapId": "yunnan",
+      "year": 2025,
+      "gdp": 8637.45,
+      "growth": 4.2,
+      "shares": [
+        4.1,
+        28.7,
+        67.2
+      ],
+      "pillars": [
+        "电子信息",
+        "生物医药",
+        "数字经济",
+        "低空经济",
+        "医药"
+      ],
+      "priorities": [
+        "未来产业",
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "electronics",
+        "biomedicine",
+        "digital",
+        "future"
+      ],
+      "source": "昆明市-2025统计公报-官方网页打印件.pdf；昆明市-十五五规划纲要-官方全文打印件.pdf",
+      "status": "verified",
+      "parentId": "yunnan"
+    },
+    {
+      "id": "city-dee14d94d1d0",
+      "name": "潍坊市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 8587.36,
+      "growth": 5.5,
+      "shares": [
+        8.5,
+        41.2,
+        50.3
+      ],
+      "pillars": [
+        "机器人",
+        "数字经济",
+        "化工",
+        "医药"
+      ],
+      "priorities": [
+        "新能源",
+        "高端装备",
+        "储能",
+        "机器人",
+        "化工"
+      ],
+      "chainIds": [
+        "equipment",
+        "digital",
+        "chemicals",
+        "biomedicine",
+        "new-energy"
+      ],
+      "source": "潍坊市-2025统计公报-官方网页打印件.pdf；潍坊市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "nanchang",
+      "name": "南昌市",
+      "level": "市",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "电子信息",
+        "新能源汽车",
+        "新能源"
+      ],
+      "priorities": [
+        "电子信息",
+        "纺织",
+        "数字经济",
+        "人工智能",
+        "生物医药",
+        "医药",
+        "集成电路",
+        "数字产业"
+      ],
+      "chainIds": [
+        "electronics",
+        "new-energy",
+        "automotive",
+        "textile",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "南昌市-2025统计公报-官方网页打印件.pdf；南昌市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jiangxi"
+    },
+    {
+      "id": "yangzhou",
+      "name": "扬州市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 8056.75,
+      "growth": 5.5,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "高端装备",
+        "新能源",
+        "汽车及零部件",
+        "农产品加工"
+      ],
+      "priorities": [
+        "机器人",
+        "氢能",
+        "纺织",
+        "集成电路",
+        "人工智能",
+        "高端装备",
+        "新能源",
+        "汽车产业",
+        "生物医药",
+        "医药",
+        "数字经济",
+        "低空经济"
+      ],
+      "chainIds": [
+        "equipment",
+        "new-energy",
+        "automotive",
+        "food",
+        "textile",
+        "electronics",
+        "digital",
+        "biomedicine",
+        "future"
+      ],
+      "source": "扬州市-2025统计公报-官方网页打印件.pdf；扬州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "yancheng",
+      "name": "盐城市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 8045.3,
+      "growth": 5.4,
+      "shares": [
+        2.3,
+        62.1,
+        35.6
+      ],
+      "pillars": [
+        "高端装备",
+        "人工智能",
+        "纺织",
+        "化工新材料",
+        "化工"
+      ],
+      "priorities": [
+        "光伏",
+        "风电",
+        "半导体",
+        "未来产业",
+        "新能源",
+        "装备制造",
+        "高端装备"
+      ],
+      "chainIds": [
+        "equipment",
+        "digital",
+        "textile",
+        "chemicals",
+        "new-energy",
+        "electronics",
+        "future"
+      ],
+      "source": "盐城市-2025统计公报-官方网页打印件.pdf；盐城市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-8b15851d1229",
+      "name": "长春市",
+      "level": "市",
+      "mapId": "jilin",
+      "year": 2025,
+      "gdp": 8005.59,
+      "growth": 4.9,
+      "shares": [
+        6.61,
+        34.55,
+        58.84
+      ],
+      "pillars": [
+        "农产品加工",
+        "装备制造",
+        "新能源汽车",
+        "新能源",
+        "医药"
+      ],
+      "priorities": [
+        "低空经济",
+        "半导体",
+        "数字经济",
+        "生物医药",
+        "新能源",
+        "医药",
+        "汽车产业",
+        "装备制造"
+      ],
+      "chainIds": [
+        "food",
+        "equipment",
+        "new-energy",
+        "automotive",
+        "biomedicine",
+        "future",
+        "electronics",
+        "digital"
+      ],
+      "source": "长春市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；长春市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jilin"
+    },
+    {
+      "id": "jiaxing",
+      "name": "嘉兴市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 7851.06,
+      "growth": 5.2,
+      "shares": [
+        2.0,
+        48.4,
+        49.6
+      ],
+      "pillars": [
+        "新能源",
+        "光伏",
+        "人工智能",
+        "汽车及零部件",
+        "化工新材料"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "集成电路",
+        "新能源",
+        "储能",
+        "未来产业",
+        "人工智能",
+        "高端装备"
+      ],
+      "chainIds": [
+        "new-energy",
+        "digital",
+        "automotive",
+        "chemicals",
+        "electronics",
+        "future",
+        "equipment"
+      ],
+      "source": "嘉兴市-2025统计公报-官方网页打印件.pdf；嘉兴市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "city-ba2a25a36c9d",
+      "name": "榆林市",
+      "level": "市",
+      "mapId": "shaanxi",
+      "year": 2025,
+      "gdp": 7501.06,
+      "growth": 5.3,
+      "shares": [
+        4.41,
+        68.32,
+        27.27
+      ],
+      "pillars": [
+        "未来产业"
+      ],
+      "priorities": [
+        "化工新材料",
+        "化工",
+        "医药"
+      ],
+      "chainIds": [
+        "future",
+        "chemicals",
+        "biomedicine"
+      ],
+      "source": "榆林市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；榆林市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shaanxi"
+    },
+    {
+      "id": "city-4b036f297a1f",
+      "name": "金华市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 7313.47,
+      "growth": 6.3,
+      "shares": [
+        2.3,
+        37.4,
+        60.3
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "金华市-2025统计公报-官方网页打印件.pdf；金华市-十五五规划纲要.doc",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "city-9b3b62e17a46",
+      "name": "泰州市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 7255.27,
+      "growth": 5.3,
+      "shares": [
+        5.0,
+        45.9,
+        49.1
+      ],
+      "pillars": [
+        "未来产业",
+        "化工",
+        "数字经济",
+        "数字产业",
+        "人工智能"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药",
+        "未来产业",
+        "食品产业",
+        "新能源",
+        "汽车及零部件",
+        "汽车零部件",
+        "电子信息",
+        "风电",
+        "光伏",
+        "储能",
+        "人工智能"
+      ],
+      "chainIds": [
+        "future",
+        "chemicals",
+        "digital",
+        "biomedicine",
+        "food",
+        "new-energy",
+        "automotive",
+        "electronics"
+      ],
+      "source": "泰州市-2025统计公报-官方网页打印件.pdf；泰州市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-8478f368d3a5",
+      "name": "台州市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 7005.87,
+      "growth": 6.1,
+      "shares": [
+        5.3,
+        42.0,
+        52.6
+      ],
+      "pillars": [
+        "新能源汽车",
+        "高端装备",
+        "新能源",
+        "机器人",
+        "人工智能"
+      ],
+      "priorities": [
+        "人工智能",
+        "未来产业",
+        "生物医药",
+        "低空经济",
+        "半导体",
+        "机器人",
+        "氢能",
+        "储能",
+        "医药",
+        "算力"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "digital",
+        "future",
+        "biomedicine",
+        "electronics"
+      ],
+      "source": "台州市-2025统计公报-官方网页打印件.pdf；台州市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "city-8f586bdb3d52",
+      "name": "临沂市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 6862.2,
+      "growth": 5.4,
+      "shares": [
+        1.3,
+        60.7,
+        38.0
+      ],
+      "pillars": [
+        "数字经济",
+        "医药",
+        "新能源",
+        "化工",
+        "电子信息"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "新能源",
+        "装备制造",
+        "氢能",
+        "医药"
+      ],
+      "chainIds": [
+        "digital",
+        "biomedicine",
+        "new-energy",
+        "chemicals",
+        "electronics",
+        "automotive",
+        "equipment"
+      ],
+      "source": "临沂市-2025统计公报-官方网页打印件.pdf；临沂市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "yichang",
+      "name": "宜昌市",
+      "level": "市",
+      "mapId": "hubei",
+      "year": 2025,
+      "gdp": 6464.42,
+      "growth": 6.1,
+      "shares": [
+        11.2,
+        40.3,
+        48.5
+      ],
+      "pillars": [
+        "未来产业",
+        "新能源",
+        "化工",
+        "化工新材料",
+        "装备制造"
+      ],
+      "priorities": [
+        "盐化工",
+        "化工",
+        "化工新材料",
+        "新能源",
+        "锂电",
+        "医药",
+        "装备制造",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "生物制造",
+        "未来产业"
+      ],
+      "chainIds": [
+        "future",
+        "new-energy",
+        "chemicals",
+        "equipment",
+        "biomedicine",
+        "textile"
+      ],
+      "source": "宜昌市-2025统计公报.docx；宜昌市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "hubei"
+    },
+    {
+      "id": "huizhou",
+      "name": "惠州市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 6363.66,
+      "growth": 4.5,
+      "shares": [
+        5.2,
+        53.2,
+        41.6
+      ],
+      "pillars": [
+        "新能源",
+        "半导体"
+      ],
+      "priorities": [
+        "电子信息",
+        "人工智能",
+        "化工",
+        "半导体",
+        "光伏",
+        "储能"
+      ],
+      "chainIds": [
+        "new-energy",
+        "electronics",
+        "digital",
+        "chemicals"
+      ],
+      "source": "惠州市-2025统计公报.pdf；惠州市-十五五规划纲要-官方全文打印件.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "nanning",
+      "name": "南宁市",
+      "level": "市",
+      "mapId": "guangxi",
+      "year": 2025,
+      "gdp": 6212.46,
+      "growth": 4.7,
+      "shares": [
+        10.56,
+        19.33,
+        70.12
+      ],
+      "pillars": [
+        "人工智能",
+        "新能源",
+        "电子信息",
+        "半导体",
+        "生物医药"
+      ],
+      "priorities": [
+        "电子信息",
+        "新能源",
+        "化工",
+        "低空经济",
+        "高端装备",
+        "装备制造",
+        "生物制造",
+        "人工智能",
+        "汽车及零部件",
+        "新能源汽车",
+        "储能",
+        "生物医药"
+      ],
+      "chainIds": [
+        "digital",
+        "new-energy",
+        "electronics",
+        "biomedicine",
+        "chemicals",
+        "future",
+        "equipment",
+        "automotive"
+      ],
+      "source": "南宁市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；南宁市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "guangxi"
+    },
+    {
+      "id": "city-300f9a491b63",
+      "name": "哈尔滨市",
+      "level": "市",
+      "mapId": "heilongjiang",
+      "year": 2025,
+      "gdp": 6188.5,
+      "growth": 4.6,
+      "shares": [
+        9.2,
+        23.0,
+        67.9
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "哈尔滨市-2025统计公报.pdf；哈尔滨市-十五五规划纲要.doc",
+      "status": "verified",
+      "parentId": "heilongjiang"
+    },
+    {
+      "id": "city-c8678a795b82",
+      "name": "洛阳市",
+      "level": "市",
+      "mapId": "henan",
+      "year": 2025,
+      "gdp": 209.03,
+      "growth": 6.4,
+      "shares": [
+        0.4,
+        27.2,
+        72.4
+      ],
+      "pillars": [
+        "电子信息",
+        "石化",
+        "装备制造",
+        "新能源"
+      ],
+      "priorities": [
+        "未来产业",
+        "新能源",
+        "化工新材料",
+        "生物医药",
+        "化工",
+        "医药",
+        "生物制造",
+        "人工智能",
+        "机器人",
+        "氢能",
+        "储能",
+        "装备制造"
+      ],
+      "chainIds": [
+        "electronics",
+        "chemicals",
+        "equipment",
+        "new-energy",
+        "future",
+        "biomedicine",
+        "digital"
+      ],
+      "source": "洛阳市-2025统计公报.docx；洛阳市-十五五规划纲要-官方网页打印件.pdf",
+      "status": "verified",
+      "parentId": "henan"
+    },
+    {
+      "id": "city-5fb3b13f4f72",
+      "name": "漳州市",
+      "level": "市",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "化工",
+        "电子信息",
+        "高端装备",
+        "低空经济",
+        "未来产业"
+      ],
+      "priorities": [
+        "化工",
+        "食品产业",
+        "机器人",
+        "新能源汽车",
+        "新能源",
+        "纺织",
+        "装备制造",
+        "化工新材料",
+        "石化",
+        "光伏",
+        "集成电路",
+        "新型显示"
+      ],
+      "chainIds": [
+        "chemicals",
+        "electronics",
+        "equipment",
+        "future",
+        "food",
+        "new-energy",
+        "automotive",
+        "textile"
+      ],
+      "source": "漳州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "fujian"
+    },
+    {
+      "id": "city-9b254635976b",
+      "name": "济宁市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 6128.1,
+      "growth": 5.8,
+      "shares": [
+        10.6,
+        36.2,
+        53.2
+      ],
+      "pillars": [
+        "纺织",
+        "工程机械",
+        "集成电路",
+        "医药",
+        "高端装备"
+      ],
+      "priorities": [
+        "新能源",
+        "盐化工",
+        "化工",
+        "储能",
+        "风电",
+        "光伏",
+        "集成电路",
+        "电子信息",
+        "机器人",
+        "食品制造"
+      ],
+      "chainIds": [
+        "textile",
+        "equipment",
+        "electronics",
+        "biomedicine",
+        "new-energy",
+        "chemicals",
+        "food"
+      ],
+      "source": "济宁市-2025统计公报.pdf；济宁市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-02953aef6812",
+      "name": "鄂尔多斯市",
+      "level": "市",
+      "mapId": "inner-mongolia",
+      "year": 2025,
+      "gdp": 6122.2,
+      "growth": 5.1,
+      "shares": [
+        3.7,
+        68.1,
+        28.2
+      ],
+      "pillars": [
+        "化工",
+        "未来产业",
+        "装备制造",
+        "人工智能",
+        "算力"
+      ],
+      "priorities": [
+        "低空经济",
+        "化工",
+        "新能源"
+      ],
+      "chainIds": [
+        "chemicals",
+        "future",
+        "equipment",
+        "digital",
+        "new-energy"
+      ],
+      "source": "鄂尔多斯市-2025统计公报-官方网页打印件.pdf；鄂尔多斯市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "inner-mongolia"
+    },
+    {
+      "id": "xiangyang",
+      "name": "襄阳市",
+      "level": "市",
+      "mapId": "hubei",
+      "year": 2025,
+      "gdp": 6113.85,
+      "growth": null,
+      "shares": [
+        9.9,
+        40.6,
+        49.5
+      ],
+      "pillars": [
+        "农产品加工",
+        "高端装备",
+        "装备制造",
+        "化工",
+        "生物制造"
+      ],
+      "priorities": [
+        "农产品加工",
+        "化工",
+        "新能源",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "储能",
+        "电子信息",
+        "高端装备",
+        "装备制造",
+        "机器人",
+        "未来产业"
+      ],
+      "chainIds": [
+        "food",
+        "equipment",
+        "chemicals",
+        "biomedicine",
+        "new-energy",
+        "textile",
+        "electronics",
+        "future"
+      ],
+      "source": "襄阳市-2025统计公报-官方网页打印件.pdf；襄阳市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "hubei"
+    },
+    {
+      "id": "guiyang",
+      "name": "贵阳市",
+      "level": "市",
+      "mapId": "guizhou",
+      "year": 2025,
+      "gdp": 6038.15,
+      "growth": 5.1,
+      "shares": [
+        3.6,
+        29.5,
+        66.8
+      ],
+      "pillars": [
+        "人工智能",
+        "装备制造",
+        "新能源汽车",
+        "电子信息",
+        "新能源"
+      ],
+      "priorities": [
+        "电子信息",
+        "装备制造",
+        "化工",
+        "医药",
+        "新能源汽车",
+        "汽车产业",
+        "新能源",
+        "机器人",
+        "数字经济",
+        "算力",
+        "人工智能",
+        "高端装备"
+      ],
+      "chainIds": [
+        "digital",
+        "equipment",
+        "new-energy",
+        "automotive",
+        "electronics",
+        "chemicals",
+        "biomedicine"
+      ],
+      "source": "贵阳市-2025统计公报-官方网页打印件.pdf；贵阳市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "guizhou"
+    },
+    {
+      "id": "zhenjiang",
+      "name": "镇江市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 5736.78,
+      "growth": 5.4,
+      "shares": [
+        3.05,
+        44.99,
+        51.96
+      ],
+      "pillars": [
+        "低空经济",
+        "未来产业",
+        "氢能",
+        "储能",
+        "数字经济"
+      ],
+      "priorities": [
+        "低空经济",
+        "未来产业",
+        "氢能",
+        "储能",
+        "高端装备",
+        "装备制造",
+        "汽车及零部件",
+        "新能源汽车",
+        "新能源",
+        "电子信息",
+        "数字经济",
+        "数字产业"
+      ],
+      "chainIds": [
+        "future",
+        "new-energy",
+        "digital",
+        "equipment",
+        "automotive",
+        "electronics"
+      ],
+      "source": "镇江市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；镇江市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-6e27dd93580d",
+      "name": "淮安市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 5630.11,
+      "growth": 4.5,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "汽车及零部件",
+        "新能源",
+        "人工智能",
+        "光伏",
+        "装备制造"
+      ],
+      "priorities": [
+        "人工智能",
+        "算力",
+        "汽车及零部件",
+        "化工新材料",
+        "新能源汽车",
+        "新能源",
+        "化工",
+        "装备制造",
+        "生物医药",
+        "医药",
+        "未来产业",
+        "光伏"
+      ],
+      "chainIds": [
+        "automotive",
+        "new-energy",
+        "digital",
+        "equipment",
+        "chemicals",
+        "biomedicine",
+        "future"
+      ],
+      "source": "淮安市-2025统计公报-官方网页打印件.pdf；淮安市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-230e9b1c9c8d",
+      "name": "芜湖市",
+      "level": "市",
+      "mapId": "anhui",
+      "year": 2025,
+      "gdp": 5402.69,
+      "growth": 6.3,
+      "shares": [
+        3.7,
+        44.8,
+        51.5
+      ],
+      "pillars": [
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "新能源"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "新能源",
+        "光伏",
+        "机器人",
+        "智能网联新能源汽车",
+        "未来产业",
+        "人工智能",
+        "低空经济",
+        "食品产业"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "future",
+        "digital",
+        "food"
+      ],
+      "source": "芜湖市-2025统计公报-官方网页打印件.pdf；芜湖市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "anhui"
+    },
+    {
+      "id": "city-fb113228cc8c",
+      "name": "岳阳市",
+      "level": "市",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 5386.88,
+      "growth": 5.5,
+      "shares": [
+        9.4,
+        35.2,
+        55.4
+      ],
+      "pillars": [
+        "工程机械",
+        "数字产业"
+      ],
+      "priorities": [
+        "石化"
+      ],
+      "chainIds": [
+        "equipment",
+        "digital",
+        "chemicals"
+      ],
+      "source": "岳阳市-2025统计公报-官方网页打印件.pdf；岳阳市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hunan"
+    },
+    {
+      "id": "taiyuan",
+      "name": "太原市",
+      "level": "市",
+      "mapId": "shanxi",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "人工智能",
+        "电子信息",
+        "生物医药",
+        "医药",
+        "装备制造"
+      ],
+      "priorities": [
+        "化工",
+        "新能源",
+        "电子信息",
+        "高端装备",
+        "新一代电子信息",
+        "机器人",
+        "数字经济",
+        "装备制造",
+        "半导体",
+        "医药"
+      ],
+      "chainIds": [
+        "digital",
+        "electronics",
+        "biomedicine",
+        "equipment",
+        "chemicals",
+        "new-energy"
+      ],
+      "source": "太原市-2025统计公报-官方网页打印件.pdf；太原市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shanxi"
+    },
+    {
+      "id": "city-a57bfa063835",
+      "name": "赣州市",
+      "level": "市",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": 5221.29,
+      "growth": 5.5,
+      "shares": [
+        9.6,
+        36.4,
+        54.0
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "人工智能",
+        "电子信息"
+      ],
+      "priorities": [
+        "生物医药",
+        "医药",
+        "风电",
+        "锂电",
+        "新能源材料",
+        "新能源",
+        "化工",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "人工智能"
+      ],
+      "chainIds": [
+        "textile",
+        "digital",
+        "electronics",
+        "biomedicine",
+        "new-energy",
+        "chemicals"
+      ],
+      "source": "赣州市-2025统计公报.pdf；赣州市-十五五规划纲要-官方全文打印件.pdf",
+      "status": "verified",
+      "parentId": "jiangxi"
+    },
+    {
+      "id": "city-6476d11cda25",
+      "name": "遵义市",
+      "level": "市",
+      "mapId": "guizhou",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "装备制造",
+        "化工",
+        "农产品加工",
+        "人工智能",
+        "新能源"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "新能源",
+        "装备制造",
+        "医药",
+        "电子信息",
+        "化工",
+        "人工智能",
+        "算力",
+        "数字经济",
+        "低空经济",
+        "新型显示",
+        "服装"
+      ],
+      "chainIds": [
+        "equipment",
+        "chemicals",
+        "food",
+        "digital",
+        "new-energy",
+        "automotive",
+        "biomedicine",
+        "electronics",
+        "future",
+        "textile"
+      ],
+      "source": "遵义市-2025统计公报-官方网页打印件.pdf；遵义市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "guizhou"
+    },
+    {
+      "id": "city-f31cd0ac25b4",
+      "name": "南阳市",
+      "level": "市",
+      "mapId": "henan",
+      "year": 2025,
+      "gdp": 5167.86,
+      "growth": 6.5,
+      "shares": [
+        15.3,
+        31.9,
+        52.8
+      ],
+      "pillars": [
+        "装备制造",
+        "生物医药",
+        "食品产业",
+        "医药",
+        "汽车零部件"
+      ],
+      "priorities": [
+        "装备制造",
+        "纺织",
+        "汽车零部件",
+        "新能源汽车",
+        "新能源",
+        "机器人",
+        "化工",
+        "医药",
+        "未来产业",
+        "电子信息",
+        "高端装备",
+        "光伏"
+      ],
+      "chainIds": [
+        "equipment",
+        "biomedicine",
+        "food",
+        "automotive",
+        "textile",
+        "new-energy",
+        "chemicals",
+        "future",
+        "electronics"
+      ],
+      "source": "南阳市-2025统计公报-官方网页打印件.pdf；南阳市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "henan"
+    },
+    {
+      "id": "city-b84575c0d4d6",
+      "name": "淄博市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 5088.89,
+      "growth": 5.6,
+      "shares": [
+        4.0,
+        45.6,
+        50.4
+      ],
+      "pillars": [
+        "化工新材料",
+        "化工",
+        "电子信息",
+        "纺织服装",
+        "低空经济"
+      ],
+      "priorities": [
+        "化工",
+        "石化",
+        "化工新材料",
+        "储能",
+        "新能源",
+        "电子信息",
+        "医药",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "食品产业",
+        "高端装备"
+      ],
+      "chainIds": [
+        "chemicals",
+        "electronics",
+        "textile",
+        "future",
+        "new-energy",
+        "biomedicine",
+        "food",
+        "equipment"
+      ],
+      "source": "淄博市-2025统计公报.pdf；淄博市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-2538e332ce78",
+      "name": "宿迁市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 5026.6,
+      "growth": 5.6,
+      "shares": [
+        8.4,
+        40.8,
+        50.8
+      ],
+      "pillars": [
+        "化工",
+        "纺织",
+        "人工智能"
+      ],
+      "priorities": [
+        "未来产业",
+        "新能源",
+        "光伏",
+        "化工新材料",
+        "化工",
+        "储能",
+        "人工智能",
+        "集成电路",
+        "电子信息",
+        "装备制造",
+        "食品产业",
+        "纺织"
+      ],
+      "chainIds": [
+        "chemicals",
+        "textile",
+        "digital",
+        "future",
+        "new-energy",
+        "electronics",
+        "equipment",
+        "food"
+      ],
+      "source": "宿迁市-2025统计公报.docx；宿迁市-十五五规划纲要-高校镜像转载.pdf",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-5032e722e390",
+      "name": "保定市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 5002.5,
+      "growth": 6.0,
+      "shares": [
+        11.7,
+        32.9,
+        55.4
+      ],
+      "pillars": [],
+      "priorities": [
+        "新能源汽车",
+        "新能源",
+        "装备制造",
+        "氢能",
+        "储能",
+        "未来产业"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "equipment",
+        "future"
+      ],
+      "source": "保定市-2025统计公报.pdf；保定市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "city-aad5df6ce6ec",
+      "name": "菏泽市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "菏泽市-十五五规划纲要-官网转发扫描页.pdf",
+      "status": "missing",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-ddefd258c47d",
+      "name": "沧州市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 4930.9,
+      "growth": 5.9,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "装备制造",
+        "化工",
+        "服装"
+      ],
+      "priorities": [
+        "化工",
+        "生物医药",
+        "新能源",
+        "医药",
+        "高端装备",
+        "装备制造",
+        "数字经济",
+        "服装",
+        "氢能"
+      ],
+      "chainIds": [
+        "equipment",
+        "chemicals",
+        "textile",
+        "biomedicine",
+        "new-energy",
+        "digital"
+      ],
+      "source": "沧州市-2025统计公报.pdf；沧州市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "city-49a1bfc01396",
+      "name": "邯郸市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 4920.1,
+      "growth": 6.4,
+      "shares": [
+        9.07,
+        37.09,
+        53.84
+      ],
+      "pillars": [
+        "装备制造",
+        "化工"
+      ],
+      "priorities": [
+        "化工",
+        "新型显示",
+        "新能源",
+        "电子信息"
+      ],
+      "chainIds": [
+        "equipment",
+        "chemicals",
+        "electronics",
+        "new-energy"
+      ],
+      "source": "邯郸市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；邯郸市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "city-e4f3882b32ca",
+      "name": "连云港市",
+      "level": "市",
+      "mapId": "jiangsu",
+      "year": 2025,
+      "gdp": 4830.94,
+      "growth": 5.0,
+      "shares": [
+        9.9,
+        42.6,
+        47.5
+      ],
+      "pillars": [
+        "未来产业",
+        "汽车零部件",
+        "数字经济",
+        "生物医药",
+        "医药"
+      ],
+      "priorities": [
+        "风电",
+        "储能",
+        "装备制造",
+        "石化",
+        "医药",
+        "化工"
+      ],
+      "chainIds": [
+        "future",
+        "automotive",
+        "digital",
+        "biomedicine",
+        "new-energy",
+        "equipment",
+        "chemicals"
+      ],
+      "source": "连云港市-2025统计公报.pdf；连云港市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "jiangsu"
+    },
+    {
+      "id": "city-99a2b65d11ac",
+      "name": "常德市",
+      "level": "市",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 4770.9,
+      "growth": 5.6,
+      "shares": [
+        11.1,
+        36.3,
+        52.6
+      ],
+      "pillars": [
+        "低空经济",
+        "装备制造",
+        "生物制造",
+        "纺织"
+      ],
+      "priorities": [
+        "未来产业",
+        "电子信息",
+        "新能源"
+      ],
+      "chainIds": [
+        "future",
+        "equipment",
+        "biomedicine",
+        "textile",
+        "electronics",
+        "new-energy"
+      ],
+      "source": "常德市-2025统计公报-官方网页打印件.pdf；常德市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hunan"
+    },
+    {
+      "id": "city-2f1a754317af",
+      "name": "包头市",
+      "level": "市",
+      "mapId": "inner-mongolia",
+      "year": 2025,
+      "gdp": 4711.9,
+      "growth": 5.4,
+      "shares": [
+        3.19,
+        45.97,
+        50.84
+      ],
+      "pillars": [
+        "高端装备",
+        "人工智能",
+        "化工"
+      ],
+      "priorities": [
+        "机器人",
+        "氢能",
+        "风电",
+        "光伏",
+        "储能",
+        "化工",
+        "人工智能",
+        "装备制造",
+        "新能源"
+      ],
+      "chainIds": [
+        "equipment",
+        "digital",
+        "chemicals",
+        "new-energy"
+      ],
+      "source": "包头市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；包头市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "inner-mongolia"
+    },
+    {
+      "id": "city-e8f8413029cf",
+      "name": "衡阳市",
+      "level": "市",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 4689.55,
+      "growth": 5.2,
+      "shares": [
+        10.5,
+        31.1,
+        58.4
+      ],
+      "pillars": [
+        "化工新材料",
+        "化工",
+        "未来产业",
+        "纺织",
+        "低空经济"
+      ],
+      "priorities": [
+        "未来产业",
+        "机器人",
+        "化工",
+        "新能源汽车",
+        "新能源"
+      ],
+      "chainIds": [
+        "chemicals",
+        "future",
+        "textile",
+        "equipment",
+        "new-energy",
+        "automotive"
+      ],
+      "source": "衡阳市-2025统计公报-官方网页打印件.pdf；衡阳市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hunan"
+    },
+    {
+      "id": "city-3579ba133a74",
+      "name": "乌鲁木齐市",
+      "level": "市",
+      "mapId": "xinjiang",
+      "year": 2025,
+      "gdp": 4658.19,
+      "growth": 4.5,
+      "shares": [
+        0.8,
+        27.9,
+        71.3
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "乌鲁木齐市-2025统计公报-官方网页打印件.pdf；乌鲁木齐市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "xinjiang"
+    },
+    {
+      "id": "city-884dd931af76",
+      "name": "绵阳市",
+      "level": "市",
+      "mapId": "sichuan",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "数字经济",
+        "纺织服装",
+        "医药",
+        "纺织",
+        "服装"
+      ],
+      "priorities": [
+        "纺织服装",
+        "医药",
+        "纺织",
+        "服装",
+        "生物医药",
+        "化工",
+        "高端装备",
+        "装备制造",
+        "新型显示",
+        "人工智能",
+        "新能源",
+        "机器人"
+      ],
+      "chainIds": [
+        "digital",
+        "textile",
+        "biomedicine",
+        "chemicals",
+        "equipment",
+        "electronics",
+        "new-energy"
+      ],
+      "source": "绵阳市-2025统计公报-官方网页打印件.pdf；绵阳市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "sichuan"
+    },
+    {
+      "id": "zhuhai",
+      "name": "珠海市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 4573.1,
+      "growth": 2.7,
+      "shares": [
+        1.6,
+        40.6,
+        57.8
+      ],
+      "pillars": [
+        "未来产业"
+      ],
+      "priorities": [
+        "人工智能",
+        "未来产业",
+        "算力",
+        "生物医药",
+        "低空经济",
+        "新能源",
+        "医药"
+      ],
+      "chainIds": [
+        "future",
+        "digital",
+        "biomedicine",
+        "new-energy"
+      ],
+      "source": "珠海市-2025统计公报.pdf；珠海市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "city-e84a2c723701",
+      "name": "东营市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 4502.73,
+      "growth": 5.5,
+      "shares": [
+        4.4,
+        59.0,
+        36.6
+      ],
+      "pillars": [
+        "化工",
+        "装备制造"
+      ],
+      "priorities": [
+        "化工新材料",
+        "化工",
+        "新能源汽车",
+        "新能源",
+        "医药"
+      ],
+      "chainIds": [
+        "chemicals",
+        "equipment",
+        "new-energy",
+        "automotive",
+        "biomedicine"
+      ],
+      "source": "东营市-2025统计公报.pdf；东营市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "huzhou",
+      "name": "湖州市",
+      "level": "市",
+      "mapId": "zhejiang",
+      "year": 2025,
+      "gdp": 4452.8,
+      "growth": 5.9,
+      "shares": [
+        4.2,
+        46.0,
+        49.8
+      ],
+      "pillars": [
+        "人工智能",
+        "未来产业",
+        "储能",
+        "新能源汽车",
+        "新能源"
+      ],
+      "priorities": [
+        "未来产业",
+        "储能"
+      ],
+      "chainIds": [
+        "digital",
+        "future",
+        "new-energy",
+        "automotive"
+      ],
+      "source": "湖州市-2025统计公报-官方网页打印件.pdf；湖州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "zhejiang"
+    },
+    {
+      "id": "city-2c63bf61363f",
+      "name": "江门市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 4293.91,
+      "growth": 2.8,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "医药",
+        "新一代电子信息",
+        "电子信息",
+        "高端装备",
+        "装备制造"
+      ],
+      "priorities": [
+        "机器人",
+        "生物制造",
+        "新一代电子信息",
+        "电子信息",
+        "高端装备",
+        "装备制造",
+        "生物医药",
+        "医药",
+        "化工"
+      ],
+      "chainIds": [
+        "biomedicine",
+        "electronics",
+        "equipment",
+        "chemicals"
+      ],
+      "source": "江门市-2025统计公报-官方网页打印件.pdf；江门市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "city-bc56919d148a",
+      "name": "呼和浩特市",
+      "level": "市",
+      "mapId": "inner-mongolia",
+      "year": 2025,
+      "gdp": 4278.3,
+      "growth": 5.2,
+      "shares": [
+        4.24,
+        30.12,
+        65.65
+      ],
+      "pillars": [
+        "未来产业",
+        "医药",
+        "生物制造",
+        "人工智能",
+        "低空经济"
+      ],
+      "priorities": [
+        "装备制造",
+        "新能源",
+        "医药",
+        "生物制造",
+        "人工智能",
+        "低空经济",
+        "未来产业",
+        "储能",
+        "生物医药"
+      ],
+      "chainIds": [
+        "future",
+        "biomedicine",
+        "digital",
+        "equipment",
+        "new-energy"
+      ],
+      "source": "呼和浩特市-2025统计公报-官方网页打印件.pdf；占比按公报各产业增加值÷GDP计算；呼和浩特市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "inner-mongolia"
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 4260.56,
+      "growth": 3.8,
+      "shares": [
+        2.3,
+        51.4,
+        46.3
+      ],
+      "pillars": [
+        "未来产业",
+        "高端装备",
+        "生物医药",
+        "医药",
+        "氢能"
+      ],
+      "priorities": [
+        "高端装备",
+        "新能源",
+        "半导体",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "风电",
+        "光伏",
+        "储能",
+        "生物医药",
+        "医药",
+        "集成电路"
+      ],
+      "chainIds": [
+        "future",
+        "equipment",
+        "biomedicine",
+        "new-energy",
+        "electronics",
+        "textile"
+      ],
+      "source": "中山市-2025统计公报-官方网页打印件.pdf；中山市-十五五规划纲要.docx",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "city-324f078ab5c7",
+      "name": "宁德市",
+      "level": "市",
+      "mapId": "fujian",
+      "year": 2025,
+      "gdp": 4251.72,
+      "growth": 7.5,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "数字产业"
+      ],
+      "priorities": [
+        "新能源",
+        "数字产业"
+      ],
+      "chainIds": [
+        "digital",
+        "new-energy"
+      ],
+      "source": "宁德市-2025统计公报-官方网页打印件.pdf；宁德市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "fujian"
+    },
+    {
+      "id": "city-559a64a243b3",
+      "name": "九江市",
+      "level": "市",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": 4246.51,
+      "growth": 5.2,
+      "shares": [
+        6.7,
+        38.3,
+        55.0
+      ],
+      "pillars": [
+        "石化",
+        "纺织",
+        "人工智能",
+        "电子信息",
+        "新能源"
+      ],
+      "priorities": [
+        "数字经济",
+        "化工新材料",
+        "盐化工",
+        "化工",
+        "石化",
+        "电子信息",
+        "高端装备",
+        "装备制造",
+        "低空经济",
+        "新能源",
+        "机器人",
+        "算力"
+      ],
+      "chainIds": [
+        "chemicals",
+        "textile",
+        "digital",
+        "electronics",
+        "new-energy",
+        "equipment",
+        "future"
+      ],
+      "source": "九江市-2025统计公报.pdf；九江市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "jiangxi"
+    },
+    {
+      "id": "city-3866f6121b53",
+      "name": "滁州市",
+      "level": "市",
+      "mapId": "anhui",
+      "year": 2025,
+      "gdp": 4221.11,
+      "growth": 5.5,
+      "shares": [
+        7.1,
+        46.9,
+        46.0
+      ],
+      "pillars": [
+        "化工",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "高端装备",
+        "装备制造"
+      ],
+      "priorities": [
+        "装备制造",
+        "光伏",
+        "储能",
+        "新型显示",
+        "半导体",
+        "新能源汽车",
+        "汽车产业",
+        "新能源",
+        "高端装备",
+        "食品产业",
+        "生物医药",
+        "医药"
+      ],
+      "chainIds": [
+        "chemicals",
+        "new-energy",
+        "automotive",
+        "equipment",
+        "electronics",
+        "food",
+        "biomedicine"
+      ],
+      "source": "滁州市-2025统计公报-官方网页打印件.pdf；滁州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "anhui"
+    },
+    {
+      "id": "city-6428b3aa11a6",
+      "name": "德州市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 4214.61,
+      "growth": 5.3,
+      "shares": [
+        9.4,
+        42.5,
+        48.1
+      ],
+      "pillars": [
+        "未来产业",
+        "化工",
+        "纺织",
+        "生物医药",
+        "生物制造"
+      ],
+      "priorities": [
+        "集成电路",
+        "高端装备",
+        "人工智能",
+        "未来产业",
+        "新能源",
+        "纺织",
+        "服装",
+        "半导体",
+        "生物医药",
+        "生物制造",
+        "医药",
+        "工程机械"
+      ],
+      "chainIds": [
+        "future",
+        "chemicals",
+        "textile",
+        "biomedicine",
+        "electronics",
+        "equipment",
+        "digital",
+        "new-energy"
+      ],
+      "source": "德州市-2025统计公报.pdf；德州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-52d0c416aea8",
+      "name": "宜宾市",
+      "level": "市",
+      "mapId": "sichuan",
+      "year": 2025,
+      "gdp": 4134.73,
+      "growth": 5.5,
+      "shares": [
+        8.7,
+        48.2,
+        43.1
+      ],
+      "pillars": [
+        "新能源汽车",
+        "人工智能",
+        "新能源",
+        "纺织",
+        "未来产业"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "人工智能",
+        "新能源",
+        "纺织",
+        "新型显示",
+        "光伏"
+      ],
+      "chainIds": [
+        "new-energy",
+        "automotive",
+        "digital",
+        "textile",
+        "future",
+        "electronics"
+      ],
+      "source": "宜宾市-2025统计公报.pdf；宜宾市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "sichuan"
+    },
+    {
+      "id": "city-5ffed1e8e63f",
+      "name": "茂名市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 4106.4,
+      "growth": 3.7,
+      "shares": [
+        18.1,
+        27.3,
+        54.5
+      ],
+      "pillars": [
+        "电子信息",
+        "高端装备",
+        "低空经济",
+        "未来产业",
+        "新能源"
+      ],
+      "priorities": [
+        "化工",
+        "医药",
+        "化工新材料",
+        "集成电路",
+        "电子信息",
+        "新能源",
+        "半导体",
+        "算力",
+        "人工智能",
+        "生物医药",
+        "高端装备",
+        "装备制造"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "future",
+        "new-energy",
+        "chemicals",
+        "biomedicine",
+        "digital"
+      ],
+      "source": "茂名市-2025统计公报-官方网页打印件.pdf；茂名市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "city-df09ff542d87",
+      "name": "株洲市",
+      "level": "市",
+      "mapId": "hunan",
+      "year": 2025,
+      "gdp": 4063.5,
+      "growth": 5.6,
+      "shares": [
+        7.3,
+        46.0,
+        46.7
+      ],
+      "pillars": [
+        "低空经济",
+        "未来产业",
+        "新能源",
+        "电子信息",
+        "农产品加工"
+      ],
+      "priorities": [
+        "未来产业",
+        "装备制造",
+        "新能源",
+        "半导体",
+        "机器人",
+        "数字经济",
+        "数字产业",
+        "农产品加工"
+      ],
+      "chainIds": [
+        "future",
+        "new-energy",
+        "electronics",
+        "food",
+        "equipment",
+        "digital"
+      ],
+      "source": "株洲市-2025统计公报-官方网页打印件.pdf；株洲市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "hunan"
+    },
+    {
+      "id": "city-4a250ee468eb",
+      "name": "廊坊市",
+      "level": "市",
+      "mapId": "hebei",
+      "year": 2025,
+      "gdp": 4040.5,
+      "growth": 5.8,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "电子信息",
+        "高端装备",
+        "装备制造"
+      ],
+      "priorities": [
+        "新型显示",
+        "人工智能",
+        "半导体",
+        "高端装备",
+        "装备制造",
+        "生物医药",
+        "医药",
+        "电子信息"
+      ],
+      "chainIds": [
+        "electronics",
+        "equipment",
+        "digital",
+        "biomedicine"
+      ],
+      "source": "廊坊市-2025统计公报.pdf；廊坊市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "hebei"
+    },
+    {
+      "id": "city-3af4136e7d49",
+      "name": "湛江市",
+      "level": "市",
+      "mapId": "guangdong",
+      "year": 2025,
+      "gdp": 3952.94,
+      "growth": 4.5,
+      "shares": [
+        18.6,
+        32.6,
+        48.0
+      ],
+      "pillars": [
+        "石化",
+        "新能源",
+        "储能",
+        "装备制造",
+        "生物医药"
+      ],
+      "priorities": [
+        "风电",
+        "新能源",
+        "生物医药",
+        "医药",
+        "算力",
+        "储能",
+        "人工智能",
+        "低空经济"
+      ],
+      "chainIds": [
+        "chemicals",
+        "new-energy",
+        "equipment",
+        "biomedicine",
+        "digital",
+        "future"
+      ],
+      "source": "湛江市-2025统计公报-官方网页打印件.pdf；湛江市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "guangdong"
+    },
+    {
+      "id": "city-9fef00aae138",
+      "name": "上饶市",
+      "level": "市",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": 3935.9,
+      "growth": 5.6,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "新能源",
+        "光伏",
+        "电子信息",
+        "化工新材料",
+        "化工"
+      ],
+      "priorities": [
+        "新能源汽车",
+        "汽车产业",
+        "新能源",
+        "锂电",
+        "储能",
+        "高端装备",
+        "装备制造",
+        "低空经济",
+        "数字经济",
+        "人工智能",
+        "电子信息",
+        "光伏"
+      ],
+      "chainIds": [
+        "new-energy",
+        "electronics",
+        "chemicals",
+        "automotive",
+        "equipment",
+        "future",
+        "digital"
+      ],
+      "source": "上饶市-2025统计公报-官方网页打印件.pdf；上饶市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "jiangxi"
+    },
+    {
+      "id": "city-121c7a96f421",
+      "name": "宜春市",
+      "level": "市",
+      "mapId": "jiangxi",
+      "year": 2025,
+      "gdp": 3930.24,
+      "growth": 5.6,
+      "shares": [
+        9.8,
+        39.0,
+        51.2
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "宜春市-2025统计公报-官方网页打印件.pdf",
+      "status": "verified",
+      "parentId": "jiangxi"
+    },
+    {
+      "id": "lanzhou",
+      "name": "兰州市",
+      "level": "市",
+      "mapId": "gansu",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "兰州市-2025统计公报.doc；兰州市-十五五规划纲要.pdf",
+      "status": "missing",
+      "parentId": "gansu"
+    },
+    {
+      "id": "city-a7127d20db97",
+      "name": "威海市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": null,
+      "growth": null,
+      "shares": [
+        null,
+        null,
+        null
+      ],
+      "pillars": [
+        "低空经济",
+        "医药",
+        "高端装备",
+        "装备制造",
+        "新能源"
+      ],
+      "priorities": [
+        "工程机械",
+        "医药",
+        "新能源",
+        "服装",
+        "光伏"
+      ],
+      "chainIds": [
+        "future",
+        "biomedicine",
+        "equipment",
+        "new-energy",
+        "textile"
+      ],
+      "source": "威海市-2025统计公报.pdf；威海市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-437ab5437e10",
+      "name": "周口市",
+      "level": "市",
+      "mapId": "henan",
+      "year": 2025,
+      "gdp": 3810.83,
+      "growth": 6.1,
+      "shares": [
+        15.5,
+        32.5,
+        52.0
+      ],
+      "pillars": [
+        "纺织服装",
+        "纺织",
+        "服装",
+        "新能源汽车",
+        "汽车产业"
+      ],
+      "priorities": [
+        "农产品加工",
+        "装备制造",
+        "机器人",
+        "储能",
+        "工程机械",
+        "新能源",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "汽车零部件"
+      ],
+      "chainIds": [
+        "textile",
+        "new-energy",
+        "automotive",
+        "food",
+        "equipment"
+      ],
+      "source": "周口市-2025统计公报.pdf；周口市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "henan"
+    },
+    {
+      "id": "city-af442e99f02e",
+      "name": "泰安市",
+      "level": "市",
+      "mapId": "shandong",
+      "year": 2025,
+      "gdp": 3803.5,
+      "growth": 5.9,
+      "shares": [
+        9.8,
+        40.4,
+        49.8
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "泰安市-2025统计公报-官方网页打印件.pdf；泰安市-十五五规划纲要.pdf",
+      "status": "verified",
+      "parentId": "shandong"
+    },
+    {
+      "id": "city-f006794b84d4",
+      "name": "阜阳市",
+      "level": "市",
+      "mapId": "anhui",
+      "year": 2025,
+      "gdp": 3777.6,
+      "growth": 5.6,
+      "shares": [
+        12.1,
+        30.6,
+        57.3
+      ],
+      "pillars": [
+        "食品产业",
+        "纺织服装",
+        "纺织",
+        "服装",
+        "未来产业"
+      ],
+      "priorities": [
+        "新能源",
+        "化工新材料",
+        "生物医药",
+        "化工",
+        "医药",
+        "人工智能",
+        "智能网联新能源汽车",
+        "新能源汽车",
+        "汽车产业",
+        "食品产业",
+        "纺织服装",
+        "未来产业"
+      ],
+      "chainIds": [
+        "food",
+        "textile",
+        "future",
+        "new-energy",
+        "chemicals",
+        "biomedicine",
+        "digital",
+        "automotive"
+      ],
+      "source": "阜阳市-2025统计公报-官方网页打印件.pdf；阜阳市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "anhui"
+    },
+    {
+      "id": "city-faf586bcba0b",
+      "name": "曲靖市",
+      "level": "市",
+      "mapId": "yunnan",
+      "year": 2025,
+      "gdp": 3777.6,
+      "growth": 3.5,
+      "shares": [
+        14.3,
+        34.0,
+        51.7
+      ],
+      "pillars": [],
+      "priorities": [],
+      "chainIds": [],
+      "source": "曲靖市-2025统计公报-官方媒体转载打印件.pdf",
+      "status": "verified",
+      "parentId": "yunnan"
+    },
+    {
+      "id": "city-2cbc0c6ac813",
+      "name": "荆州市",
+      "level": "市",
+      "mapId": "hubei",
+      "year": 2025,
+      "gdp": 3712.34,
+      "growth": 6.3,
+      "shares": [
+        17.85,
+        35.21,
+        46.94
+      ],
+      "pillars": [
+        "光电子信息",
+        "农产品加工",
+        "电子信息",
+        "纺织服装",
+        "低空经济"
+      ],
+      "priorities": [
+        "光电子信息",
+        "农产品加工",
+        "电子信息",
+        "纺织服装",
+        "低空经济",
+        "新能源",
+        "化工",
+        "医药",
+        "纺织",
+        "服装",
+        "装备制造",
+        "生物制造"
+      ],
+      "chainIds": [
+        "electronics",
+        "food",
+        "textile",
+        "future",
+        "new-energy",
+        "chemicals",
+        "biomedicine",
+        "equipment"
+      ],
+      "source": "荆州市-2025统计公报.pdf；占比按公报各产业增加值÷GDP计算；荆州市-十五五规划纲要-转载全文.docx",
+      "status": "verified",
+      "parentId": "hubei"
+    }
+  ],
+  "chains": [
+    {
+      "id": "chemicals",
+      "name": "化工新材料（含盐化工）",
+      "shortName": "化工新材料",
+      "stages": [
+        {
+          "id": "chemicals-upstream",
+          "stage": "上游",
+          "name": "原盐、卤水等",
+          "products": [
+            "原盐",
+            "卤水",
+            "盐湖资源",
+            "钾盐",
+            "海盐",
+            "石灰石",
+            "萤石",
+            "磷矿",
+            "原油",
+            "天然气",
+            "煤炭",
+            "基础无机原料"
+          ],
+          "aliases": [
+            "盐化工（河北、江西、重庆）",
+            "原盐（潍坊）",
+            "卤水（潍坊）",
+            "盐湖资源（青海）",
+            "钾盐（青海）",
+            "海盐（嘉兴、盐城）",
+            "石灰石（大连）",
+            "萤石（内蒙古、贵州、包头）",
+            "磷矿（湖北、贵州、襄阳）",
+            "原油（东营、沧州、河北）",
+            "天然气（四川、重庆）",
+            "煤炭（山西、榆林、鄂尔多斯）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第2行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "chemicals-midstream",
+          "stage": "中游",
+          "name": "烧碱、纯碱等",
+          "products": [
+            "烧碱",
+            "纯碱",
+            "氯气",
+            "电石",
+            "合成氨",
+            "甲醇",
+            "烯烃",
+            "芳烃",
+            "煤化工",
+            "石油化工",
+            "减油增化"
+          ],
+          "aliases": [
+            "氯碱化工（东营、鄂尔多斯、呼和浩特）",
+            "纯碱（潍坊）",
+            "烧碱（广西）",
+            "电石（榆林、兰州）",
+            "合成氨（甘肃、南阳、呼和浩特）",
+            "甲醇（邯郸、山西、黑龙江）",
+            "烯烃（天津、榆林、淄博）",
+            "芳烃（乌鲁木齐、榆林、漳州）",
+            "煤化工（榆林、鄂尔多斯、山西）",
+            "石油化工（兰州、漳州、茂名）",
+            "减油增化（宁夏、江西）",
+            "油头化尾（漳州）",
+            "油头化身新材料尾（湖南）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第3行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "chemicals-downstream",
+          "stage": "下游",
+          "name": "PVC、聚氯乙烯等",
+          "products": [
+            "PVC",
+            "聚氯乙烯",
+            "精细化工",
+            "专用化学品",
+            "电子化学品",
+            "电子特气",
+            "湿电子化学品",
+            "光刻胶",
+            "氟化工",
+            "有机硅",
+            "磷化工",
+            "生物化工",
+            "化工新材料"
+          ],
+          "aliases": [
+            "精细化工（辽宁、榆林、临沂）",
+            "专用化学品（天津、淄博、重庆）",
+            "化工新材料（连云港、福州、南通）",
+            "电子化学品（惠州、泉州、珠海）",
+            "电子特气（邯郸、呼和浩特、天津）",
+            "湿电子化学品（泉州）",
+            "光刻胶（茂名、天津、湖北）",
+            "氟化工（贵阳、内蒙古、重庆）",
+            "有机硅（九江、襄阳、江西）",
+            "磷化工（贵阳、襄阳、宜昌）",
+            "生物化工（榆林、辽宁、黑龙江）",
+            "新型化工（内蒙古、黑龙江）",
+            "现代化工（宁夏）",
+            "盐化工（河北、江西、重庆）",
+            "海洋化工（山东）",
+            "盐卤化工（湖南）",
+            "氟盐化工（江西）",
+            "绿色石化（辽宁）",
+            "PVC（呼和浩特）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第4行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "new-energy",
+      "name": "新能源及材料",
+      "shortName": "新能源及材料",
+      "stages": [
+        {
+          "id": "new-energy-upstream",
+          "stage": "上游",
+          "name": "锂、镍等",
+          "products": [
+            "锂",
+            "镍",
+            "钴",
+            "锰",
+            "石墨",
+            "石墨烯",
+            "稀土",
+            "多晶硅",
+            "硅料",
+            "磷酸铁",
+            "前驱体"
+          ],
+          "aliases": [
+            "锂（上饶、青海、赣州）",
+            "镍（甘肃、遵义、兰州）",
+            "钴（赣州、甘肃）",
+            "锰（遵义、贵州）",
+            "石墨（黑龙江、南京、兰州）",
+            "石墨烯（兰州、泉州、郑州）",
+            "稀土（包头、赣州、内蒙古）",
+            "多晶硅（乌鲁木齐、包头、洛阳）",
+            "硅料（包头）",
+            "磷酸铁（贵州、贵阳）",
+            "前驱体（贵州、大连）",
+            "锂矿（上饶）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第5行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "new-energy-midstream",
+          "stage": "中游",
+          "name": "正极材料、负极材料等",
+          "products": [
+            "正极材料",
+            "负极材料",
+            "电解液",
+            "隔膜",
+            "电芯",
+            "动力电池",
+            "储能电池",
+            "新型储能",
+            "钠离子电池",
+            "固态电池",
+            "液流电池",
+            "氢燃料电池",
+            "光伏组件",
+            "逆变器",
+            "风电装备",
+            "光伏装备",
+            "氢能装备",
+            "储能装备"
+          ],
+          "aliases": [
+            "正极材料（贵州、遵义、贵阳）",
+            "负极材料（淄博、南宁、湛江）",
+            "电解液（襄阳、贵阳、临沂）",
+            "隔膜（宿迁、茂名、贵阳）",
+            "电芯（昆明、宁夏、上饶）",
+            "动力电池（宜宾、赣州、天津）",
+            "储能电池（宿迁、洛阳、西安）",
+            "新型储能（宿迁、广州、重庆）",
+            "钠离子电池（江西、南昌、赣州）",
+            "固态电池（重庆、惠州、赣州）",
+            "液流电池（宿迁、大连、惠州）",
+            "氢燃料电池（大连、茂名、潍坊）",
+            "光伏组件（上饶、宿迁、郑州）",
+            "逆变器（甘肃、上饶、西安）",
+            "风电装备（盐城、包头、邯郸）",
+            "光伏装备（宿迁、内蒙古）",
+            "氢能装备（包头、黑龙江、南京）",
+            "储能装备（宿迁、包头）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第6行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "new-energy-downstream",
+          "stage": "下游",
+          "name": "新能源汽车、储能电站等",
+          "products": [
+            "新能源汽车",
+            "储能电站",
+            "抽水蓄能",
+            "分布式光伏",
+            "海上风电",
+            "绿电",
+            "源网荷储",
+            "充换电",
+            "充电桩",
+            "换电",
+            "加氢站",
+            "虚拟电厂",
+            "光储一体",
+            "氢能",
+            "绿氢"
+          ],
+          "aliases": [
+            "新能源汽车（重庆、西安、芜湖）",
+            "储能电站（泰安、襄阳、天津）",
+            "抽水蓄能（赣州、贵州、江西）",
+            "分布式光伏（宿迁、兰州、常德）",
+            "海上风电（江门、湛江、盐城）",
+            "绿电（宿迁、盐城、包头）",
+            "源网荷储（郑州、南通、泰安）",
+            "充换电（宿迁、南阳、成都）",
+            "充电桩（江西、洛阳、赣州）",
+            "换电（宿迁、成都、深圳）",
+            "加氢站（榆林、兰州、包头）",
+            "虚拟电厂（徐州、广东、烟台）",
+            "光储一体（襄阳）",
+            "氢能（西安、宿迁、洛阳）",
+            "绿氢（鄂尔多斯、包头、内蒙古）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第7行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "电子信息与半导体",
+      "shortName": "电子信息",
+      "stages": [
+        {
+          "id": "electronics-upstream",
+          "stage": "上游",
+          "name": "硅片、晶圆等",
+          "products": [
+            "硅片",
+            "晶圆",
+            "电子材料",
+            "半导体材料",
+            "电子化学品",
+            "光刻胶",
+            "靶材",
+            "半导体设备",
+            "碳化硅",
+            "氮化镓",
+            "第三代半导体",
+            "第四代半导体",
+            "覆铜板"
+          ],
+          "aliases": [
+            "硅片（太原、宿迁、呼和浩特）",
+            "晶圆（长春、天津、湖北）",
+            "电子材料（淄博、山东、上海）",
+            "半导体材料（呼和浩特、重庆、包头）",
+            "光刻胶（茂名、天津、广东）",
+            "靶材（邯郸、惠州、昆明）",
+            "半导体设备（宿迁、西安、长春）",
+            "碳化硅（太原、哈尔滨、芜湖）",
+            "氮化镓（南通、西安）",
+            "第三代半导体（无锡、南通、太原）",
+            "第四代半导体（泉州）",
+            "覆铜板（九江）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第8行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "electronics-midstream",
+          "stage": "中游",
+          "name": "集成电路、芯片等",
+          "products": [
+            "集成电路",
+            "芯片",
+            "封装测试",
+            "新型显示",
+            "显示面板",
+            "OLED",
+            "光电子",
+            "光通信",
+            "传感器",
+            "汽车电子",
+            "车规级芯片",
+            "电子元器件",
+            "智能终端"
+          ],
+          "aliases": [
+            "集成电路（北京、无锡、重庆）",
+            "芯片（重庆、西安、广州）",
+            "封装测试（重庆、佛山、南通）",
+            "新型显示（重庆、广州、成都）",
+            "OLED（宿迁、广东、南昌）",
+            "光电子（武汉、湖北、江西）",
+            "光通信（广东、江西、广州）",
+            "传感器（重庆、芜湖、宿迁）",
+            "汽车电子（哈尔滨、茂名、南通）",
+            "车规级芯片（重庆、石家庄、芜湖）",
+            "电子元器件（辽宁、宿迁、贵州）",
+            "智能终端（重庆、宿迁、西安）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第9行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "electronics-downstream",
+          "stage": "下游",
+          "name": "智能手机、计算机等",
+          "products": [
+            "智能手机",
+            "计算机",
+            "服务器",
+            "可穿戴",
+            "智能硬件",
+            "通信设备",
+            "5G",
+            "6G",
+            "工业控制",
+            "消费电子",
+            "电子信息制造",
+            "信息通信"
+          ],
+          "aliases": [
+            "智能手机（宿迁、惠州、深圳）",
+            "计算机（天津、重庆、广东）",
+            "可穿戴（陕西、佛山、深圳）",
+            "通信设备（上海、北京、天津）",
+            "5G（赣州、黑龙江、南京）",
+            "6G（北京、重庆、西安）",
+            "工业控制（唐山、宁德、珠海）",
+            "消费电子（湖南、山东、黑龙江）",
+            "电子信息制造（重庆、贵阳、大连）",
+            "信息通信（赣州、上海）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第10行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "automotive",
+      "name": "汽车及零部件",
+      "shortName": "汽车及零部件",
+      "stages": [
+        {
+          "id": "automotive-upstream",
+          "stage": "上游",
+          "name": "汽车用钢、铝材等",
+          "products": [
+            "汽车用钢",
+            "铝材",
+            "镁合金",
+            "轮胎",
+            "汽车玻璃",
+            "汽车电子",
+            "车规级芯片",
+            "动力电池",
+            "驱动电机",
+            "电控",
+            "轻量化"
+          ],
+          "aliases": [
+            "汽车用钢（江西、石家庄）",
+            "铝材（洛阳、陕西、郑州）",
+            "镁合金（临沂、榆林、江西）",
+            "轮胎（东营、济宁、威海）",
+            "汽车玻璃（重庆）",
+            "汽车电子（哈尔滨、茂名、南通）",
+            "车规级芯片（重庆、石家庄、芜湖）",
+            "动力电池（宜宾、赣州、天津）",
+            "驱动电机（临沂）",
+            "电控（赣州、江门、长沙）",
+            "轻量化（重庆、临沂、宿迁）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第11行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "automotive-midstream",
+          "stage": "中游",
+          "name": "整车、乘用车等",
+          "products": [
+            "整车",
+            "乘用车",
+            "商用车",
+            "新能源汽车",
+            "智能网联汽车",
+            "专用车",
+            "发动机",
+            "底盘",
+            "车身",
+            "线束",
+            "汽车零部件",
+            "三电",
+            "智能驾驶"
+          ],
+          "aliases": [
+            "整车（重庆、长春、保定）",
+            "乘用车（西安、襄阳、北京）",
+            "商用车（临沂、西安、重庆）",
+            "新能源汽车（重庆、西安、芜湖）",
+            "智能网联汽车（北京、天津、成都）",
+            "专用车（宿迁、湖北、扬州）",
+            "发动机（潍坊、株洲、贵阳）",
+            "底盘（重庆、芜湖、上海）",
+            "线束（天津、宿迁）",
+            "汽车零部件（宿迁、天津、上饶）",
+            "三电（临沂、广州、南昌）",
+            "智能驾驶（重庆、芜湖、西安）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第12行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "automotive-downstream",
+          "stage": "下游",
+          "name": "汽车后市场、二手车等",
+          "products": [
+            "汽车后市场",
+            "二手车",
+            "充换电",
+            "检测认证",
+            "汽车拆解",
+            "汽车服务"
+          ],
+          "aliases": [
+            "汽车后市场（北京、四川、天津）",
+            "二手车（台州、常德、济南）",
+            "充换电（宿迁、南阳、成都）",
+            "检测认证（东莞、广东、佛山）",
+            "汽车拆解（上海）",
+            "汽车服务（大连）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第13行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "name": "高端装备",
+      "shortName": "高端装备",
+      "stages": [
+        {
+          "id": "equipment-upstream",
+          "stage": "上游",
+          "name": "轴承、齿轮等",
+          "products": [
+            "轴承",
+            "齿轮",
+            "铸锻件",
+            "模具",
+            "数控系统",
+            "伺服电机",
+            "减速器",
+            "关键零部件",
+            "功能部件",
+            "基础件",
+            "工业软件"
+          ],
+          "aliases": [
+            "轴承（洛阳、辽宁、南阳）",
+            "齿轮（盐城、天津、湖北）",
+            "铸锻件（黑龙江、南京）",
+            "模具（东莞、九江、乌鲁木齐）",
+            "数控系统（大连、江西、重庆）",
+            "伺服电机（江西、岳阳、江门）",
+            "减速器（石家庄、辽宁、呼和浩特）",
+            "关键零部件（江西、无锡、南通）",
+            "功能部件（大连、潍坊）",
+            "基础件（上饶、天津、贵阳）",
+            "工业软件（江西、大连、株洲）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第14行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "equipment-midstream",
+          "stage": "中游",
+          "name": "工业母机、数控机床等",
+          "products": [
+            "工业母机",
+            "数控机床",
+            "机器人",
+            "工业机器人",
+            "人形机器人",
+            "工程机械",
+            "轨道交通装备",
+            "船舶",
+            "海工装备",
+            "航空装备",
+            "航天装备",
+            "农机装备",
+            "增材制造",
+            "激光加工",
+            "智能装备",
+            "高端装备",
+            "重型装备",
+            "医疗装备",
+            "冰雪装备",
+            "矿山装备",
+            "电力装备"
+          ],
+          "aliases": [
+            "工业母机（台州、天津、陕西）",
+            "数控机床（江门、淄博、天津）",
+            "机器人（宿迁、佛山、广东）",
+            "工业机器人（佛山、广东、宿迁）",
+            "人形机器人（衡阳、北京、江西）",
+            "工程机械（徐州、长沙、岳阳）",
+            "轨道交通装备（株洲、长春、湖南）",
+            "船舶（南通、大连、上海）",
+            "海工装备（大连、江门、威海）",
+            "航空装备（洛阳、成都、南昌）",
+            "航天装备（遵义、辽宁、廊坊）",
+            "农机装备（洛阳、潍坊、江苏）",
+            "增材制造（陕西、包头、郑州）",
+            "激光加工（宿迁、襄阳）",
+            "智能装备（淄博、南通、泰州）",
+            "高端装备（天津、保定、黑龙江）",
+            "重型装备（黑龙江、南京、洛阳）",
+            "医疗装备（重庆、辽宁、大连）",
+            "冰雪装备（黑龙江、南京、哈尔滨）",
+            "矿山装备（洛阳、泰安、唐山）",
+            "电力装备（天津、岳阳、辽宁）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第15行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "equipment-downstream",
+          "stage": "下游",
+          "name": "系统集成、智能工厂等",
+          "products": [
+            "系统集成",
+            "智能工厂",
+            "检验检测",
+            "再制造",
+            "总集成总承包",
+            "工程服务"
+          ],
+          "aliases": [
+            "系统集成（重庆、宿迁、上海）",
+            "智能工厂（镇江、包头、北京）",
+            "检验检测（江西、宿迁、赣州）",
+            "再制造（天津、宿迁、上海）",
+            "总集成总承包（成都、天津、南宁）",
+            "工程服务（深圳、宜宾、西安）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第16行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "biomedicine",
+      "name": "生物医药",
+      "shortName": "生物医药",
+      "stages": [
+        {
+          "id": "biomedicine-upstream",
+          "stage": "上游",
+          "name": "医药中间体、原料药等",
+          "products": [
+            "医药中间体",
+            "原料药",
+            "中药材",
+            "药用辅料",
+            "培养基",
+            "实验动物"
+          ],
+          "aliases": [
+            "医药中间体（潍坊、黑龙江、南京）",
+            "原料药（泉州、天津、兰州）",
+            "中药材（昆明、遵义、洛阳）",
+            "培养基（湖北、长春、江苏）",
+            "实验动物（昆明）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第17行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "biomedicine-midstream",
+          "stage": "中游",
+          "name": "化学药、创新药等",
+          "products": [
+            "化学药",
+            "创新药",
+            "中药",
+            "中成药",
+            "生物药",
+            "疫苗",
+            "血液制品",
+            "医疗器械",
+            "体外诊断",
+            "生物制造",
+            "合成生物",
+            "海洋生物医药",
+            "现代中药",
+            "高端医疗器械",
+            "细胞治疗",
+            "基因治疗"
+          ],
+          "aliases": [
+            "化学药（天津、周口、淄博）",
+            "创新药（重庆、北京、天津）",
+            "中药（昆明、遵义、石家庄）",
+            "中成药（山东、山西、济宁）",
+            "生物药（天津、昆明、周口）",
+            "疫苗（呼和浩特、兰州、天津）",
+            "血液制品（昆明、重庆、广州）",
+            "医疗器械（威海、天津、南昌）",
+            "体外诊断（天津、重庆、南昌）",
+            "生物制造（常德、重庆、哈尔滨）",
+            "合成生物（常德、天津、南通）",
+            "海洋生物医药（湛江、宁波、广东）",
+            "现代中药（石家庄、天津、昆明）",
+            "高端医疗器械（赣州、天津、威海）",
+            "细胞治疗（徐州、沈阳、天津）",
+            "基因治疗（天津、成都、广州）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第18行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "biomedicine-downstream",
+          "stage": "下游",
+          "name": "医药流通、医疗服务等",
+          "products": [
+            "医药流通",
+            "医疗服务",
+            "健康管理",
+            "康养",
+            "CDMO",
+            "智慧医疗"
+          ],
+          "aliases": [
+            "医药流通（武汉、赣州）",
+            "医疗服务（天津、重庆、宿迁）",
+            "健康管理（昆明、珠海、江西）",
+            "康养（昆明、南阳、青海）",
+            "CDMO（天津、沈阳）",
+            "智慧医疗（重庆、郑州、昆明）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第19行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "食品及农产品加工",
+      "shortName": "食品加工",
+      "stages": [
+        {
+          "id": "food-upstream",
+          "stage": "上游",
+          "name": "粮食、水稻等",
+          "products": [
+            "粮食",
+            "水稻",
+            "小麦",
+            "玉米",
+            "大豆",
+            "蔬菜",
+            "水果",
+            "茶叶",
+            "生猪",
+            "牛羊",
+            "家禽",
+            "水产",
+            "食用菌",
+            "高标准农田",
+            "种业",
+            "饲草"
+          ],
+          "aliases": [
+            "粮食（黑龙江、南京、宿迁）",
+            "水稻（黑龙江、南京、哈尔滨）",
+            "小麦（周口、襄阳、潍坊）",
+            "玉米（黑龙江、南京、长春）",
+            "大豆（黑龙江、南京、哈尔滨）",
+            "蔬菜（郑州、潍坊、昆明）",
+            "水果（南宁、大连、昆明）",
+            "茶叶（遵义、上饶、九江）",
+            "生猪（赣州、遵义、黑龙江）",
+            "牛羊（内蒙古、遵义、甘肃）",
+            "家禽（哈尔滨、赣州、遵义）",
+            "水产（湛江、漳州、威海）",
+            "食用菌（宿迁、宁德、黑龙江）",
+            "高标准农田（西安、宿迁、襄阳）",
+            "种业（昆明、甘肃、成都）",
+            "饲草（内蒙古、呼和浩特、青海）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第20行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "food-midstream",
+          "stage": "中游",
+          "name": "粮油加工、食品加工等",
+          "products": [
+            "粮油加工",
+            "食品加工",
+            "肉制品",
+            "乳制品",
+            "饲料",
+            "预制菜",
+            "休闲食品",
+            "功能食品",
+            "保健食品",
+            "白酒",
+            "啤酒",
+            "饮料",
+            "精深加工",
+            "食品制造",
+            "中央厨房"
+          ],
+          "aliases": [
+            "粮油加工（周口、镇江、天津）",
+            "食品加工（岳阳、南宁、茂名）",
+            "肉制品（临沂、潍坊、包头）",
+            "乳制品（内蒙古、石家庄、河北）",
+            "饲料（黑龙江、南京、茂名）",
+            "预制菜（湛江、威海、郑州）",
+            "休闲食品（宿迁、郑州、昆明）",
+            "功能食品（辽宁、江西、湖北）",
+            "保健食品（中山、天津、江西）",
+            "白酒（遵义、贵州、宜宾）",
+            "啤酒（哈尔滨、贵阳、兰州）",
+            "饮料（成都、泉州、宿迁）",
+            "精深加工（辽宁、南宁、昆明）",
+            "食品制造（郑州、天津、乌鲁木齐）",
+            "中央厨房（廊坊、新疆、上饶）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第21行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "food-downstream",
+          "stage": "下游",
+          "name": "冷链物流、地理标志等",
+          "products": [
+            "冷链物流",
+            "地理标志",
+            "农产品电商",
+            "农产品批发市场",
+            "食品安全"
+          ],
+          "aliases": [
+            "冷链物流（茂名、宁德、威海）",
+            "地理标志（宿迁、衡阳、江门）",
+            "农产品电商（上饶、宜宾、宿迁）",
+            "农产品批发市场（洛阳、西安）",
+            "食品安全（北京、威海、江门）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第22行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "textile",
+      "name": "纺织服装",
+      "shortName": "纺织服装",
+      "stages": [
+        {
+          "id": "textile-upstream",
+          "stage": "上游",
+          "name": "棉花、化纤等",
+          "products": [
+            "棉花",
+            "化纤",
+            "涤纶",
+            "锦纶",
+            "氨纶",
+            "纱线",
+            "再生纤维",
+            "生物基纤维",
+            "染化料",
+            "纺织助剂"
+          ],
+          "aliases": [
+            "棉花（新疆、乌鲁木齐、宿迁）",
+            "化纤（福州、宿迁、嘉兴）",
+            "涤纶（乌鲁木齐）",
+            "锦纶（南通、宿迁）",
+            "氨纶（岳阳）",
+            "纱线（宿迁）",
+            "再生纤维（宿迁、泉州）",
+            "生物基纤维（济宁、重庆、赣州）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第23行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "textile-midstream",
+          "stage": "中游",
+          "name": "织造、印染等",
+          "products": [
+            "织造",
+            "印染",
+            "针织",
+            "面料",
+            "服装",
+            "家纺",
+            "产业用纺织品",
+            "纺织服装",
+            "高端纺织",
+            "绿色印染"
+          ],
+          "aliases": [
+            "织造（淄博、石家庄、南阳）",
+            "印染（贵阳、周口、泰安）",
+            "针织（南昌、江西）",
+            "面料（赣州、贵州、宿迁）",
+            "服装（宿迁、赣州、沧州）",
+            "家纺（南通、宿迁、潍坊）",
+            "产业用纺织品（江西、宿迁、泰安）",
+            "纺织服装（赣州、贵州、周口）",
+            "高端纺织（宿迁、徐州、南通）",
+            "绿色印染（周口、贵阳）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第24行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "textile-downstream",
+          "stage": "下游",
+          "name": "品牌服装、时尚产业等",
+          "products": [
+            "品牌服装",
+            "时尚产业",
+            "服装设计"
+          ],
+          "aliases": [
+            "品牌服装（宿迁、淄博、荆州）",
+            "时尚产业（广州、泉州、武汉）",
+            "服装设计（乌鲁木齐）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第25行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "digital",
+      "name": "数字经济",
+      "shortName": "数字经济",
+      "stages": [
+        {
+          "id": "digital-upstream",
+          "stage": "上游",
+          "name": "数据中心、算力等",
+          "products": [
+            "数据中心",
+            "算力",
+            "智能算力",
+            "云计算",
+            "通信网络",
+            "5G基站",
+            "算力网络",
+            "智算中心",
+            "东数西算",
+            "数据资源",
+            "公共数据",
+            "数据要素"
+          ],
+          "aliases": [
+            "数据中心（芜湖、贵阳、连云港）",
+            "算力（江西、宿迁、廊坊）",
+            "智能算力（宿迁、重庆、北京）",
+            "云计算（宿迁、北京、天津）",
+            "通信网络（重庆、广州、西安）",
+            "5G基站（广州、淄博、茂名）",
+            "算力网络（贵州、贵阳、宁夏）",
+            "智算中心（盐城、西安、东莞）",
+            "东数西算（芜湖、甘肃、郑州）",
+            "数据资源（宿迁、江西、洛阳）",
+            "公共数据（宿迁、淄博、福州）",
+            "数据要素（长沙、宿迁、福州）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第26行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "digital-midstream",
+          "stage": "中游",
+          "name": "软件、工业软件等",
+          "products": [
+            "软件",
+            "工业软件",
+            "基础软件",
+            "人工智能",
+            "大模型",
+            "算法",
+            "数据服务",
+            "数字产业",
+            "信息服务业",
+            "区块链",
+            "物联网",
+            "信创",
+            "开源",
+            "鸿蒙"
+          ],
+          "aliases": [
+            "软件（重庆、赣州、天津）",
+            "工业软件（江西、大连、株洲）",
+            "基础软件（天津、深圳、广东）",
+            "人工智能（广西、重庆、宿迁）",
+            "大模型（重庆、青岛、天津）",
+            "算法（天津、重庆、廊坊）",
+            "数据服务（宿迁、上海、重庆）",
+            "数字产业（威海、淄博、山东）",
+            "信息服务业（重庆、西安、北京）",
+            "区块链（上海、重庆、郑州）",
+            "物联网（宿迁、漳州、无锡）",
+            "信创（天津、兰州、北京）",
+            "开源（杭州、重庆、珠海）",
+            "鸿蒙（东莞、深圳、西安）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第27行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "digital-downstream",
+          "stage": "下游",
+          "name": "数字化转型、智慧城市等",
+          "products": [
+            "数字化转型",
+            "智慧城市",
+            "数字政府",
+            "数字贸易",
+            "跨境电商",
+            "平台经济",
+            "数字文创",
+            "智能工厂",
+            "智慧文旅",
+            "数字消费",
+            "产业互联网"
+          ],
+          "aliases": [
+            "数字化转型（西安、宿迁、淄博）",
+            "智慧城市（天津、茂名、西安）",
+            "数字政府（江西、廊坊、昆明）",
+            "数字贸易（杭州、上海、重庆）",
+            "跨境电商（宿迁、郑州、临沂）",
+            "平台经济（杭州、兰州、天津）",
+            "数字文创（成都、上饶、武汉）",
+            "智能工厂（镇江、包头、北京）",
+            "智慧文旅（宿迁、黑龙江、南京）",
+            "数字消费（北京、保定、兰州）",
+            "产业互联网（山东、上海、北京）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第28行；显示名称为产品原文摘要"
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "name": "未来产业（低空经济、人工智能等）",
+      "shortName": "未来产业",
+      "stages": [
+        {
+          "id": "future-upstream",
+          "stage": "上游",
+          "name": "无人机、低空飞行器等",
+          "products": [
+            "无人机",
+            "低空飞行器",
+            "电动垂直起降",
+            "eVTOL",
+            "卫星",
+            "火箭",
+            "脑机接口",
+            "量子材料",
+            "前沿材料",
+            "核聚变",
+            "深海装备",
+            "原子级制造"
+          ],
+          "aliases": [
+            "无人机（宿迁、黑龙江、南京）",
+            "低空飞行器（襄阳、湖北、宁德）",
+            "电动垂直起降（天津、江西、广州）",
+            "eVTOL（广东、天津、重庆）",
+            "卫星（重庆、河北、长春）",
+            "火箭（烟台、天津、泰安）",
+            "脑机接口（天津、重庆、江西）",
+            "量子材料（广东、重庆）",
+            "前沿材料（芜湖、安徽、山西）",
+            "核聚变（哈尔滨、四川、安徽）",
+            "深海装备（无锡、大连、漳州）",
+            "原子级制造（无锡、江苏、沈阳）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第29行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "future-midstream",
+          "stage": "中游",
+          "name": "低空经济、通用航空等",
+          "products": [
+            "低空经济",
+            "通用航空",
+            "低空制造",
+            "商业航天",
+            "卫星互联网",
+            "具身智能",
+            "人形机器人",
+            "量子科技",
+            "量子计算",
+            "量子通信",
+            "生物制造",
+            "元宇宙",
+            "6G",
+            "未来产业"
+          ],
+          "aliases": [
+            "低空经济（宿迁、广州、包头）",
+            "通用航空（山东、太原、石家庄）",
+            "低空制造（宿迁、江西、贵州）",
+            "商业航天（北京、西安、烟台）",
+            "卫星互联网（重庆、河北、泰安）",
+            "具身智能（宿迁、苏州、无锡）",
+            "人形机器人（衡阳、北京、江西）",
+            "量子科技（安徽、广州、无锡）",
+            "量子计算（广东、广州、安徽）",
+            "量子通信（郑州、广州、安徽）",
+            "生物制造（常德、重庆、哈尔滨）",
+            "元宇宙（潍坊、山东、四川）",
+            "6G（北京、重庆、西安）",
+            "未来产业（北京、上海、广东）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第30行；显示名称为产品原文摘要"
+        },
+        {
+          "id": "future-downstream",
+          "stage": "下游",
+          "name": "低空物流、低空旅游等",
+          "products": [
+            "低空物流",
+            "低空旅游",
+            "城市空中交通",
+            "无人机配送",
+            "无人配送",
+            "大模型应用",
+            "AI应用",
+            "低空巡检",
+            "智慧农业",
+            "智慧医疗"
+          ],
+          "aliases": [
+            "低空物流（宿迁、盐城、呼和浩特）",
+            "低空旅游（昆明、呼和浩特、四川）",
+            "城市空中交通（宿迁）",
+            "无人机配送（宿迁、赣州）",
+            "无人配送（西安、珠海、重庆）",
+            "大模型应用（邯郸、重庆、黑龙江）",
+            "AI应用（南宁、宜宾、西安）",
+            "低空巡检（石家庄）",
+            "智慧农业（黑龙江、南京、襄阳）",
+            "智慧医疗（重庆、郑州、昆明）"
+          ],
+          "source": "全国招商Demo数据(1).xlsx · 统一产业链第31行；显示名称为产品原文摘要"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "name": "云梦县",
+    "indicators": [
+      {
+        "year": 2021,
+        "gdp": 231.16,
+        "growth": 12.1,
+        "shares": [
+          20.92,
+          34.35,
+          44.73
+        ],
+        "industrialEnterprises": 104,
+        "source": "2021云梦县统计公报｜https://tjgb.hongheiku.com/xjtjgb/xj2020/30974.html",
+        "status": "verified"
+      },
+      {
+        "year": 2022,
+        "gdp": 245.86,
+        "growth": 4.5,
+        "shares": [
+          20.57,
+          35.6,
+          43.83
+        ],
+        "industrialEnterprises": 126,
+        "source": "2022年结构取2023公报所列上年结构；企业数见云上云梦报道｜https://tjgb.hongheiku.com/xjtjgb/xj2020/54345.html；https://www.ctdsb.net/c1676_202401/2011547.html",
+        "status": "verified"
+      },
+      {
+        "year": 2023,
+        "gdp": 246.12,
+        "growth": 4.1,
+        "shares": [
+          21.07,
+          31.03,
+          47.9
+        ],
+        "industrialEnterprises": 133,
+        "source": "2023云梦县统计公报｜https://tjgb.hongheiku.com/xjtjgb/xj2020/54345.html",
+        "status": "verified"
+      },
+      {
+        "year": 2024,
+        "gdp": 282.0,
+        "growth": 7.1,
+        "shares": [
+          19.6,
+          33.0,
+          47.4
+        ],
+        "industrialEnterprises": 145,
+        "source": "2024云梦县统计公报｜https://tjgb.hongheiku.com/xjtjgb/xj2020/57698.html",
+        "status": "verified"
+      },
+      {
+        "year": 2025,
+        "gdp": 294.41,
+        "growth": 6.4,
+        "shares": [
+          18.8,
+          33.4,
+          47.8
+        ],
+        "industrialEnterprises": 156,
+        "source": "2025云梦县统计公报（县政府官网）｜http://www.yunmeng.gov.cn/tjgb/2122899.jhtml",
+        "status": "verified"
+      }
+    ],
+    "pillars": [
+      {
+        "id": "yunmeng-chemicals",
+        "name": "现代化工",
+        "chainId": "chemicals",
+        "chainIds": [
+          "chemicals"
+        ],
+        "output": "2025年实际产值：缺；2025年产值同比增长17.6%；2030年目标：突破300亿元（目标，不是实际值）",
+        "companyIds": [
+          "gehua-huaxiang",
+          "lingyong-electronics",
+          "huasheng-xianghe",
+          "tongyuan-materials",
+          "meilin-pharma",
+          "tiangong-pharma",
+          "huaxin-silicone",
+          "annaiji"
+        ],
+        "park": "云梦盐化工产业园",
+        "source": "云梦县2025年政府工作报告；湖北省经信厅｜http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml；https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+      },
+      {
+        "id": "yunmeng-new-energy",
+        "name": "新材料",
+        "chainId": "new-energy",
+        "chainIds": [
+          "new-energy",
+          "chemicals"
+        ],
+        "output": "2025年实际产值：缺；2025年产值同比增长10.8%；2030年目标：突破200亿元（目标，不是实际值）",
+        "companyIds": [
+          "huasheng-xianghe",
+          "huaxin-silicone",
+          "zhongyi"
+        ],
+        "park": "云梦经济开发区及盐化工产业园（园区归属按公开产业布局，未逐企业核实）",
+        "source": "云梦县2025年政府工作报告；湖北省经信厅｜http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+      },
+      {
+        "id": "yunmeng-automotive",
+        "name": "汽车及零部件",
+        "chainId": "automotive",
+        "chainIds": [
+          "automotive"
+        ],
+        "output": "2025年实际产值：缺；2030年目标：突破100亿元（目标，不是实际值）",
+        "companyIds": [
+          "tenglong-auto",
+          "kaite-electronics",
+          "hangpeng-chemical"
+        ],
+        "park": "云梦经济开发区（具体企业园区归属缺）",
+        "source": "云梦县2025年政府工作报告；湖北省经信厅｜http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；https://jxt.hubei.gov.cn/bmdt/gzdt/202305/t20230502_4647563.shtml"
+      },
+      {
+        "id": "yunmeng-food",
+        "name": "食品及农产品加工",
+        "chainId": "food",
+        "chainIds": [
+          "food"
+        ],
+        "output": "2025年规上工业农产品加工业产值51.13亿元；2030年目标：农产品加工产值突破100亿元（目标，不是实际值）",
+        "companyIds": [
+          "mixinyu-food",
+          "yunxiangyuan",
+          "yihao-food",
+          "yuntai-feed"
+        ],
+        "park": "万亩百亿农产品加工示范区（规划目标）；具体园区缺",
+        "source": "云梦县2025统计公报、2025年政府工作报告｜http://www.yunmeng.gov.cn/tjgb/2122899.jhtml；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      }
+    ],
+    "chainLinks": [
+      {
+        "stageId": "chemicals-upstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "中盐东兴云梦制盐、广盐蓝天；岩盐资源",
+        "companyIds": [
+          "zhongyan-dongxing",
+          "guangyan-lantian"
+        ],
+        "source": "盐资源及制盐基础有公开报道；湖北省经信厅｜https://www.ctdsb.net/c1676_202308/1865374.html；https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+      },
+      {
+        "stageId": "chemicals-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "葛化华祥：烧碱、氯化苯、氯气、氢气、高纯盐酸、次氯酸钠",
+        "companyIds": [
+          "gehua-huaxiang"
+        ],
+        "source": "官方报道列明产能与产品；https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+      },
+      {
+        "stageId": "chemicals-downstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "安耐吉（再生润滑油基础油、溶剂油等）；华盛锂电、同源新材料、美林药业、天宫制药",
+        "companyIds": [
+          "huasheng-xianghe",
+          "tongyuan-materials",
+          "meilin-pharma",
+          "tiangong-pharma",
+          "annaiji"
+        ],
+        "source": "园区报道说明副产氢气供下游企业并列出化工、医药化工企业；https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+      },
+      {
+        "stageId": "new-energy-upstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到云梦本地电池级正负极原料及关键矿物加工企业的可靠公开名录；目标材料产业链尚有外部原料依赖待核"
+      },
+      {
+        "stageId": "new-energy-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "中一科技（高性能电解铜箔）；华盛锂电（VC电解液添加剂项目）",
+        "companyIds": [
+          "huasheng-xianghe",
+          "zhongyi"
+        ],
+        "source": "县政府报告披露铜箔产线、6万吨VC项目；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      },
+      {
+        "stageId": "new-energy-downstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到本地电芯/电池系统集成及终端应用链主的公开名录；县政府报告提及新能源电池项目落户/招引"
+      },
+      {
+        "stageId": "electronics-upstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到晶圆、芯片设计制造或关键半导体材料本地企业证据"
+      },
+      {
+        "stageId": "electronics-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "开特电子（智能传感器方向）；中一科技（电子铜箔）",
+        "companyIds": [
+          "zhongyi",
+          "kaite-electronics"
+        ],
+        "source": "县政府报告明确以开特电子对接孝感传感器产业集群、建设电子铜箔创新中心；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      },
+      {
+        "stageId": "electronics-downstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到半导体封装测试、整机/终端应用企业公开名录"
+      },
+      {
+        "stageId": "automotive-upstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未核实汽车级材料、芯片和关键总成的本地配套企业"
+      },
+      {
+        "stageId": "automotive-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "腾龙汽配、开特电子、湖北航鹏化学动力",
+        "companyIds": [
+          "tenglong-auto",
+          "kaite-electronics",
+          "hangpeng-chemical"
+        ],
+        "source": "县政府报告及省经信厅报道列示企业/项目；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；https://jxt.hubei.gov.cn/bmdt/gzdt/202305/t20230502_4647563.shtml"
+      },
+      {
+        "stageId": "automotive-downstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到整车制造、整车销售出口或本地终端装配企业公开名录"
+      },
+      {
+        "stageId": "biomedicine-upstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到本地药用原料/中间体完整供应商名录"
+      },
+      {
+        "stageId": "biomedicine-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "美林药业、天宫制药、云虹制药、罗东生物、威敌生物",
+        "companyIds": [
+          "meilin-pharma",
+          "tiangong-pharma",
+          "yunhong-pharma",
+          "luodong-bio",
+          "weidi-bio"
+        ],
+        "source": "县政府工作报告及省经信厅产业园材料列出；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+      },
+      {
+        "stageId": "biomedicine-downstream",
+        "status": "unknown",
+        "reportedStatus": "补链",
+        "evidenceStatus": "pending",
+        "basis": "缺",
+        "companyIds": [],
+        "source": "未找到本地医药商业配送、医疗器械终端服务的完整公开名录"
+      },
+      {
+        "stageId": "food-upstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "糯稻、粮油、蔬菜、畜禽、水产生产基地；具体企业缺",
+        "companyIds": [],
+        "source": "统计公报披露主要农产品产量；县政府报告提出糯稻、蔬菜基地与农产品示范区；http://www.yunmeng.gov.cn/tjgb/2122899.jhtml；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      },
+      {
+        "stageId": "food-midstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "米芯语食品、云香缘、壹号食品、涢泰饲料；蔬菜深加工项目",
+        "companyIds": [
+          "mixinyu-food",
+          "yunxiangyuan",
+          "yihao-food",
+          "yuntai-feed"
+        ],
+        "source": "县政府工作报告列示相关企业/项目并称蔬菜深加工招引实现突破；http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      },
+      {
+        "stageId": "food-downstream",
+        "status": "present",
+        "reportedStatus": "强链",
+        "evidenceStatus": "reported",
+        "basis": "首衡城“云梦蔬菜专区”；城乡供应链平台（入驻企业545家）",
+        "companyIds": [],
+        "source": "县政府报告披露销售渠道与平台；https://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+      }
+    ],
+    "leaders": [
+      {
+        "chainId": "chemicals",
+        "name": null,
+        "title": null,
+        "company": null,
+        "source": "云梦县2022政府工作报告提及“六个一”链长制及培育链主，未披露人员/指定名单｜https://www.zgcounty.com/news/19384.html；原表链长备注：缺（公开材料未列姓名及职务）；原表链主备注：缺（未找到正式逐链指定名单；可识别龙头为葛化华祥）"
+      },
+      {
+        "chainId": "new-energy",
+        "name": null,
+        "title": null,
+        "company": null,
+        "source": "湖北省经信厅调研报道列示产业重点企业｜https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml；原表链长备注：缺（公开材料未列姓名及职务）；原表链主备注：缺（可识别重点企业：中一科技、华欣有机硅）"
+      },
+      {
+        "chainId": "automotive",
+        "name": null,
+        "title": null,
+        "company": null,
+        "source": "云梦县2025政府工作报告列示企业，但未称其为正式链主｜http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml；原表链长备注：缺（公开材料未列姓名及职务）；原表链主备注：缺（可识别重点企业：腾龙汽配、开特电子）"
+      },
+      {
+        "chainId": "food",
+        "name": null,
+        "title": null,
+        "company": null,
+        "source": "公开政府工作报告有农产品加工业目标及企业培育信息，未列链长/链主；原表链长备注：缺（公开材料未列姓名及职务）；原表链主备注：缺（未找到正式指定名单）"
+      },
+      {
+        "chainId": "biomedicine",
+        "name": null,
+        "title": null,
+        "company": null,
+        "source": "公开材料提及骨干企业，未提供链长制任命或逐链指定名单；原表链长备注：缺（公开材料未列姓名及职务）；原表链主备注：缺（可识别重点企业：云虹制药、美林药业）"
+      }
+    ],
+    "policies": [
+      {
+        "id": "policy-b06d2d6fbfd0",
+        "name": "云梦县2025年政府工作报告（含“十五五”目标任务公开摘要）",
+        "publisher": "云梦县人民政府",
+        "date": "2026-02-10",
+        "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml",
+        "source": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml｜纲要全文未公开，使用公开摘要替代"
+      },
+      {
+        "id": "policy-f773963a10c2",
+        "name": "云梦县国民经济和社会发展第十五个五年规划纲要批准决议",
+        "publisher": "云梦县人民代表大会",
+        "date": "2026-01-08",
+        "url": "http://www.yunmeng.gov.cn/ymyw/2099786.jhtml",
+        "source": "http://www.yunmeng.gov.cn/ymyw/2099786.jhtml｜仅为批准决议，不含纲要全文"
+      },
+      {
+        "id": "policy-61c570632f38",
+        "name": "孝感市国民经济和社会发展第十五个五年规划纲要",
+        "publisher": "孝感市人民政府",
+        "date": "2026-05-12",
+        "url": "http://gkml.xiaogan.gov.cn/c/www/sswgh/442484.jhtml",
+        "source": "http://gkml.xiaogan.gov.cn/c/www/sswgh/442484.jhtml｜市级规划补充参考"
+      },
+      {
+        "id": "policy-2e211adac072",
+        "name": "云梦县2025年国民经济和社会发展统计公报",
+        "publisher": "云梦县统计局",
+        "date": "2026-05-20",
+        "url": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml",
+        "source": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml｜指标、农产品加工产值及旅游数据"
+      },
+      {
+        "id": "policy-4a4744531357",
+        "name": "湖北省经信厅云梦盐化工园产业链报道",
+        "publisher": "湖北省经济和信息化厅",
+        "date": "2023-11-13",
+        "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml",
+        "source": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml｜园区企业、产业链环节"
+      }
+    ],
+    "parks": [
+      {
+        "id": "yunmeng-salt-chemical-park",
+        "name": "云梦盐化工产业园",
+        "source": "采集表云梦画像第13–14行及所列经信厅来源",
+        "status": "verified",
+        "planning": false,
+        "note": "具体企业归属未逐家核实，未提供园区边界或坐标"
+      },
+      {
+        "id": "yunmeng-development-zone",
+        "name": "云梦经济开发区",
+        "source": "采集表云梦画像第14–15行",
+        "status": "verified",
+        "planning": false,
+        "note": "原表说明企业园区归属未逐企业核实；未提供精确范围"
+      },
+      {
+        "id": "yunmeng-agri-processing-plan",
+        "name": "万亩百亿农产品加工示范区",
+        "source": "采集表云梦画像第16行：县政府工作报告",
+        "status": "missing",
+        "planning": true,
+        "note": "规划目标，非已建成园区；具体园区缺"
+      }
+    ]
+  },
+  "companies": [
+    {
+      "id": "capchem",
+      "name": "新宙邦",
+      "fullName": "深圳新宙邦科技股份有限公司",
+      "cityId": "shenzhen",
+      "cityName": "深圳市",
+      "stockCode": "300037",
+      "logo": "assets/demo/company-logos/capchem-imagegen.png",
+      "sector": "电子化学品与功能材料",
+      "summary": "电池化学品和功能材料供应商，作为电解液配套的示例候选企业。",
+      "chainIds": [
+        "new-energy",
+        "chemicals",
+        "electronics"
+      ],
+      "stageIds": [
+        "new-energy-midstream",
+        "chemicals-downstream",
+        "electronics-upstream"
+      ],
+      "products": [
+        "半导体化学品",
+        "电解液",
+        "锂盐",
+        "溶剂",
+        "添加剂"
+      ],
+      "coordinate": [
+        114.081,
+        22.55
+      ],
+      "locationStatus": "sample",
+      "local": false,
+      "relationship": "prospect",
+      "founded": "1996",
+      "listed": "2010",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "新宙邦官网 · 企业介绍",
+          "url": "https://www.capchem.com/Company.html"
+        },
+        {
+          "label": "新宙邦官网 · 半导体化学品",
+          "url": "https://www.capchem.com/Products/2.html"
+        },
+        {
+          "label": "新宙邦官网 · 电池化学品",
+          "url": "https://www.capchem.com/Products/1.html"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "tinci",
+      "name": "天赐材料",
+      "fullName": "广州天赐高新材料股份有限公司",
+      "cityId": "guangzhou",
+      "cityName": "广州市",
+      "stockCode": "002709",
+      "logo": null,
+      "sector": "锂电池材料",
+      "summary": "官网披露锂电池材料及电解液相关业务；候选匹配关系为演示。",
+      "chainIds": [
+        "new-energy",
+        "chemicals"
+      ],
+      "stageIds": [
+        "new-energy-midstream"
+      ],
+      "products": [
+        "锂电池材料",
+        "电解液"
+      ],
+      "coordinate": [
+        113.275,
+        23.128
+      ],
+      "locationStatus": "sample",
+      "local": false,
+      "relationship": "prospect",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "天赐材料官网 · 企业介绍",
+          "url": "https://cn.tinci.com/qyjs/"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "huasheng",
+      "name": "华盛锂电",
+      "fullName": "江苏华盛锂电材料股份有限公司",
+      "cityId": "suzhou",
+      "cityName": "苏州市",
+      "logo": "assets/demo/company-logos/huasheng-imagegen.png",
+      "sector": "新能源材料",
+      "summary": "用户提供的资本流记录包含其对湖北华盛祥和新能源材料有限公司的投资关联，属于已有项目。",
+      "chainIds": [
+        "new-energy"
+      ],
+      "stageIds": [
+        "new-energy-midstream"
+      ],
+      "products": [
+        "待补充产品资料"
+      ],
+      "coordinate": [
+        120.615,
+        31.302
+      ],
+      "locationStatus": "sample",
+      "local": false,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "企业官网",
+          "url": "http://www.sinohsc.com/"
+        },
+        {
+          "label": "用户提供的云梦资本流：华盛锂电 → 湖北华盛祥和新能源材料有限公司"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "zhongyi",
+      "name": "中一科技",
+      "fullName": "湖北中一科技股份有限公司",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": "assets/demo/company-logos/zhongyi-imagegen.png",
+      "sector": "新能源及材料、电子信息",
+      "summary": "采集表及所列政府报告披露的云梦铜箔企业；工商、园区逐企业归属和精确位置待补充。",
+      "chainIds": [
+        "new-energy",
+        "electronics"
+      ],
+      "stageIds": [
+        "new-energy-midstream",
+        "electronics-midstream"
+      ],
+      "products": [
+        "高性能电解铜箔",
+        "电子铜箔"
+      ],
+      "locationStatus": "missing",
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "企业官网",
+          "url": "https://www.c1cf.com/"
+        },
+        {
+          "label": "用户提供的资本流：中一科技对外投资记录；产品与园区资料待补充"
+        },
+        {
+          "label": "采集表 · 云梦画像第14行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第25行：县政府报告披露铜箔产线、6万吨VC项目",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第28行：县政府报告明确以开特电子对接孝感传感器产业集群、建设电子铜箔创新中心",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "huasheng-xianghe",
+      "name": "华盛锂电（云梦项目）",
+      "fullName": "湖北华盛祥和新能源材料有限公司",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": "assets/demo/company-logos/huasheng-imagegen.png",
+      "sector": "化工新材料、新能源及材料",
+      "summary": "采集表列示华盛锂电云梦项目；对应用户既有资本流中的湖北华盛祥和新能源材料有限公司，属于已有投资，非新未落地候选。",
+      "chainIds": [
+        "chemicals",
+        "new-energy"
+      ],
+      "stageIds": [
+        "chemicals-downstream",
+        "new-energy-midstream"
+      ],
+      "products": [
+        "VC电解液添加剂项目"
+      ],
+      "locationStatus": "missing",
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "用户提供的云梦资本流：华盛锂电 → 湖北华盛祥和新能源材料有限公司"
+        },
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第14行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第23行：园区报道说明副产氢气供下游企业并列出化工、医药化工企业",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第25行：县政府报告披露铜箔产线、6万吨VC项目",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "gehua-huaxiang",
+      "name": "葛化华祥",
+      "fullName": "湖北葛化华祥化学有限公司",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [
+        "chemicals-midstream"
+      ],
+      "products": [
+        "烧碱",
+        "氯化苯",
+        "氯气",
+        "氢气",
+        "高纯盐酸",
+        "次氯酸钠"
+      ],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "企业官网",
+          "url": "https://www.hbghhx.com/index.html"
+        },
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第22行：官方报道列明产能与产品",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "lingyong-electronics",
+      "name": "菱永电子",
+      "fullName": "菱永电子",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "tongyuan-materials",
+      "name": "同源新材料",
+      "fullName": "同源新材料",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [
+        "chemicals-downstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第23行：园区报道说明副产氢气供下游企业并列出化工、医药化工企业",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "meilin-pharma",
+      "name": "美林药业",
+      "fullName": "美林药业",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料、生物医药",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals",
+        "biomedicine"
+      ],
+      "stageIds": [
+        "chemicals-downstream",
+        "biomedicine-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第23行：园区报道说明副产氢气供下游企业并列出化工、医药化工企业",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第34行：县政府工作报告及省经信厅产业园材料列出",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "tiangong-pharma",
+      "name": "天宫制药",
+      "fullName": "天宫制药",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料、生物医药",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals",
+        "biomedicine"
+      ],
+      "stageIds": [
+        "chemicals-downstream",
+        "biomedicine-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第23行：园区报道说明副产氢气供下游企业并列出化工、医药化工企业",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第34行：县政府工作报告及省经信厅产业园材料列出",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "huaxin-silicone",
+      "name": "华欣有机硅",
+      "fullName": "华欣有机硅",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第14行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "annaiji",
+      "name": "安耐吉",
+      "fullName": "安耐吉",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [
+        "chemicals-downstream"
+      ],
+      "products": [
+        "再生润滑油基础油",
+        "溶剂油等"
+      ],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第13行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        },
+        {
+          "label": "该行补充来源 3",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第23行：园区报道说明副产氢气供下游企业并列出化工、医药化工企业",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "tenglong-auto",
+      "name": "腾龙汽配",
+      "fullName": "腾龙汽配",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "汽车及零部件",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "automotive"
+      ],
+      "stageIds": [
+        "automotive-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第15行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/gzdt/202305/t20230502_4647563.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第31行：县政府报告及省经信厅报道列示企业/项目",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "kaite-electronics",
+      "name": "开特电子",
+      "fullName": "开特电子",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "汽车及零部件、电子信息",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "automotive",
+        "electronics"
+      ],
+      "stageIds": [
+        "electronics-midstream",
+        "automotive-midstream"
+      ],
+      "products": [
+        "智能传感器方向"
+      ],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第15行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/gzdt/202305/t20230502_4647563.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第28行：县政府报告明确以开特电子对接孝感传感器产业集群、建设电子铜箔创新中心",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第31行：县政府报告及省经信厅报道列示企业/项目",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "hangpeng-chemical",
+      "name": "湖北航鹏化学动力",
+      "fullName": "湖北航鹏化学动力",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "汽车及零部件",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "automotive"
+      ],
+      "stageIds": [
+        "automotive-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第15行：云梦县2025年政府工作报告；湖北省经信厅",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/gzdt/202305/t20230502_4647563.shtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第31行：县政府报告及省经信厅报道列示企业/项目",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "mixinyu-food",
+      "name": "米芯语食品",
+      "fullName": "米芯语食品",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "食品加工",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "food"
+      ],
+      "stageIds": [
+        "food-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第16行：云梦县2025统计公报、2025年政府工作报告",
+          "url": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第37行：县政府工作报告列示相关企业/项目并称蔬菜深加工招引实现突破",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "yunxiangyuan",
+      "name": "云香缘",
+      "fullName": "云香缘",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "食品加工",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "food"
+      ],
+      "stageIds": [
+        "food-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第16行：云梦县2025统计公报、2025年政府工作报告",
+          "url": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第37行：县政府工作报告列示相关企业/项目并称蔬菜深加工招引实现突破",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "yihao-food",
+      "name": "壹号食品",
+      "fullName": "壹号食品",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "食品加工",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "food"
+      ],
+      "stageIds": [
+        "food-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第16行：云梦县2025统计公报、2025年政府工作报告",
+          "url": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第37行：县政府工作报告列示相关企业/项目并称蔬菜深加工招引实现突破",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "yuntai-feed",
+      "name": "涢泰饲料",
+      "fullName": "涢泰饲料",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "食品加工",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "food"
+      ],
+      "stageIds": [
+        "food-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第16行：云梦县2025统计公报、2025年政府工作报告",
+          "url": "http://www.yunmeng.gov.cn/tjgb/2122899.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "采集表 · 云梦画像第37行：县政府工作报告列示相关企业/项目并称蔬菜深加工招引实现突破",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "zhongyan-dongxing",
+      "name": "中盐东兴云梦制盐",
+      "fullName": "中盐东兴云梦制盐",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [
+        "chemicals-upstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第21行：盐资源及制盐基础有公开报道；湖北省经信厅",
+          "url": "https://www.ctdsb.net/c1676_202308/1865374.html"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "guangyan-lantian",
+      "name": "广盐蓝天",
+      "fullName": "广盐蓝天",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "化工新材料",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "chemicals"
+      ],
+      "stageIds": [
+        "chemicals-upstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第21行：盐资源及制盐基础有公开报道；湖北省经信厅",
+          "url": "https://www.ctdsb.net/c1676_202308/1865374.html"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/jxtyw/202311/t20231115_4945999.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "yunhong-pharma",
+      "name": "云虹制药",
+      "fullName": "云虹制药",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "生物医药",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "biomedicine"
+      ],
+      "stageIds": [
+        "biomedicine-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第34行：县政府工作报告及省经信厅产业园材料列出",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "luodong-bio",
+      "name": "罗东生物",
+      "fullName": "罗东生物",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "生物医药",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "biomedicine"
+      ],
+      "stageIds": [
+        "biomedicine-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第34行：县政府工作报告及省经信厅产业园材料列出",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    },
+    {
+      "id": "weidi-bio",
+      "name": "威敌生物",
+      "fullName": "威敌生物",
+      "cityId": "yunmeng",
+      "cityName": "云梦县",
+      "logo": null,
+      "sector": "生物医药",
+      "summary": "采集表列示的云梦企业或项目；具体法人名称、工商及坐标待核实。",
+      "chainIds": [
+        "biomedicine"
+      ],
+      "stageIds": [
+        "biomedicine-midstream"
+      ],
+      "products": [],
+      "local": true,
+      "relationship": "existing",
+      "shareholders": [],
+      "sources": [
+        {
+          "label": "采集表 · 云梦画像第34行：县政府工作报告及省经信厅产业园材料列出",
+          "url": "http://www.yunmeng.gov.cn/c/ymx/zfgzbg/433846.jhtml"
+        },
+        {
+          "label": "该行补充来源 2",
+          "url": "https://jxt.hubei.gov.cn/bmdt/szgz/202311/t20231113_4940476.shtml"
+        }
+      ],
+      "status": "verified",
+      "locationStatus": "missing"
+    }
+  ],
+  "cities": [
+    {
+      "id": "shenzhen",
+      "name": "深圳市",
+      "coordinate": [
+        114.081,
+        22.55
+      ],
+      "scores": [
+        94,
+        90,
+        92,
+        92
+      ],
+      "companyIds": [
+        "capchem"
+      ]
+    },
+    {
+      "id": "suzhou",
+      "name": "苏州市",
+      "coordinate": [
+        120.615,
+        31.302
+      ],
+      "scores": [
+        90,
+        89,
+        86,
+        88
+      ],
+      "companyIds": [
+        "huasheng"
+      ]
+    },
+    {
+      "id": "changzhou",
+      "name": "常州市",
+      "coordinate": [
+        119.942,
+        31.775
+      ],
+      "scores": [
+        88,
+        85.5,
+        86,
+        84
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "guangzhou",
+      "name": "广州市",
+      "coordinate": [
+        113.275,
+        23.128
+      ],
+      "scores": [
+        86,
+        82,
+        85,
+        85
+      ],
+      "companyIds": [
+        "tinci"
+      ]
+    },
+    {
+      "id": "wuhan",
+      "name": "武汉市",
+      "coordinate": [
+        114.293,
+        30.587
+      ],
+      "scores": [
+        81,
+        96,
+        78,
+        74.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "shanghai-city",
+      "name": "上海市",
+      "coordinate": [
+        121.468,
+        31.234
+      ],
+      "scores": [
+        83.3,
+        83.0,
+        82.0,
+        83.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "beijing-city",
+      "name": "北京市",
+      "coordinate": [
+        116.399,
+        39.904
+      ],
+      "scores": [
+        82.8,
+        82.4,
+        81.4,
+        83.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州市",
+      "coordinate": [
+        120.149,
+        30.29
+      ],
+      "scores": [
+        82.1,
+        81.8,
+        80.8,
+        82.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "nanjing",
+      "name": "南京市",
+      "coordinate": [
+        118.762,
+        32.044
+      ],
+      "scores": [
+        81.5,
+        81.2,
+        80.2,
+        81.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "chengdu",
+      "name": "成都市",
+      "coordinate": [
+        104.063,
+        30.662
+      ],
+      "scores": [
+        80.9,
+        80.6,
+        79.5,
+        81.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "wuxi",
+      "name": "无锡市",
+      "coordinate": [
+        120.297,
+        31.577
+      ],
+      "scores": [
+        80.3,
+        80.0,
+        79.0,
+        80.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "ningbo",
+      "name": "宁波市",
+      "coordinate": [
+        121.546,
+        29.871
+      ],
+      "scores": [
+        79.8,
+        79.4,
+        78.4,
+        80.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "hefei",
+      "name": "合肥市",
+      "coordinate": [
+        117.278,
+        31.863
+      ],
+      "scores": [
+        79.1,
+        78.8,
+        77.8,
+        79.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "changsha",
+      "name": "长沙市",
+      "coordinate": [
+        112.977,
+        28.198
+      ],
+      "scores": [
+        78.5,
+        78.2,
+        77.2,
+        78.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "chongqing-city",
+      "name": "重庆市",
+      "coordinate": [
+        106.501,
+        29.536
+      ],
+      "scores": [
+        77.9,
+        77.6,
+        76.5,
+        78.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "tianjin-city",
+      "name": "天津市",
+      "coordinate": [
+        117.184,
+        39.124
+      ],
+      "scores": [
+        77.3,
+        77.0,
+        76.0,
+        77.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "qingdao",
+      "name": "青岛市",
+      "coordinate": [
+        120.35,
+        36.083
+      ],
+      "scores": [
+        76.8,
+        76.4,
+        75.4,
+        77.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "xian",
+      "name": "西安市",
+      "coordinate": [
+        108.943,
+        34.265
+      ],
+      "scores": [
+        76.1,
+        75.8,
+        74.8,
+        76.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "zhengzhou",
+      "name": "郑州市",
+      "coordinate": [
+        113.659,
+        34.759
+      ],
+      "scores": [
+        75.5,
+        75.2,
+        74.2,
+        75.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "jinan",
+      "name": "济南市",
+      "coordinate": [
+        116.995,
+        36.675
+      ],
+      "scores": [
+        74.9,
+        74.6,
+        73.5,
+        75.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "foshan",
+      "name": "佛山市",
+      "coordinate": [
+        113.117,
+        23.031
+      ],
+      "scores": [
+        74.3,
+        74.0,
+        73.0,
+        74.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "dongguan",
+      "name": "东莞市",
+      "coordinate": [
+        113.741,
+        23.049
+      ],
+      "scores": [
+        73.8,
+        73.4,
+        72.4,
+        74.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "nantong",
+      "name": "南通市",
+      "coordinate": [
+        120.86,
+        32.018
+      ],
+      "scores": [
+        73.1,
+        72.8,
+        71.8,
+        73.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "quanzhou",
+      "name": "泉州市",
+      "coordinate": [
+        118.585,
+        24.912
+      ],
+      "scores": [
+        72.5,
+        72.2,
+        71.2,
+        72.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "fuzhou",
+      "name": "福州市",
+      "coordinate": [
+        119.301,
+        26.078
+      ],
+      "scores": [
+        71.9,
+        71.6,
+        70.5,
+        72.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "xiamen",
+      "name": "厦门市",
+      "coordinate": [
+        118.105,
+        24.493
+      ],
+      "scores": [
+        71.3,
+        71.0,
+        70.0,
+        71.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "shenyang",
+      "name": "沈阳市",
+      "coordinate": [
+        123.423,
+        41.794
+      ],
+      "scores": [
+        70.8,
+        70.4,
+        69.4,
+        71.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "dalian",
+      "name": "大连市",
+      "coordinate": [
+        121.614,
+        38.914
+      ],
+      "scores": [
+        70.1,
+        69.8,
+        68.8,
+        70.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "yantai",
+      "name": "烟台市",
+      "coordinate": [
+        121.386,
+        37.538
+      ],
+      "scores": [
+        69.5,
+        69.2,
+        68.2,
+        69.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "xuzhou",
+      "name": "徐州市",
+      "coordinate": [
+        117.179,
+        34.263
+      ],
+      "scores": [
+        68.9,
+        68.6,
+        67.5,
+        69.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "wenzhou",
+      "name": "温州市",
+      "coordinate": [
+        120.668,
+        28.004
+      ],
+      "scores": [
+        68.3,
+        68.0,
+        67.0,
+        68.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "jiaxing",
+      "name": "嘉兴市",
+      "coordinate": [
+        120.746,
+        30.765
+      ],
+      "scores": [
+        67.8,
+        67.4,
+        66.4,
+        68.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "shaoxing",
+      "name": "绍兴市",
+      "coordinate": [
+        120.578,
+        30.0
+      ],
+      "scores": [
+        67.1,
+        66.8,
+        65.8,
+        67.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "yangzhou",
+      "name": "扬州市",
+      "coordinate": [
+        119.415,
+        32.395
+      ],
+      "scores": [
+        66.5,
+        66.2,
+        65.2,
+        66.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "yancheng",
+      "name": "盐城市",
+      "coordinate": [
+        120.135,
+        33.379
+      ],
+      "scores": [
+        65.9,
+        65.6,
+        64.5,
+        66.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "zhenjiang",
+      "name": "镇江市",
+      "coordinate": [
+        119.447,
+        32.206
+      ],
+      "scores": [
+        65.3,
+        65.0,
+        64.0,
+        65.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "huzhou",
+      "name": "湖州市",
+      "coordinate": [
+        120.097,
+        30.869
+      ],
+      "scores": [
+        64.8,
+        64.4,
+        63.4,
+        65.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "huizhou",
+      "name": "惠州市",
+      "coordinate": [
+        114.408,
+        23.082
+      ],
+      "scores": [
+        64.1,
+        63.8,
+        62.8,
+        64.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "zhuhai",
+      "name": "珠海市",
+      "coordinate": [
+        113.549,
+        22.228
+      ],
+      "scores": [
+        63.6,
+        63.2,
+        62.2,
+        63.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山市",
+      "coordinate": [
+        113.377,
+        22.524
+      ],
+      "scores": [
+        63.0,
+        62.6,
+        61.6,
+        63.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "nanchang",
+      "name": "南昌市",
+      "coordinate": [
+        115.887,
+        28.68
+      ],
+      "scores": [
+        62.4,
+        62.0,
+        61.0,
+        62.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "xiangyang",
+      "name": "襄阳市",
+      "coordinate": [
+        112.138,
+        32.044
+      ],
+      "scores": [
+        61.8,
+        61.4,
+        60.4,
+        62.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "yichang",
+      "name": "宜昌市",
+      "coordinate": [
+        111.285,
+        30.705
+      ],
+      "scores": [
+        61.1,
+        60.8,
+        59.8,
+        61.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "xiaogan",
+      "name": "孝感市",
+      "coordinate": [
+        113.921,
+        30.929
+      ],
+      "scores": [
+        60.6,
+        60.2,
+        59.2,
+        60.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "nanning",
+      "name": "南宁市",
+      "coordinate": [
+        108.316,
+        22.827
+      ],
+      "scores": [
+        60.0,
+        59.6,
+        58.6,
+        60.3
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "kunming",
+      "name": "昆明市",
+      "coordinate": [
+        102.711,
+        25.044
+      ],
+      "scores": [
+        59.4,
+        59.0,
+        58.0,
+        59.7
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "guiyang",
+      "name": "贵阳市",
+      "coordinate": [
+        106.71,
+        26.582
+      ],
+      "scores": [
+        58.8,
+        58.4,
+        57.4,
+        59.1
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "shijiazhuang",
+      "name": "石家庄市",
+      "coordinate": [
+        114.496,
+        38.045
+      ],
+      "scores": [
+        58.1,
+        57.8,
+        56.8,
+        58.5
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "taiyuan",
+      "name": "太原市",
+      "coordinate": [
+        112.543,
+        37.856
+      ],
+      "scores": [
+        57.6,
+        57.2,
+        56.2,
+        57.9
+      ],
+      "companyIds": []
+    },
+    {
+      "id": "lanzhou",
+      "name": "兰州市",
+      "coordinate": [
+        103.821,
+        36.058
+      ],
+      "scores": [
+        57.0,
+        56.6,
+        55.6,
+        57.3
+      ],
+      "companyIds": []
+    }
+  ]
+}

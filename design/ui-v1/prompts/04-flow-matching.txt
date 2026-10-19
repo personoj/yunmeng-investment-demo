@@ -1,0 +1,27 @@
+Use case: ui-mockup. Create ONE polished, implementable desktop web application screenshot, landscape 16:9, target 1920x1080, full-bleed UI, sharp Chinese typography, no device bezel, no collage, no presentation board.
+Reference image 1 is the user's current running map. Use ONLY its central geography and flow-map visual language: pale realistic relief terrain, legible provincial outlines, many fine colored curved routes, a few thicker arrow corridors with a white under-stroke, circular city nodes, and Yunmeng's red target ring. The surrounding UI in the reference is to be REDESIGNED, not copied. Keep the central map as the main visual.
+This is the master screen for a consistent six-screen Chinese investment-attraction demo named “云梦招商策略”. Audience: county investment office; premium, calm, precise GIS decision-support product. Refined warm white panels #FCFCF9, subtle 1px sage-gray borders #DCE3DB, deep forest-green navigation and primary buttons #285846, near-black green text #24342D, muted text #778278. Existing natural terrain remains lightly colored. Blue population flow #3D83C6, amber capital flow #D69B33, violet technology flow #9370B6, restrained red Yunmeng target #C44D46. Clean modern sans Chinese type, 8px spacing grid, 10px panel radii, understated shadows. No neon, sci-fi decorations, glass effects, huge hero heading, or excessive KPI boxes.
+Fixed top header about 70px: left simple map glyph + “云梦招商策略” and tiny DEMO badge. Center three navigation items “全国产业全景” “云梦产业画像” “流空间匹配”; third active with forest green soft background and slim underline. Right “2025 数据” and outlined play button “演示模式”. Do NOT add geographic breadcrumbs.
+Below header the terrain map fills the workspace. Floating LEFT panel width about 290px and RIGHT panel width about 340px with consistent 24px outer margins, aligned at y=108. The broad center is an uncluttered national China map, with Chinese city labels Beijing, Shanghai, Shenzhen, Wuhan, Suzhou and prominent central “云梦县”. Retain the reference's colored curved flow grammar, but distinguish the strongest links to Yunmeng while faint other routes provide context. Bottom map edge a small scale bar, a concise three-color flow legend, and a tidy 3-button zoom/layers toolbar. Keep map content clear between the panels.
+LEFT card content in a clean hierarchy, short exact Chinese labels:
+small eyebrow “场景 03”
+title “流空间招商匹配”
+context “招商目标  云梦县”
+selector “示例产业链  锂电新材料”
+highlighted selected target “电解液配套” with tiny “示意” tag
+section “要素联系”, three compact selected chips “人口流” “资本流” “技术流”
+section “匹配阈值”, slider value “80”
+section “模型权重 · 示意”, four slim horizontal bars “产业关联 40%” “可达性 20%” “人口流动 20%” “要素成本 20%”
+small explanatory line “流联系提供依据，评分辅助筛选”
+green primary button “重新匹配”.
+RIGHT card:
+title “城市匹配潜力” and small amber badge “模型示意”
+segmented tabs “前 10” active, “11–50”
+five restrained ranking rows with horizontal green bars:
+“01 深圳 92.4”, “02 苏州 88.6”, “03 常州 86.3”, “04 广州 84.8”, “05 武汉 82.1”. Highlight Shenzhen.
+divider then heading “深圳 · 企业线索”
+one prominent candidate card “新宙邦” with small “300037” chip, text “电池化学品 / 电解液”, score “92.4” explicitly labelled “示意”.
+Bottom green CTA “查看企业 →”.
+Small center-bottom summary ribbon above map scale: “匹配城市 50” “重点城市 10” “候选企业 28” and a visible “结果示意” label. Avoid giant dashboard panels.
+All UI copy should be legible and correctly typeset. This is a design concept: matching scores, city rankings and business opportunities are illustrative; put a quiet footer label “UI设计稿 · 匹配结果为示意”. Company name 新宙邦 and stock code 300037 are real; do not invent contacts or financial facts.
+Output exactly one complete screen with no annotations outside the UI.
